@@ -1,0 +1,98 @@
+# Capítulo I: Introducción {#cap-1}
+
+## 1.1. Startup Profile {#cap-1-1}
+
+&emsp;&emsp;&emsp;&emsp;En esta sección, se presentará la startup de manera general. Además, de una descripción de los integrantes de esta misma.
+
+### 1.1.1.&emsp;&emsp;*Descripción de la Startup* {#cap-1-1-1}
+
+&emsp;&emsp;&emsp;&emsp;Andeva es una startup peruana concebida y desarrollada por estudiantes de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas (UPC). Nuestro principal producto atelier, está diseñado para transformar radicalmente el modelo operativo tradicional de los talleres automotrices, evolucionándolo de un enfoque reactivo a uno preventivo e inteligente.
+
+&emsp;&emsp;&emsp;&emsp;Para lograrlo, la solución se basa en una plataforma web y app mobile que integra hardware de diagnóstico vehicular (OBD2) para recolectar telemetría crítica en tiempo real. Estos datos se transmiten a través de una API segura hacia nuestro backend para su análisis profundo, lo que permite anticipar fallas mecánicas y optimizar los cronogramas de mantenimiento antes de que ocurran problemas mayores.
+
+&emsp;&emsp;&emsp;&emsp;Más allá del diagnóstico técnico, atelier funciona como un sistema integral de gestión empresarial (ERP) que centraliza y automatiza toda la operación administrativa del taller. La plataforma permite un control exhaustivo del inventario y un seguimiento detallado de los clientes y sus respectivos vehículos, así como la administración eficiente de los empleados y sus cargas de trabajo. Adicionalmente, el sistema agiliza el cierre comercial mediante la integración de pasarelas de pagos y la generación automática de facturas, completando la experiencia con herramientas de contabilidad adaptadas al rubro.
+
+&emsp;&emsp;&emsp;&emsp;**Misión:** Transformar la industria del mantenimiento automotriz en el Perú proporcionando a los talleres una solución tecnológica todo-en-uno que facilite la transición hacia un mantenimiento reactivo hacia un mantenimiento preventivo inteligente. Buscamos profesionalizar la gestión empresarial de los talleres, fomentar una cultura de seguridad basada en datos y mejorar radicalmente la transparencia con los conductores.
+
+&emsp;&emsp;&emsp;&emsp;**Visión:** Ser la plataforma líder en el mercado peruano y el referente regional en software de gestión y mantenimiento vehicular predictivo, empoderando a miles de talleres con herramientas de monitoreo inteligente y control administrativo que garanticen la rentabilidad de los negocios, la seguridad en los trayectos y la vida útil de los vehículos.
+
+**Figura 1**
+
+*Imagotipo de atelier*
+
+![](assets/imagotipo-atelier.jpg "Imagotipo de atelier")
+
+### 1.1.2. *Perfiles de Integrantes del Equipo* {#cap-1-1-2}
+
+**Tabla 1**
+
+*Startup Working Team Profile Matrix*
+
+<table>
+	<tbody>
+		<tr>
+			<td><b>Foto</b></td>
+			<td><b>Nombre</b></td>
+			<td><b>Carrera</b></td>
+		</tr>
+		<tr>
+			<td rowspan="3"></td>
+			<td></td>
+			<td>Ingeniería de Software</td>
+		</tr>
+		<tr>
+			<td colspan="2"><b>Descripción</b></td>
+		</tr>
+		<tr>
+			<td colspan="2"></td>
+		</tr>
+		<tr>
+			<td rowspan="3"><img alt="Imagen de Joel Huamani Estefanero" src="assets/imagen-joel-huamani-estefanero.jpg" style="max-width: 100px; width: 100px;"></td>
+			<td>Huamani Estefanero, Joel – U20241E275</td>
+			<td>Ingeniería de Software</td>
+		</tr>
+		<tr>
+			<td colspan="2"><b>Descripción</b></td>
+		</tr>
+		<tr>
+			<td colspan="2">Soy estudiante de Ingeniería de software. Me considero alguien introvertido y reflexivo, con una tendencia natural a sobrepensar las cosas desde múltiples perspectivas antes de actuar. Esta característica, que me lleva a examinar cada detalle minuciosamente y curiosidad con aprender cosas nuevas me llevan a imaginar y desarrollar cosas en mi mente.
+			A lo largo de mi desarrollo he trabajado con lenguajes como C++, Python y Java, explorando profundamente diversas librerías y frameworks de cada ecosistema. En cada proyecto, he asumido mis tareas con meticulosidad y pensamiento crítico, guiado por principios que valoro profundamente, como la precisión técnica.
+			Entre mis habilidades distintivas destacan la capacidad de análisis exhaustivo, el pensamiento sistemático y la habilidad para traducir ideas complejas en implementaciones técnicas sólidas.
+			En cuanto a competencias personales, destaco mi creatividad para encontrar soluciones no convencionales y mi capacidad de síntesis después de largos procesos de reflexión.
+			Dentro del startup, me visualizo como el arquitecto técnico y conceptual. Me apasiona crear soluciones que no solo funcionen correctamente, sino que estén diseñadas con una atención meticulosa a cada componente.</td>
+		</tr>
+		<tr>
+			<td rowspan="3"></td>
+			<td></td>
+			<td>Ingeniería de Software</td>
+		</tr>
+		<tr>
+			<td colspan="2"><b>Descripción</b></td>
+		</tr>
+		<tr>
+			<td colspan="2"></td>
+		</tr>
+		<tr>
+			<td rowspan="3"></td>
+			<td></td>
+			<td>Ingeniería de Software</td>
+		</tr>
+		<tr>
+			<td colspan="2"><b>Descripción</b></td>
+		</tr>
+		<tr>
+			<td colspan="2"></td>
+		</tr>
+		<tr>
+			<td rowspan="3"></td>
+			<td></td>
+			<td>Ingeniería de Software</td>
+		</tr>
+		<tr>
+			<td colspan="2"><b>Descripción</b></td>
+		</tr>
+		<tr>
+			<td colspan="2"></td>
+		</tr>
+	</tbody>
+</table>
