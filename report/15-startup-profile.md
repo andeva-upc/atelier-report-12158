@@ -62,15 +62,15 @@
 			Dentro del startup, me visualizo como el arquitecto técnico y conceptual. Me apasiona crear soluciones que no solo funcionen correctamente, sino que estén diseñadas con una atención meticulosa a cada componente.</td>
 		</tr>
 		<tr>
-			<td rowspan="3"></td>
-			<td></td>
+			<td rowspan="3"><img alt="Imagen de Aldo Machacca Soto" src="assets/imagen-aldo-machacca-soto.png" style="max-width: 100px; width: 100px;"></td>
+			<td>Machacca Soto, Aldo Jeanfranco – U202419485</td>
 			<td>Ingeniería de Software</td>
 		</tr>
 		<tr>
 			<td colspan="2"><b>Descripción</b></td>
 		</tr>
 		<tr>
-			<td colspan="2"></td>
+			<td colspan="2">Soy Aldo Jeanfranco Machacca Soto, con código de estudiante u202419485, y actualmente cursando la carrera de Ingeniería de Software, disciplina centrada en el diseño, desarrollo y mantenimiento de soluciones tecnológicas eficientes, escalables y de calidad. En cuanto a mi perfil técnico, me destaco principalmente en el ámbito del desarrollo backend, contando con sólida experiencia en la creación y arquitectura de APIs. Mi stack tecnológico abarca lenguajes como Python, C++, JavaScript y TypeScript, además de frameworks y librerías como React y Next.js para el desarrollo frontend. Tengo experiencia en la gestión de bases de datos optimizadas para soportar grandes volúmenes de información, así como en procesos de despliegue (deploy) para llevar proyectos a producción. Como habilidad diferenciadora, cuento con experiencia práctica integrando agentes de inteligencia artificial (como OpenCode) en los flujos de trabajo. En un equipo, puedo aportar una visión integral del ciclo de vida del software, capaz de conectar eficientemente la lógica del servidor, la interfaz de usuario y la infraestructura, garantizando soluciones robustas y de alto rendimiento.</td>
 		</tr>
 		<tr>
 			<td rowspan="3"></td>
