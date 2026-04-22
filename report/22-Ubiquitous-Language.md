@@ -1,7 +1,10 @@
 ## 2.5. Ubiquitous Language {#cap-2-5}
 
-&emsp;&emsp;&emsp;&emsp;En esta sección se redacta el glosario de términos y conceptos con definiciones utilizadas en el dominio de negocio de **atelier**, sin ambigüedad, relacionados al sector automotriz y de gestión empresarial. Mantener este lenguaje ubicuo completo y actualizado permite una comunicación clara entre todos los miembros del equipo y los *stakeholders*. Los términos se presentan en inglés con su equivalente en español para asegurar la consistencia técnica y de negocio.
+&emsp;&emsp;&emsp;&emsp;En esta sección se redacta el glosario de términos y conceptos con definiciones utilizadas en el dominio de negocio de atelier, sin ambigüedad, relacionados al sector automotriz y de gestión empresarial. Mantener este lenguaje ubicuo completo y actualizado permite una comunicación clara entre todos los miembros del equipo y los *stakeholders*. Los términos se presentan en inglés con su equivalente en español para asegurar la consistencia técnica y de negocio.
 
+**Tabla**
+
+*Tabla de Ubiquitous Language*
 
 | Término (Term) | Definición | Segmentos relacionados |
 | :--- | :--- | :--- |
