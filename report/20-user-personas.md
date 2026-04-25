@@ -132,3 +132,22 @@
 ![](assets/user-journey-conductores.png "Imagen del user journey del segmento dos")
 
 ### 2.3.4.&emsp;&emsp;*Empathy Mapping* {#cap-2-3-4}
+
+&emsp;&emsp;&emsp;&emsp;El Empathy Mapping ayuda a entender de manera más profunda a nuestros User Personas. Con esta herramienta, capturamos lo que cada usuario siente, dice, piensa y hace desde su propia perspectiva. Además, nos permite identificar sus dolores y metas, información que resulta clave para formar ideas de diseño útiles.
+
+**Segmento Objetivo 1: Dueños o administradores de talleres automotrices independientes en Lima**
+
+**Figura** 
+
+*Empathy Mapping de dueños o administradores de talleres automotrices independientes en Lima*
+
+![](assets/emp-1.jpg "Empathy Mapping del segmento uno")
+
+**Segmento Objetivo 2: Conductores de vehículos de Lima**
+
+**Figura**
+
+*Empathy Mapping de conductores de vehículos de Lima*
+
+![](assets/emp-2.jpg "Empathy Mapping del segmento dos")
+![](assets/emp-21.jpg "Empathy Mapping del segmento dos")
