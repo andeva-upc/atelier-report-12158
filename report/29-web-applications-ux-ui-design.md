@@ -148,7 +148,7 @@ El proceso comienza en el Panel de Facturación, donde el usuario selecciona una
 
 **Unhappy Paths**
 
-Esta ruta alterna ocurre cuando el usuario intenta finalizar un registro de pago sin seleccionar un método de cobro válido o cuando existe una discrepancia en el monto ingresado manualmente. Ante estas inconsistencias, el sistema bloquea la emisión del comprobante y mantiene la transacción en estado "Pendiente". El usuario deberá validar la información y completar los campos de pago requeridos en el módulo de caja para asegurar el cumplimiento de la normativa fiscal y la actualización correcta del saldo en el sistema.
+Esta ruta alterna ocurre cuando el usuario intenta finalizar un registro de pago sin seleccionar un método de cobro válido o cuando existe una discrepancia en el monto ingresado manualmente. Ante estas inconsistencias, el sistema bloquea la emisión del comprobante y mantiene la transacción en estado pendiente. El usuario deberá validar la información y completar los campos de pago requeridos en el módulo de caja para asegurar el cumplimiento de la normativa fiscal y la actualización correcta del saldo en el sistema.
 
 ![Wireflow Error en Facturación](assets/wireflow5.png)
 
