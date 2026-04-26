@@ -29,70 +29,66 @@
 *Startup Working Team Profile Matrix*
 
 <table>
-	<tbody>
-		<tr>
-			<td><b>Foto</b></td>
-			<td><b>Nombre</b></td>
-			<td><b>Carrera</b></td>
-		</tr>
-		<tr>
-			<td rowspan="3"></td>
-			<td></td>
-			<td>Ingeniería de Software</td>
-		</tr>
-		<tr>
-			<td colspan="2"><b>Descripción</b></td>
-		</tr>
-		<tr>
-			<td colspan="2"></td>
-		</tr>
-		<tr>
-			<td rowspan="3"><img alt="Imagen de Joel Huamani Estefanero" src="assets/imagen-joel-huamani-estefanero.jpg" style="max-width: 100px; width: 100px;"></td>
-			<td>Huamani Estefanero, Joel – U20241E275</td>
-			<td>Ingeniería de Software</td>
-		</tr>
-		<tr>
-			<td colspan="2"><b>Descripción</b></td>
-		</tr>
-		<tr>
-			<td colspan="2">Soy estudiante de Ingeniería de software. Me considero alguien introvertido y reflexivo, con una tendencia natural a sobrepensar las cosas desde múltiples perspectivas antes de actuar. Esta característica, que me lleva a examinar cada detalle minuciosamente y curiosidad con aprender cosas nuevas me llevan a imaginar y desarrollar cosas en mi mente.
-			A lo largo de mi desarrollo he trabajado con lenguajes como C++, Python y Java, explorando profundamente diversas librerías y frameworks de cada ecosistema. En cada proyecto, he asumido mis tareas con meticulosidad y pensamiento crítico, guiado por principios que valoro profundamente, como la precisión técnica.
-			Entre mis habilidades distintivas destacan la capacidad de análisis exhaustivo, el pensamiento sistemático y la habilidad para traducir ideas complejas en implementaciones técnicas sólidas.
-			En cuanto a competencias personales, destaco mi creatividad para encontrar soluciones no convencionales y mi capacidad de síntesis después de largos procesos de reflexión.
-			Dentro del startup, me visualizo como el arquitecto técnico y conceptual. Me apasiona crear soluciones que no solo funcionen correctamente, sino que estén diseñadas con una atención meticulosa a cada componente.</td>
-		</tr>
-		<tr>
-			<td rowspan="3"><img alt="Imagen de Aldo Machacca Soto" src="assets/imagen-aldo-machacca-soto.png" style="max-width: 100px; width: 100px;"></td>
-			<td>Machacca Soto, Aldo Jeanfranco – U202419485</td>
-			<td>Ingeniería de Software</td>
-		</tr>
-		<tr>
-			<td colspan="2"><b>Descripción</b></td>
-		</tr>
-		<tr>
-			<td colspan="2">Soy Aldo Jeanfranco Machacca Soto, con código de estudiante u202419485, y actualmente cursando la carrera de Ingeniería de Software, disciplina centrada en el diseño, desarrollo y mantenimiento de soluciones tecnológicas eficientes, escalables y de calidad. En cuanto a mi perfil técnico, me destaco principalmente en el ámbito del desarrollo backend, contando con sólida experiencia en la creación y arquitectura de APIs. Mi stack tecnológico abarca lenguajes como Python, C++, JavaScript y TypeScript, además de frameworks y librerías como React y Next.js para el desarrollo frontend. Tengo experiencia en la gestión de bases de datos optimizadas para soportar grandes volúmenes de información, así como en procesos de despliegue (deploy) para llevar proyectos a producción. Como habilidad diferenciadora, cuento con experiencia práctica integrando agentes de inteligencia artificial (como OpenCode) en los flujos de trabajo. En un equipo, puedo aportar una visión integral del ciclo de vida del software, capaz de conectar eficientemente la lógica del servidor, la interfaz de usuario y la infraestructura, garantizando soluciones robustas y de alto rendimiento.</td>
-		</tr>
-		<tr>
-			<td rowspan="3"></td>
-			<td></td>
-			<td>Ingeniería de Software</td>
-		</tr>
-		<tr>
-			<td colspan="2"><b>Descripción</b></td>
-		</tr>
-		<tr>
-			<td colspan="2"></td>
-		</tr>
-		<tr>
-			<td rowspan="3"></td>
-			<td></td>
-			<td>Ingeniería de Software</td>
-		</tr>
-		<tr>
-			<td colspan="2"><b>Descripción</b></td>
-		</tr>
-		<tr>
-			<td colspan="2"></td>
-		</tr>
-	</tbody>
+    <tbody>
+        <tr>
+            <td><b>Foto</b></td>
+            <td><b>Nombre</b></td>
+            <td><b>Carrera</b></td>
+        </tr>
+        <tr>
+            <td rowspan="3"><img alt="Imagen de Joel Huamani Estefanero" src="assets/imagen-joel-huamani-estefanero.jpg" style="max-width: 100px; width: 100px;"></td>
+            <td>Huamani Estefanero, Joel – U20241E275</td>
+            <td>Ingeniería de Software</td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Descripción</b></td>
+        </tr>
+        <tr>
+            <td colspan="2">Soy estudiante de Ingeniería de software. Me considero alguien introvertido y reflexivo, con una tendencia natural a sobrepensar las cosas desde múltiples perspectivas antes de actuar. Esta característica, que me lleva a examinar cada detalle minuciosamente y curiosidad con aprender cosas nuevas me llevan a imaginar y desarrollar cosas en mi mente. A lo largo de mi desarrollo he trabajado con lenguajes como C++, Python y Java, explorando profundamente diversas librerías y frameworks de cada ecosistema. En cada proyecto, he asumido mis tareas con meticulosidad y pensamiento crítico, guiado por principios que valoro profundamente, como la precisión técnica. Entre mis habilidades distintivas destacan la capacidad de análisis exhaustivo, el pensamiento sistemático y la habilidad para traducir ideas complejas en implementaciones técnicas sólidas. En cuanto a competencias personales, destaco mi creatividad para encontrar soluciones no convencionales y mi capacidad de síntesis después de largos procesos de reflexión. Dentro del startup, me visualizo como el arquitecto técnico y conceptual. Me apasiona crear soluciones que no solo funcionen correctamente, sino que estén diseñadas con una atención meticulosa a cada componente.</td>
+        </tr>
+        <tr>
+            <td rowspan="3"><img alt="Imagen de Aldo Machacca Soto" src="assets/imagen-aldo-machacca-soto.png" style="max-width: 100px; width: 100px;"></td>
+            <td>Machacca Soto, Aldo Jeanfranco – U202419485</td>
+            <td>Ingeniería de Software</td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Descripción</b></td>
+        </tr>
+        <tr>
+            <td colspan="2">Soy Aldo Jeanfranco Machacca Soto, con código de estudiante u202419485, y actualmente cursando la carrera de Ingeniería de Software, disciplina centrada en el diseño, desarrollo y mantenimiento de soluciones tecnológicas eficientes, escalables y de calidad. En cuanto a mi perfil técnico, me destaco principalmente en el ámbito del desarrollo backend, contando con sólida experiencia en la creación y arquitectura de APIs. Mi stack tecnológico abarca lenguajes como Python, C++, JavaScript y TypeScript, además de frameworks y librerías como React y Next.js para el desarrollo frontend. Tengo experiencia en la gestión de bases de datos optimizadas para soportar grandes volúmenes de información, así como en procesos de despliegue (deploy) para llevar proyectos a producción. Como habilidad diferenciadora, cuento con experiencia práctica integrando agentes de inteligencia artificial (como OpenCode) en los flujos de trabajo. En un equipo, puedo aportar una visión integral del ciclo de vida del software, capaz de conectar eficientemente la lógica del servidor, la interfaz de usuario y la infraestructura, garantizando soluciones robustas y de alto rendimiento.</td>
+        </tr>
+        <tr>
+            <td rowspan="3"><img alt="Imagen de Adiel Sánchez" src="assets/imagen-adiel-sanchez.jpeg" style="max-width: 100px; width: 100px;"></td>
+            <td>Sánchez Santin, Adiel Abdiaz – U20241E287</td>
+            <td>Ingeniería de Software</td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Descripción</b></td>
+        </tr>
+        <tr>
+            <td colspan="2">Soy estudiante de Ingeniería de Software con un perfil analítico y detallista. Me considero una persona introvertida y reflexiva, lo que me lleva a investigar y entender bien cómo funcionan las herramientas antes de utilizarlas. Tengo conocimientos en lenguajes como C++, Python y Java, y me gusta explorar sus librerías para comprender la lógica detrás de cada proyecto. En el equipo, trato de aportar desde el análisis y la organización técnica, buscando siempre que las soluciones sean ordenadas y funcionen correctamente. Mi enfoque está en el aprendizaje constante y en traducir ideas complejas en implementaciones técnicas claras y funcionales.</td>
+        </tr>
+        <tr>
+            <td rowspan="3"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Descripción</b></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td rowspan="3"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Descripción</b></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+        </tr>
+    </tbody>
 </table>
