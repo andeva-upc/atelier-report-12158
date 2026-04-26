@@ -91,17 +91,18 @@
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited On |
 |:----------:|:------:|-----------|----------------|---------------------|-------------|
-|     andeva-upc/atelier-website-11848       |        |           |                |                     |             |
-|     andeva-upc/atelier-website-11848       |        |           |                |                     |             |
-|     andeva-upc/atelier-website-11848       |        |           |                |                     |             |
-|     andeva-upc/atelier-website-11848       |        |           |                |                     |             |
-|     andeva-upc/atelier-website-11848       |        |           |                |                     |             |
-|     andeva-upc/atelier-website-11848       |        |           |                |                     |             |
-|     andeva-upc/atelier-website-11848       |        |           |                |                     |             |
-|     andeva-upc/atelier-website-11848       |        |           |                |                     |             |
-|     andeva-upc/atelier-website-11848       |        |           |                |                     |             |
-|     andeva-upc/atelier-website-11848       |        |           |                |                     |             |
-|     andeva-upc/atelier-website-11848       |        |           |                |                     |             |
+|     andeva-upc/atelier-website-11848       |   main     |     e37d811c      |        chore: initial commit.        |                     |      23/04/2026 21:09       |
+|     andeva-upc/atelier-website-11848       |  develop      |     8f5cc348      |         feat(header): add header component with logo and buttons.       |                     |      23/04/2026 21:10       |
+|     andeva-upc/atelier-website-11848       |    develop    |     3a33c131      |       feat(value-proposition): add hero component with title, subtitle, and buttons.         |                     |     23/04/2026 21:10        |
+|     andeva-upc/atelier-website-11848       |    develop    |    ed19969b       |        feat(benefits): add card component with animation and styling.        |                     |        25/04/2026 11:22     |
+|     andeva-upc/atelier-website-11848       |    develop    |      1eeb92b5     |         feat: add services section with polished UI and clean code architecture.       |                     |     25/04/2026 11:25        |
+|     andeva-upc/atelier-website-11848       |    develop    |    433ab75a       |      feat(pricing): create pricing component structure and integrate into app.          |                     |      25/04/2026 11:45       |
+|     andeva-upc/atelier-website-11848       |   develop     |     5cd81595      |        feat(pricing): implement pricing cards UI with color palette and content.        |                     |      25/04/2026 11:48       |
+|     andeva-upc/atelier-website-11848       |    develop    |     9daeb4bc      |         feat(pricing): add responsive design and interactive polish to pricing section.       |                     |    25/04/2026 12:27         |
+|     andeva-upc/atelier-website-11848       |    develop    |     ea2b48a6      |       feat(team): add team section with member profiles.         |                     |      25/04/2026 15:39       |
+|     andeva-upc/atelier-website-11848       |   develop     |     4d0b353d      |        feat(footer): add landing page footer.        |                     |       25/04/2026 23:55      |
+|     andeva-upc/atelier-website-11848       |   develop     |      7e22b4a6     |        feat(footer): integrate footer into landing page.        |                     |       26/04/2026 00:03      |
+|     andeva-upc/atelier-website-11848       |   main     |      release/website atelier version 1.0.0     |                |                     |      26/04/2026 08:47       |
 
 #### 5.2.1.5.&emsp;&emsp;*Execution Evidence for Sprint Review* {#cap-5-2-1-5}
 
@@ -113,11 +114,10 @@
 
 *Capturas de Pantalla de la Landing Page de atelier*
 
-![](assets/imagotipo-atelier.jpg "Capturas de Pantalla de la Landing Page de atelier")
-![](assets/imagotipo-atelier.jpg "Capturas de Pantalla de la Landing Page de atelier")
-![](assets/imagotipo-atelier.jpg "Capturas de Pantalla de la Landing Page de atelier")
-![](assets/imagotipo-atelier.jpg "Capturas de Pantalla de la Landing Page de atelier")
-![](assets/imagotipo-atelier.jpg "Capturas de Pantalla de la Landing Page de atelier")
+![](assets/landing-page-1.jpg "Capturas de Pantalla de la Landing Page de atelier")
+![](assets/landing-page-2.jpg "Capturas de Pantalla de la Landing Page de atelier")
+![](assets/landing-page-3.jpg "Capturas de Pantalla de la Landing Page de atelier")
+![](assets/landing-page-5.jpg "Capturas de Pantalla de la Landing Page de atelier")
 
 #### 5.2.1.6.&emsp;&emsp;*Services Documentation Evidence for Sprint Review* {#cap-5-2-1-6}
 
@@ -135,27 +135,33 @@
 
 **Figura**
 
-*Repositorio de la Landing Page de atelier*
+*Repositorio del website de atelier*
 
-![](assets/imagotipo-atelier.jpg "Repositorio de la Landing Page de atelier")
+![](assets/repo-website-atelier.jpeg "Repositorio del website de atelier")
 
-&emsp;&emsp;&emsp;&emsp;Paso 2: Configuración del entorno en GitHub Pages Desde la plataforma de GitHub, se ingresó la sección de Configuración del repositorio del sitio web estático. En la barra lateral, se accedió a la sección Pages para definir la fuente del despliegue.
-
-**Figura**
-
-*Configuración de la Landing Page en GitHub Pages*
-
-![](assets/imagotipo-atelier.jpg "Configuración de la Landing Page en GitHub Pages")
-
-&emsp;&emsp;&emsp;&emsp;Paso 3: Selección de origen y automatización del despliegue. Se configuró GitHub Pages para que realice el despliegue a partir de la rama principal seleccionada en el paso anterior, utilizando la carpeta raíz. Al guardar estos cambios, GitHub inicia automáticamente el flujo de trabajo para empaquetar y publicar el sitio web en sus servidores en la nube.
+&emsp;&emsp;&emsp;&emsp;Paso 2: Configuración del entorno en Vercel.
 
 **Figura**
 
-*Despliegue de la Landing Page en GitHub Pages*
+*Captura de pantalla de la seccion de proyectos de Vercel*
 
-![](assets/imagotipo-atelier.jpg "Despliegue de la Landing Page en GitHub Pages")
+![](assets/vercel-add-new.jpeg "Captura de pantalla de la seccion de proyectos de Vercel")
 
-&emsp;&emsp;&emsp;&emsp;Paso 4: Obtención del enlace público y validación. Una vez que el proceso de deployment interno de GitHub finaliza con éxito, la plataforma proporciona un enlace URL público y permanente. El equipo utilizó este enlace para realizar una validación final: []().
+&emsp;&emsp;&emsp;&emsp;Paso 3: Selección el repositorio y desplegar.
+
+**Figura**
+
+*Captura de pantalla de la seccion de despliegue de Vercel*
+
+![](assets/vercel-repo-deploy.jpeg "Captura de pantalla de la seccion de despliegue de Vercel")
+
+**Figura**
+
+*Captura de pantalla de la configuración de despliegue de Vercel*
+
+![](assets/vercel-deploy.jpeg "Captura de pantalla de la configuración de despliegue de Vercel")
+
+&emsp;&emsp;&emsp;&emsp;Paso 4: Obtención del enlace público y validación: [https://atelier-12158.vercel.app/](https://atelier-12158.vercel.app/).
 
 #### 5.2.1.8.&emsp;&emsp;*Team Collaboration Insights during Sprint* {#cap-5-2-1-8}
 
@@ -177,6 +183,6 @@
 
 *Gráfico de commits*
 
-![](assets/imagotipo-atelier.jpg "Gráfico de commits")
+![](assets/commits-sprint-1.jpg "Gráfico de commits")
 
 <div style='page-break-after: always'></div>
