@@ -27,6 +27,12 @@
 			<td>Se agregó la página de student outcome, arreglo de entrevistas, user stories, product backlog, style guidelines e Information architecture al repositorio.</td>
 		</tr>
 		<tr>
+			<td>0.5.1</td>
+			<td>20/04/2026</td>
+			<td>Luis Daniel Granda Ibarra</td>
+			<td>Se realizó mapa de empatía, mapa de impacto.</td>
+		</tr>
+		<tr>
 			<td>0.3.0</td>
 			<td>21/04/2026</td>
 			<td>Joel Huamani Estefanero</td>
@@ -57,6 +63,12 @@
 			<td>Se agregó la sección de Diseño de Base de Datos al reporte, incluyendo diagramas de base de datos (general y por contextos delimitados).</td>
 		</tr>
 		<tr>
+			<td>0.6.1</td>
+			<td>24/04/2026</td>
+			<td>Luis Daniel Granda Ibarra</td>
+			<td>Se realizó Web Applications Mock-ups y Web Applications Userflow Diagrams.</td>
+		</tr>
+		<tr>
 			<td>0.6.0</td>
 			<td>25/04/2026</td>
 			<td>Aldo Jeanfranco Machacca Soto</td>
@@ -67,6 +79,12 @@
 			<td>26/04/2026</td>
 			<td>Jennifer Yamilet Riveros Vera</td>
 			<td>Se implementó el diagrama de clases.</td>
+		</tr>
+		<tr>
+			<td>0.8.0</td>
+			<td>24/04/2026</td>
+			<td>Luis Daniel Granda Ibarra</td>
+			<td>Se realizó los benefits del landing page, con diseño dinámico.</td>
 		</tr>
 	</tbody>
 </table>
