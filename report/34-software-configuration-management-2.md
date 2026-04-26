@@ -148,10 +148,46 @@
 
 ### 5.1.4.&emsp;&emsp;*Software Deployment Configuration* {#cap-5-1-4}
 
-&emsp;&emsp;&emsp;&emsp;
+**Landing Page**
 
-&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;A continuación, se presentan la configuración para realizar el despliegue de la landing page de atelier.
 
-&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;Paso 1: Ubicados en el repositorio con el codigo fuente de la landing page de atelier, nos preparamos y verificamos que los archivos ubicados en la rama main esten correctos.
 
-&emsp;&emsp;&emsp;&emsp;
+**Figura**
+
+*Repositorio del website de atelier*
+
+![](assets/repo-website-atelier.jpeg "Repositorio del website de atelier")
+
+&emsp;&emsp;&emsp;&emsp;Paso 2: Una vez ubicados en la seccion de proyectos de Vercel, hacemos click en "Add New...".
+
+**Figura**
+
+*Captura de pantalla de la seccion de proyectos de Vercel*
+
+![](assets/vercel-add-new.jpeg "Captura de pantalla de la seccion de proyectos de Vercel")
+
+&emsp;&emsp;&emsp;&emsp;Paso 3: Seleccionamos el repositorio que aloja el codigo fuente de la landing page de atelier.
+
+**Figura**
+
+*Captura de pantalla de la seccion de despliegue de Vercel*
+
+![](assets/vercel-repo-deploy.jpeg "Captura de pantalla de la seccion de despliegue de Vercel")
+
+&emsp;&emsp;&emsp;&emsp;Paso 4: Configuramos el correcto desplegamiento de la landing page.
+
+**Figura**
+
+*Captura de pantalla de la configuración de despliegue de Vercel*
+
+![](assets/vercel-deploy.jpeg "Captura de pantalla de la configuración de despliegue de Vercel")
+
+&emsp;&emsp;&emsp;&emsp;Paso 5: A través del siguiente link: [https://atelier-12158.vercel.app/](https://atelier-12158.vercel.app/), comprobamos el correcto despliegue de atelier.
+
+**Figura**
+
+*Captura de pantalla del Landing Page de atelier en Vercel*
+
+![](assets/vercel-page.jpg "Captura de pantalla del Landing Page de atelier en Vercel")
