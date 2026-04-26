@@ -36,15 +36,15 @@
 			<td><b>Carrera</b></td>
 		</tr>
 		<tr>
-			<td rowspan="3"></td>
-			<td></td>
+			<td rowspan="3"><img alt="Imagen de Jennifer Riveros Vera" src="assets/imagen-jennifer.jpg" style="max-width: 100px; width: 100px;"></td>
+			<td>Riveros Vera, Jennifer Yamilet – U20241C998</td>
 			<td>Ingeniería de Software</td>
 		</tr>
 		<tr>
 			<td colspan="2"><b>Descripción</b></td>
 		</tr>
 		<tr>
-			<td colspan="2"></td>
+			<td colspan="2">Soy estudiante de Ingeniería de Software de quinto ciclo. Me considero una persona empática y orientada al trabajo en equipo, con un especial interés en el desarrollo frontend. Disfruto crear interfaces claras y agradables, buscando que la experiencia del usuario sea intuitiva y fluida. Cuento con conocimientos en C++ y Python, que complemento con mi enfoque hacia la parte visual y funcional de las aplicaciones.</td>
 		</tr>
 		<tr>
 			<td rowspan="3"><img alt="Imagen de Joel Huamani Estefanero" src="assets/imagen-joel-huamani-estefanero.jpg" style="max-width: 100px; width: 100px;"></td>
@@ -83,16 +83,21 @@
 		<tr>
 			<td colspan="2">Soy estudiante de 5.° ciclo de Ingeniería de Software en la UPC, enfocado en el desarrollo de soluciones tecnológicas de alto impacto y el análisis avanzado de datos. Mi formación técnica se respalda en el dominio de Python y C++ para el desarrollo de algoritmos eficientes, así como en el manejo estratégico de SQL para la gestión de bases de datos y Excel para el modelado de información. Me apasiona la Ciencia de Datos y el Machine Learning, áreas donde busco transformar la complejidad técnica en herramientas de decisión para las empresas líderes del mercado.<br><br>Me considero un perfil dinámico, responsable y con una alta capacidad de adaptabilidad, cualidades que potencio fuera del entorno académico a través de la disciplina del deporte y la música. La constancia que aplico en la calistenia, la natación y el gimnasio, sumada a la creatividad que desarrollo con la guitarra, me permiten abordar los retos de ingeniería con una mentalidad resiliente y un pensamiento lateral. Mi meta es consolidarme como un profesional indispensable en el ecosistema tecnológico, aportando valor real a través de la innovación y la ingeniería de calidad.</td>
 		</tr>
-		<tr>
-			<td rowspan="3"></td>
-			<td></td>
-			<td>Ingeniería de Software</td>
-		</tr>
-		<tr>
-			<td colspan="2"><b>Descripción</b></td>
-		</tr>
-		<tr>
-			<td colspan="2"></td>
-		</tr>
+<tr>
+            <td rowspan="3"><img alt="Imagen de Adiel Sánchez" src="assets/imagen-adiel-sanchez.jpeg" style="max-width: 100px; width: 100px;"></td>
+            <td>Sánchez Santin, Adiel Abdiaz – U20241E287</td>
+            <td>Ingeniería de Software</td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Descripción</b></td>
+        </tr>
+        <tr>
+            <td colspan="2">Soy estudiante de Ingeniería de Software con un perfil analítico y detallista. Me considero una persona introvertida y reflexiva, lo que me lleva a investigar y entender bien cómo funcionan las herramientas antes de utilizarlas. Tengo conocimientos en lenguajes como C++, Python y Java, y me gusta explorar sus librerías para comprender la lógica detrás de cada proyecto. En el equipo, trato de aportar desde el análisis y la organización técnica, buscando siempre que las soluciones sean ordenadas y funcionen correctamente. Mi enfoque está en el aprendizaje constante y en traducir ideas complejas en implementaciones técnicas claras y funcionales.</td>
+        </tr>
+        <tr>
+            <td rowspan="3"></td>
+            <td></td>
+            <td></td>
+        </tr>
 	</tbody>
 </table>
