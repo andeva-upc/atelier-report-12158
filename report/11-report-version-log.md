@@ -20,6 +20,12 @@
 			<td>Aldo Jeanfranco Machacca Soto</td>
 			<td>Se agregó el capítulo de Competidores al reporte del proyecto, incluyendo tablas de análisis competitivo y logos de competidores para sustentar la documentación de Elicitación y Análisis de Requerimientos.</td>
 		</tr>
+			<tr>
+			<td>0.1.2</td>
+			<td>15/04/2026</td>
+			<td>Adiel Sanchez Santin</td>
+			<td>Se elaboró el Big Picture Event Storming y la definición inicial del Ubiquitous Language (Lenguaje Obicuo) para el modelado del dominio.</td>
+		</tr>
 		<tr>
 			<td>0.2.0</td>
 			<td>20/04/2026</td>
@@ -27,10 +33,16 @@
 			<td>Se agregó la página de student outcome, arreglo de entrevistas, user stories, product backlog, style guidelines e Information architecture al repositorio.</td>
 		</tr>
 		<tr>
-			<td>0.5.1</td>
+			<td>0.2.1</td>
 			<td>20/04/2026</td>
 			<td>Luis Daniel Granda Ibarra</td>
 			<td>Se realizó mapa de empatía, mapa de impacto.</td>
+		</tr>
+		<tr>
+			<td>0.2.2</td>
+			<td>20/04/2026</td>
+			<td>Adiel Sanchez Santin</td>
+			<td>Se elaboró el Design-Level Event Storming, profundizando en el modelado técnico y la identificación de agregados y eventos de dominio.</td>
 		</tr>
 		<tr>
 			<td>0.3.0</td>
@@ -86,6 +98,13 @@
 			<td>Luis Daniel Granda Ibarra</td>
 			<td>Se realizó los benefits del landing page, con diseño dinámico.</td>
 		</tr>
+		<tr>
+			<td>1.0.0</td>
+			<td>26/04/2026</td>
+			<td>Joel Huamani Estefanero</td>
+			<td>Se realizó la revisión final de av1.</td>
+		</tr>
+
 	</tbody>
 </table>
 
