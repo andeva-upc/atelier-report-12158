@@ -1,6 +1,73 @@
 ## 4.4. Web Applications UX/UI Design {#cap-4-4}
 
 ### 4.4.1.&emsp;&emsp;*Web Applications Wireframes* {#cap-4-4-1}
+&emsp;&emsp;&emsp;&emsp;En esta sección se presentarán los wireframes de la aplicación, los cuales son bosquejos de baja fidelidad sobre las funcionalidades principales de nuestra solución.
+
+**Inicio**
+
+*Wireframe del inicio de la plataforma web*
+
+![](assets/Wireframe-1.png "Wireframe del inicio de la plataforma web")
+![](assets/Wireframe-2.png "Wireframe del inicio de la plataforma web")
+![](assets/Wireframe-3.png "Wireframe del inicio de la plataforma web")
+![](assets/Wireframe-4.png "Wireframe del inicio de la plataforma web")
+![](assets/Wireframe-5.png "Wireframe del inicio de la plataforma web")
+
+**DashBoard**
+
+*Wireframe del DashBoard de la plataforma web*
+
+![](assets/Wireframe-6.png "Wireframe del DashBoard de la plataforma web")
+
+**Órdenes de trabajo**
+
+*Wireframe de Órdenes de trabajo de la plataforma web*
+
+![](assets/Wireframe-7.png "Wireframe de Órdenes de trabajo de la plataforma web")
+![](assets/Wireframe-8.png "Wireframe de Órdenes de trabajo de la plataforma web")
+![](assets/Wireframe-7.png "Wireframe de Órdenes de trabajo de la plataforma web")
+
+**Citas**
+
+*Wireframe de Citas de la plataforma web*
+
+![](assets/Wireframe-12.png "Wireframe de Citas de la plataforma web")
+![](assets/Wireframe-13.png "Wireframe de Citas de la plataforma web")
+![](assets/Wireframe-12.png "Wireframe de Citas de la plataforma web")
+![](assets/Wireframe-14.png "Wireframe de Citas de la plataforma web")
+![](assets/Wireframe-15.png "Wireframe de Citas de la plataforma web")
+
+**Personal**
+
+*Wireframe de Personal de la plataforma web*
+
+![](assets/Wireframe-37.png "Wireframe de Personal de la plataforma web")
+![](assets/Wireframe-30.png "Wireframe de Personal de la plataforma web")
+
+**Inventario**
+
+*Wireframe de Inventario de la plataforma web*
+
+![](assets/Wireframe-9.png "Wireframe de Inventario de la plataforma web")
+![](assets/Wireframe-10.png "Wireframe de Inventario de la plataforma web")
+![](assets/Wireframe-11.png "Wireframe de Inventario de la plataforma web")
+
+**Facturación**
+
+*Wireframe de Facturación de la plataforma web*
+
+![](assets/Wireframe-35.png "Wireframe de Facturación de la plataforma web")
+![](assets/Wireframe-43.png "Wireframe de Facturación de la plataforma web")
+![](assets/Wireframe-33.png "Wireframe de Facturación de la plataforma web")
+![](assets/Wireframe-35.png "Wireframe de Facturación de la plataforma web")
+
+
+**Clientes**
+
+*Wireframe de Clientes de la plataforma web*
+
+![](assets/Wireframe-34.png "Wireframe de Clientes de la plataforma web")
+![](assets/Wireframe-29.png "Wireframe de Clientes de la plataforma web")
 
 ### 4.4.2.&emsp;&emsp;*Web Applications Mock-ups* {#cap-4-4-2}
 
@@ -76,7 +143,57 @@
 
 ### 4.4.3.&emsp;&emsp;*Web Applications Wireflow Diagrams* {#cap-4-4-3}
 
+&emsp;&emsp;&emsp;&emsp;Un wireflow o flujo de pantalla es un diagrama donde se reúnen distintos wireframes realizados cuya finalidad es contar las metas del usuario con la aplicación y cómo las consiguen.
 
+#### User Goal 1: Registro de empresa y adquisición de plan de suscripción
+
+Primero, se definen las tareas típicas que realizaría un usuario para completar este objetivo:
+
+![](assets/user-goal-1.png "User Goal 1")
+
+En este flujo se muestra el proceso para que el dueño de un taller registre su empresa y active su acceso a la plataforma. El usuario inicia el proceso en la pantalla de registro comercial, donde debe completar un formulario con los datos detallados de su negocio (nombre, NIT/RUC, dirección y contacto).
+
+![](assets/user-f-1.png "User Goal 1")
+
+#### User Goal 2: Consulta del historial de órdenes de trabajo
+
+Primero, se definen las tareas típicas que realizaría un usuario para completar este objetivo:
+
+![](assets/wireflow-2.png "User Goal 2")
+
+En este flujo se detalla el proceso para que el dueño del taller consulte los antecedentes técnicos de un vehículo específico. El usuario accede a la sección de Gestión de Vehículos o al buscador global, donde ingresa el número de placa o bastidor para localizar la unidad. Una vez seleccionado el vehículo, el sistema despliega el Historial de Órdenes de Trabajo, permitiendo visualizar de forma cronológica todas las reparaciones, repuestos instalados y diagnósticos previos realizados en el taller.
+
+![](assets/wireflow-2-2.png "User Goal 2")
+
+#### User Goal 3: Gestión y registro de inventario de repuestos
+
+Primero, se definen las tareas típicas que realizaría un usuario para completar este objetivo:
+
+![](assets/wireflow-3.png "User Goal 3")
+
+En este flujo se describe el proceso para la administración y control de suministros dentro del taller. El usuario accede al módulo de Inventario, donde puede seleccionar la opción para registrar nuevos repuestos completando los datos técnicos, categoría y cantidad inicial. Asimismo, el sistema permite realizar ajustes manuales de stock para corregir discrepancias o registrar ingresos extraordinarios de mercancía.
+
+![](assets/wireflow-3-3.png "User Goal 3")
+
+#### User Goal 4: Gestión de citas, cotización y facturación
+
+Primero, se definen las tareas típicas que realizaría un usuario para completar este objetivo:
+
+![](assets/wireflow-4.png "User Goal 4")
+
+En este flujo se detalla el proceso integral desde la recepción del cliente hasta el registro del ingreso. El usuario con rol de administrador accede al Calendario Interactivo, donde selecciona la fecha y hora disponible para agendar una cita de mantenimiento preventivo, vinculando los datos del vehículo y el cliente.
+
+![](assets/wireflow-4-1.png "User Goal 4")
+
+#### User Goal 5: Facturación y registro de cobros en caja
+
+Primero, se definen las tareas típicas que realizaría un usuario para completar este objetivo:
+
+![](assets/wireflow-5-0.png "User Goal 5")
+
+En este flujo se detalla cuando el usuario inicia en el Control de Citas, donde puede visualizar los servicios en progreso y navegar hacia el Historial de Citas para revisar servicios completados o cancelados. Para programar una nueva atención, el administrador utiliza el formulario de registro, donde selecciona al cliente, ingresa los datos del vehículo (placa y tipo de servicio), y define la fecha y hora en el calendario interactivo.
+
+![](assets/wireflow-5.png "User Goal 5")
 
 ### 4.4.4.&emsp;&emsp;*Web Applications Userflow Diagrams* {#cap-4-4-4}
 
