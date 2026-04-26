@@ -63,7 +63,7 @@
 
 *Database Diagram - Service & Work Orders Context (so)*
 
-![](assets/database-diagram-service-& -ork-orders-context-(so).svg "Database Diagram - Service & Work Orders Context (so)")
+![](assets/database-diagram-service-&-ork-orders-context-(so).svg "Database Diagram - Service & Work Orders Context (so)")
 
 *   **so_work_orders**: Tabla cabecera de las órdenes de servicio, vinculando el vehículo, el taller y el estado actual de la reparación.
 *   **so_tasks**: Detalle de las tareas o servicios específicos realizados dentro de una orden, asignando un mecánico y un costo.
