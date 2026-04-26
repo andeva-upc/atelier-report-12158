@@ -39,6 +39,12 @@
 			<td>Se actualizó el apartado de anexos del reporte.</td>
 		</tr>
 		<tr>
+			<td>0.3.2</td>
+			<td>22/04/2026</td>
+			<td>Jennifer Yamilet Riveros Vera</td>
+			<td>Se agrego el apartado de web applications, mock-ups y wireframes.</td>
+		</tr>
+		<tr>
 			<td>0.4.0</td>
 			<td>25/04/2026</td>
 			<td>Aldo Jeanfranco Machacca Soto</td>
@@ -55,6 +61,12 @@
 			<td>25/04/2026</td>
 			<td>Aldo Jeanfranco Machacca Soto</td>
 			<td>Se implementó el componente de Planes y Precios en la Landing Page, incluyendo el diseño responsivo, la interfaz de tarjetas con paleta de colores y el pulido de interactividad.</td>
+		</tr>
+		<tr>
+			<td>0.7.0</td>
+			<td>26/04/2026</td>
+			<td>Jennifer Yamilet Riveros Vera</td>
+			<td>Se implementó el diagrama de clases.</td>
 		</tr>
 	</tbody>
 </table>
