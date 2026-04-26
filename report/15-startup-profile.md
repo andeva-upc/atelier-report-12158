@@ -73,15 +73,15 @@
 			<td colspan="2">Soy Aldo Jeanfranco Machacca Soto, con código de estudiante u202419485, y actualmente cursando la carrera de Ingeniería de Software, disciplina centrada en el diseño, desarrollo y mantenimiento de soluciones tecnológicas eficientes, escalables y de calidad. En cuanto a mi perfil técnico, me destaco principalmente en el ámbito del desarrollo backend, contando con sólida experiencia en la creación y arquitectura de APIs. Mi stack tecnológico abarca lenguajes como Python, C++, JavaScript y TypeScript, además de frameworks y librerías como React y Next.js para el desarrollo frontend. Tengo experiencia en la gestión de bases de datos optimizadas para soportar grandes volúmenes de información, así como en procesos de despliegue (deploy) para llevar proyectos a producción. Como habilidad diferenciadora, cuento con experiencia práctica integrando agentes de inteligencia artificial (como OpenCode) en los flujos de trabajo. En un equipo, puedo aportar una visión integral del ciclo de vida del software, capaz de conectar eficientemente la lógica del servidor, la interfaz de usuario y la infraestructura, garantizando soluciones robustas y de alto rendimiento.</td>
 		</tr>
 		<tr>
-			<td rowspan="3"></td>
-			<td></td>
+			<td rowspan="3"><img alt="Imagen de Luis Daniel Granda Ibarra" src="assets/imagen-luis-daniel-granda-ibarra.jpg" style="max-width: 100px; width: 100px;"></td>
+			<td>Granda Ibarra, Luis Daniel – U20241E401</td>
 			<td>Ingeniería de Software</td>
 		</tr>
 		<tr>
 			<td colspan="2"><b>Descripción</b></td>
 		</tr>
 		<tr>
-			<td colspan="2"></td>
+			<td colspan="2">Soy estudiante de 5.° ciclo de Ingeniería de Software en la UPC, enfocado en el desarrollo de soluciones tecnológicas de alto impacto y el análisis avanzado de datos. Mi formación técnica se respalda en el dominio de Python y C++ para el desarrollo de algoritmos eficientes, así como en el manejo estratégico de SQL para la gestión de bases de datos y Excel para el modelado de información. Me apasiona la Ciencia de Datos y el Machine Learning, áreas donde busco transformar la complejidad técnica en herramientas de decisión para las empresas líderes del mercado.<br><br>Me considero un perfil dinámico, responsable y con una alta capacidad de adaptabilidad, cualidades que potencio fuera del entorno académico a través de la disciplina del deporte y la música. La constancia que aplico en la calistenia, la natación y el gimnasio, sumada a la creatividad que desarrollo con la guitarra, me permiten abordar los retos de ingeniería con una mentalidad resiliente y un pensamiento lateral. Mi meta es consolidarme como un profesional indispensable en el ecosistema tecnológico, aportando valor real a través de la innovación y la ingeniería de calidad.</td>
 		</tr>
 		<tr>
 			<td rowspan="3"></td>
