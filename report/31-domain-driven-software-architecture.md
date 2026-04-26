@@ -108,9 +108,6 @@
 
 ![](assets/Design-Level-Pagos.png "Contexto de Pagos y Stock")
 
-
-&emsp;&emsp;&emsp;&emsp;[Esta sección se encuentra pendiente de desarrollo y será completada en fases posteriores del proyecto.]
-
 ### 4.6.2. *Software Architecture Context Diagram* {#cap-4-6-2}
 
 &emsp;&emsp;&emsp;&emsp;El diagrama de contexto proporciona una visión de alto nivel del sistema "atelier", situándolo en el centro de su ecosistema operativo. Este artefacto visualiza la interacción entre el sistema integral (ERP + IoT) y sus usuarios principales —dueños de taller, mecánicos y clientes finales— así como su dependencia de servicios externos críticos para la operación, como la pasarela de pagos, el sistema de facturación electrónica de SUNAT, las APIs de mensajería (WhatsApp y FCM) y el proveedor de identidad centralizado.
