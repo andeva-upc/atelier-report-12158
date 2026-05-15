@@ -28,7 +28,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Para la Landing Page, que sigue una organización secuencial, las etiquetas actúan como señales narrativas que guían al usuario a través del embudo de conversión, desde la propuesta de valor hasta el registro. Para la Plataforma Web, que utiliza una organización jerárquica y funcional basada en una sidebar, las etiquetas deben ser extremadamente concisas, predictivas y consistentes, permitiendo al administrador cambiar de contexto operativo al instante.
 
-**Tabla**
+**Tabla 16**
 
 *Etiquetas del Landing Page*
 
@@ -42,7 +42,7 @@
 |             Team            |      Título de sección que introduce a los desarrolladores de Andeva.    |
 |         Contáctanos         |      Etiquetas para enlaces secundarios, políticas y redes sociales.     |
 
-**Tabla**
+**Tabla 17**
 
 *Etiquetas para la plataforma web*
 

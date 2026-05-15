@@ -4,7 +4,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Se decidió utilizar la herramienta Trello para la creación y gestión del Product Backlog. De este modo, la tabla inicia con las historias de usuario más importantes para el lanzamiento y operatividad del sistema, mientras que aquellas de menor importancia relativa se ubican en las últimas filas de dicha tabla.
 
-**Tabla**
+**Tabla 15**
 
 *Product Backlog de atelier*
 

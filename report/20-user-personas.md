@@ -40,6 +40,10 @@
 
 &emsp;&emsp;&emsp;&emsp;La User Task Matrix servirá para el análisis que permite consolidar y priorizar las actividades esenciales de las User personas para alcanzar sus objetivos de negocio o personales. A cada actividad se le asigna un nivel en cuanto a qué tanta importancia posee y qué tan frecuente es la actividad realizada por el User Persona.
 
+**Tabla 12**
+
+*User Task Matrix*
+
 <table border="1" style="border-collapse: collapse; width: 100%; border-color: black;">
 	<tbody>
 		<tr>

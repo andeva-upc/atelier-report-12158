@@ -146,7 +146,7 @@
 
 &emsp;&emsp;&emsp;&emsp;En el diagrama de componentes de la Web Application, se estructuran los módulos principales que permiten la gestión del taller. Se utiliza Vue Router para la navegación, y componentes clave para la agenda, inventario, facturación y visor de telemetría. Todos estos se comunican con el API Backend a través de un cliente API centralizado.
 
-**Figura**
+**Figura 62**
 
 *Software Architecture Component Level Diagram - Web Application*
 
@@ -156,7 +156,7 @@
 
 &emsp;&emsp;&emsp;&emsp;El diagrama de la Mobile Application detalla cómo la aplicación móvil interactúa con el conductor y el vehículo. Destaca el servicio Bluetooth para la conexión OBD2, el sincronizador de telemetría que envía los batches de datos, y el gestor de notificaciones push para las alertas de seguridad, todo apoyado por el cliente de la API móvil.
 
-**Figura**
+**Figura 63**
 
 *Software Architecture Component Level Diagram - Mobile Application*
 
@@ -166,13 +166,13 @@
 
 &emsp;&emsp;&emsp;&emsp;Finalmente, el diagrama del Background Worker muestra la infraestructura asíncrona del sistema. Éste consume eventos desde RabbitMQ y orquesta tareas pesadas como la generación de facturas XML para la SUNAT y el envío de notificaciones mediante WhatsApp Business API y FCM, desacoplando así estas responsabilidades del flujo principal.
 
-**Figura**
+**Figura 64**
 
 *Software Architecture Component Level Diagram - Background Worker*
 
 ![](assets/c4-components-Bbackground-worker.png "Software Architecture Component Level Diagram - Background Worker")
 
-**Figura**
+**Figura 65**
 
 *Software Architecture Component Level Diagram*
 

@@ -6,7 +6,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Las Historias de Usuario desglosan los requisitos de alto nivel en unidades de trabajo atómicas, estimables y centradas en el valor entregado. Redactadas bajo un enfoque orientado al comportamiento y siguiendo la estructura estándar, estas historias capturan con precisión las interacciones y necesidades de cada actor del ecosistema, incluyendo dueños de talleres, mecánicos, recepcionistas, visitantes web y desarrolladores backend.
 
-**Tabla**
+**Tabla 14**
 
 *Tabla de Epics/US/TS de atelier*
 
