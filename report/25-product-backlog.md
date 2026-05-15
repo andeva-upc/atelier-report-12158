@@ -55,7 +55,7 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación de la tabla, se adjunta una imagen del Product Backlog diseñado originalmente en Trello, así como el enlace directo para acceder al tablero. Cabe recalcar que, dentro de cada tarjeta que contenga el código de una historia de usuario, se encuentra la descripción completa y detallada de dicha historia.
 
-**Figura**
+**Figura 20**
 
 *Product Backlog de atelier en Trello*
 

@@ -6,7 +6,7 @@
 
 &emsp;&emsp;&emsp;&emsp;La Landing Page de Atelier utiliza un sistema de organización secuencial, diseñado específicamente para guiar al visitante a través de una narrativa lineal sin distracciones. Esta estructura de una sola página (Single Page Application) se ha elegido para minimizar la tasa de rebote y maximizar la conversión. Al eliminar un menú de navegación tradicional con enlaces internos, se obliga al usuario a consumir la propuesta de valor en el orden lógico establecido: desde el impacto visual inicial hasta la validación del equipo y los precios, culminando en un llamado a la acción claro. Este diseño simplificado en el header, que solo presenta el logotipo y los botones de acceso, refuerza la identidad de marca y prioriza la entrada directa a la plataforma.
 
-**Figura**
+**Figura 28**
 
 *Sistema de organización del Landing Page*
 
@@ -14,7 +14,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Para la plataforma web o Dashboard, se ha implementado un sistema de organización jerárquico y funcional basado en un esquema de Sidebar y Main Content. Esta estructura es la más eficiente para entornos de software como servicio (SaaS), ya que permite al administrador del taller multitarea y acceso instantáneo a módulos críticos. La sidebar actúa como el índice persistente del sistema, permitiendo que el usuario cambie de contexto sin perder la orientación. El área de Main Content funciona como un contenedor dinámico que renderiza la información específica de cada módulo, permitiendo una visualización limpia y centrada en los datos, esencial para el manejo de telemetría y reportes financieros.
 
-**Figura**
+**Figura 29**
 
 *Sistema de organización de la plataforma web*
 

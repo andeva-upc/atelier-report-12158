@@ -8,7 +8,7 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se presenta el cuadro de resumen del sprint planning meeting siguiendo la estructura establecida:
 
-**Tabla**
+**Tabla 18**
 
 *Tabla de Sprint 1 de atelier*
 
@@ -31,7 +31,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Dado que el objetivo exclusivo de este primer sprint es la construcción de la Landing Page de Atelier, los principales aspectos que se toman en cuenta corresponden a los subconjuntos del alcance funcional. Estos aspectos son: Propuesta de Valor, Exploración de Módulos, Planes de Suscripción, Presentación del Equipo y Información Legal y Footer.
 
-**Tabla**
+**Tabla 19**
 
 *Leadership-and-Collaboration Matrix*
 
@@ -51,7 +51,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Seguidamente, se detalla la tabla de control de estado con la descomposición de las User Stories en tareas específicas asignadas a los miembros del equipo, estimadas en horas y con su estado actual de progreso.
 
-**Tabla**
+**Tabla 20**
 
 *Sprint Backlog #1 atelier*
 
@@ -85,7 +85,7 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se presenta la tabla detallada que incluye, para el repositorio del sitio web estático, los commits directamente relacionados con la implementación de las características mencionadas:
 
-**Tabla**
+**Tabla 21**
 
 *Tabla de Commits del Sprint #1*
 
@@ -110,7 +110,7 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se presentan las capturas de pantalla de las principales vistas implementadas, junto con un enlace a un video demostrativo que ilustra y explica a detalle la visualización y navegación logrados en este Sprint: []().
 
-**Figura**
+**Figura 89**
 
 *Capturas de Pantalla de la Landing Page de atelier*
 
@@ -133,7 +133,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 1: Integración de la rama de lanzamiento. Como paso inicial, el equipo consolidó todos los avances de diseño y maquetación de las distintas ramas de características hacia la rama principal de despliegue. Esto asegura que el código a desplegar sea la versión estable y aprobada del Sprint.
 
-**Figura**
+**Figura 90**
 
 *Repositorio del website de atelier*
 
@@ -141,7 +141,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 2: Configuración del entorno en Vercel.
 
-**Figura**
+**Figura 91**
 
 *Captura de pantalla de la seccion de proyectos de Vercel*
 
@@ -149,13 +149,13 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 3: Selección el repositorio y desplegar.
 
-**Figura**
+**Figura 92**
 
 *Captura de pantalla de la seccion de despliegue de Vercel*
 
 ![](assets/vercel-repo-deploy.jpeg "Captura de pantalla de la seccion de despliegue de Vercel")
 
-**Figura**
+**Figura 93**
 
 *Captura de pantalla de la configuración de despliegue de Vercel*
 
@@ -179,7 +179,7 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se presentan las capturas en imagen de los analíticos de colaboración y commits extraídos de la pestaña "Insights" del repositorio en GitHub, las cuales evidencian la participación de todos los miembros del equipo:
 
-**Figura**
+**Figura 94**
 
 *Gráfico de commits*
 
@@ -193,7 +193,7 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se presenta el cuadro de resumen del sprint planning:
 
-**Tabla**
+**Tabla 22**
 
 *Tabla de Sprint 2 de atelier*
 
@@ -216,7 +216,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Se han designado los responsables de liderar el desarrollo del front-end de cada módulo operativo para asegurar la especialización en la lógica de cada vista.
 
-**Tabla**
+**Tabla 23**
 
 *Leadership-and-Collaboration Matrix*
 
@@ -295,7 +295,7 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se presenta una captura de pantalla del sprint backlog en la herramienta de gestión Trello, junto con su respectivo enlace público: [https://trello.com/invite/b/69e53a1f24bfdaee349e4ae0/ATTI7bbd33d5db1338ca2c51df8c95727a2a46CEA512/atelier](https://trello.com/invite/b/69e53a1f24bfdaee349e4ae0/ATTI7bbd33d5db1338ca2c51df8c95727a2a46CEA512/atelier).
 
-**Figura**
+**Figura 95**
 
 *Captura de Pantalla del Sprint Backlog #2 atelier en Trello*
 
@@ -303,7 +303,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Seguidamente, se detalla la tabla de control de estado con la descomposición de las User Stories en tareas específicas asignadas a los miembros del equipo, estimadas en horas y con su estado actual de progreso.
 
-**Tabla**
+**Tabla 24**
 
 *Sprint Backlog #2 atelier*
 
@@ -340,7 +340,7 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se presenta la tabla detallada que incluye, para el repositorio de la web application, los commits directamente relacionados con la implementación de las características mencionadas:
 
-**Tabla**
+**Tabla 25**
 
 *Tabla de Commits del Sprint #2*
 
@@ -435,7 +435,7 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se presentan las capturas de pantalla de las principales vistas implementadas, junto con un enlace a un video demostrativo que ilustra y explica a detalle la visualización y navegación logrados en este Sprint: []().
 
-**Figura**
+**Figura 96**
 
 *Capturas de Pantalla de la Web App de atelier*
 
@@ -466,7 +466,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 2: Configuración del entorno en Vercel.
 
-**Figura**
+**Figura 97**
 
 *Captura de pantalla de la seccion de proyectos de Vercel*
 
@@ -474,13 +474,13 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 3: Selección el repositorio y desplegar.
 
-**Figura**
+**Figura 98**
 
 *Captura de pantalla de la seccion de despliegue de Vercel*
 
 ![](assets/ercel-web-app-deploy.png "Captura de pantalla de la seccion de despliegue de Vercel")
 
-**Figura**
+**Figura 99**
 
 *Captura de pantalla de la configuración de despliegue de Vercel*
 
@@ -504,7 +504,7 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se presentan las capturas en imagen de los analíticos de colaboración y commits extraídos de la pestaña "Insights" del repositorio en GitHub, las cuales evidencian la participación de todos los miembros del equipo:
 
-**Figura**
+**Figura 100**
 
 *Gráfico de commits*
 

@@ -154,7 +154,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 1: Ubicados en el repositorio con el codigo fuente de la landing page de atelier, nos preparamos y verificamos que los archivos ubicados en la rama main esten correctos.
 
-**Figura**
+**Figura 79**
 
 *Repositorio del website de atelier*
 
@@ -162,7 +162,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 2: Una vez ubicados en la seccion de proyectos de Vercel, hacemos click en "Add New...".
 
-**Figura**
+**Figura 80**
 
 *Captura de pantalla de la seccion de proyectos de Vercel*
 
@@ -170,7 +170,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 3: Seleccionamos el repositorio que aloja el codigo fuente de la landing page de atelier.
 
-**Figura**
+**Figura 81**
 
 *Captura de pantalla de la seccion de despliegue de Vercel*
 
@@ -178,7 +178,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 4: Configuramos el correcto desplegamiento de la landing page.
 
-**Figura**
+**Figura 82**
 
 *Captura de pantalla de la configuración de despliegue de Vercel*
 

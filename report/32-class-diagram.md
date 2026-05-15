@@ -6,7 +6,7 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación se presenta el diagrama de clases general del *Web Service* (Backend), abarcando la totalidad de la aplicación. Posteriormente, el diseño se desglosa y detalla según cada *Bounded Context*.
 
-**Figura XX**
+**Figura 66**
 
 *Class Diagram*
 
@@ -20,7 +20,7 @@
 
 &emsp;&emsp;&emsp;&emsp;El siguiente diagrama detalla la estructura orientada a objetos para la gestión de usuarios, roles, talleres y suscripciones, garantizando el esquema *multi-tenant* de la plataforma.
 
-**Figura XX**
+**Figura 67**
 
 *Class Diagram - Core (Identity and Multi-Tenancy)*
 
@@ -32,7 +32,7 @@
 
 &emsp;&emsp;&emsp;&emsp;En este diagrama se exponen los componentes encargados de la ingesta, procesamiento y gestión de la telemetría generada por los dispositivos OBD2 instalados en los vehículos.
 
-**Figura XX**
+**Figura 68**
 
 *Class Diagram - IoT (Hardware and Telemetry)*
 
@@ -44,7 +44,7 @@
 
 &emsp;&emsp;&emsp;&emsp;El diagrama ilustra el modelo de dominio central para la operación de los talleres, focalizándose en el ciclo de vida de las órdenes de trabajo y las tareas mecánicas asignadas.
 
-**Figura XX**
+**Figura 69**
 
 *Class Diagram - Operations (Work Orders)*
 
@@ -56,7 +56,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Este modelo describe la estructura requerida para administrar la cartera de clientes de cada taller y la gestión del registro de los vehículos de sus flotas respectivas.
 
-**Figura XX**
+**Figura 70**
 
 *Class Diagram - Fleet (Fleet Management)*
 
@@ -68,7 +68,7 @@
 
 &emsp;&emsp;&emsp;&emsp;El diagrama de clases presenta la gestión del catálogo de productos, repuestos e insumos, así como el control transaccional del stock en los almacenes del taller.
 
-**Figura XX**
+**Figura 71**
 
 *Class Diagram - Inventory (Warehouse)*
 
@@ -80,7 +80,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Finalmente, este diagrama detalla los componentes relacionados con la facturación, el desglose de los montos de servicio y la gestión de estados financieros y tributarios.
 
-**Figura XX**
+**Figura 72**
 
 *Class Diagram - Billing (Invoicing and Payments)*
 

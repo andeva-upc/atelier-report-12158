@@ -14,7 +14,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Nuestro imagotipo refleja esta visión mediante un diseño limpio y claro, combinando únicamente una tuerca simplificada con el nombre de la marca. Con este enfoque visual directo y minimalista, buscamos posicionarnos de manera memorable en la mente de nuestros clientes.
 
-**Figura**
+**Figura 21**
 
 *Imagotipo de atelier*
 
@@ -26,7 +26,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Para la fuente principal se ha seleccionado Mona Sans. Su estructura moderna, geométrica y con un marcado carácter tecnológico transmite la precisión y la innovación que definen el ecosistema de Atelier. Esta tipografía es ideal para encabezados, módulos de navegación y cifras clave dentro del panel de control, donde la claridad visual y una jerarquía sólida son fundamentales para optimizar el flujo de trabajo operativo del taller.
 
-**Figura**
+**Figura 22**
 
 *Tipografía Mona Sans*
 
@@ -34,7 +34,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Como complemento funcional, Arimo se establece como la fuente secundaria para todo el cuerpo de texto y los componentes informativos de la plataforma. Gracias a su diseño optimizado para una alta legibilidad en pantallas, esta fuente asegura que los datos técnicos, historiales de mantenimiento y descripciones de averías sean fáciles de procesar tanto para mecánicos en el taller como para conductores en la aplicación móvil. Su uso aporta la sobriedad y eficiencia necesaria en una herramienta de gestión diseñada para transformar el diagnóstico vehicular.
 
-**Figura**
+**Figura 23**
 
 *Tipografía Arimo*
 
@@ -62,7 +62,7 @@
 
 &emsp;&emsp;&emsp;&emsp;El Success Color, el cual representa el código hexadecimal #10B981, es el sinónimo psicológico de positividad, fluidez y salud mecánica. Aparte, tenemos el Failure Color, el cual representa el código hexadecimal #EF4444, es la máxima expresión de urgencia, precaución y detención. Servirá como una alarma visual inconfundible.
 
-**Figura**
+**Figura 24**
 
 *Paleta de colores de atelier*
 
@@ -90,7 +90,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Para garantizar una experiencia de usuario (UX) profesional, accesible y visualmente atractiva, la construcción de la interfaz se apoyará en Vuetify. Este potente framework de componentes basado en Material Design acelerará drásticamente el desarrollo al proporcionar elementos preconstruidos y probados.
 
-**Figura**
+**Figura 25**
 
 *Vuetify*
 

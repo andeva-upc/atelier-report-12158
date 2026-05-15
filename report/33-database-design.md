@@ -8,7 +8,7 @@
 
 &emsp;&emsp;&emsp;&emsp;En esta sección el equipo presenta y explica el Database Diagram que incluye los objetos de base de datos que permitirán la persistencia de información para los objetos de cada bounded context. A continuación, se muestra el diagrama general que integra los distintos contextos de la solución.
 
-**Figura**
+**Figura 73**
 
 *Database Diagram General de la solución atelier*
 
@@ -20,7 +20,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Este contexto se encarga de la gestión de usuarios y el control de acceso basado en roles. La persistencia se centra en la seguridad y la identificación única de cada actor en el sistema.
 
-**Figura**
+**Figura 74**
 
 *Database Diagram - Identity & Access Context (id)*
 
@@ -32,7 +32,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Este contexto gestiona la información técnica de los vehículos y la persistencia de los datos de telemetría e incidencias mecánicas recolectadas.
 
-**Figura**
+**Figura 75**
 
 *Database Diagram - Vehicle Health Context (vh)*
 
@@ -46,7 +46,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Responsable de controlar el catálogo de repuestos y los niveles de stock disponibles en cada taller afiliado.
 
-**Figura**
+**Figura 76**
 
 *Database Diagram - Inventory Management Context (iv)*
 
@@ -59,7 +59,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Gestiona el ciclo de vida de los servicios realizados en el taller, desde la apertura de la orden hasta su finalización y cobro.
 
-**Figura**
+**Figura 77**
 
 *Database Diagram - Service & Work Orders Context (so)*
 
@@ -72,7 +72,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Este contexto maneja la información operativa del taller y su infraestructura básica necesaria para la gestión administrativa.
 
-**Figura**
+**Figura 78**
 
 *Database Diagram - Workshop Operations Bounded Context*
 

@@ -2,7 +2,7 @@
 
 **Segmento objetivo 1: Dueños o administradores de talleres automotrices independientes en Lima**
 
-**Figura**
+**Figura 18**
 
 *Impact Mapping de dueños o administradores de talleres automotrices independientes en Lima*
 
@@ -10,7 +10,7 @@
 
 **Segmento objetivo 2: Conductores de vehículos de Lima**
 
-**Figura**
+**Figura 19**
 
 *Impact Mapping de conductores de vehículos de Lima*
 
