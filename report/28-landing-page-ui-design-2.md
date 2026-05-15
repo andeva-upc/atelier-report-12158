@@ -4,7 +4,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Para el desarrollo del Landing Page, se realizo el wireframe con estructura y orden de la landing page en Figma.
 
-**Figura**
+**Figura 30**
 
 *Wireframe del Landing Page de atelier*
 
@@ -19,7 +19,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Tambien se realizaron los mock-ups de la Landing Page con colores y tipografias adecuadas, definidas anteriormente.
 
-**Figura**
+**Figura 31**
 
 *Mock-up del Landing Page de atelier*
 

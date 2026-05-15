@@ -6,7 +6,7 @@
 
 ### 2.1.1.&emsp;&emsp;*Análisis Competitivo* {#cap-2-1-1}
 
-**Tabla**
+**Tabla 2**
 
 *Competitive Analysis Landscape*
 
@@ -183,7 +183,7 @@
 
 ### 2.1.2.&emsp;&emsp;*Estrategias y Tácticas frente a Competidores* {#cap-2-1-2}
 
-**Tabla**
+**Tabla 3**
 
 *Tabla de estrategias y tácticas frente a competidores*
 

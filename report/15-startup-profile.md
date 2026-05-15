@@ -94,10 +94,5 @@
         <tr>
             <td colspan="2">Soy estudiante de Ingeniería de Software con un perfil analítico y detallista. Me considero una persona introvertida y reflexiva, lo que me lleva a investigar y entender bien cómo funcionan las herramientas antes de utilizarlas. Tengo conocimientos en lenguajes como C++, Python y Java, y me gusta explorar sus librerías para comprender la lógica detrás de cada proyecto. En el equipo, trato de aportar desde el análisis y la organización técnica, buscando siempre que las soluciones sean ordenadas y funcionen correctamente. Mi enfoque está en el aprendizaje constante y en traducir ideas complejas en implementaciones técnicas claras y funcionales.</td>
         </tr>
-        <tr>
-            <td rowspan="3"></td>
-            <td></td>
-            <td></td>
-        </tr>
 	</tbody>
 </table>

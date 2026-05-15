@@ -132,23 +132,43 @@
 
 &emsp;&emsp;&emsp;&emsp;[5.1.4. *Software Deployment Configuration*](#cap-5-1-4)
 
-&emsp;&emsp;[5.2. Sprint 1](#cap-5-2)
+&emsp;&emsp;[5.2. Landing Page, Services & Applications Implementation](#cap-5-2)
 
-&emsp;&emsp;&emsp;&emsp;[5.2.1. *Sprint Planning 1*](#cap-5-2-1)
+&emsp;&emsp;&emsp;&emsp;[5.2.1. Sprint 1](#cap-5-2-1)
 
-&emsp;&emsp;&emsp;&emsp;[5.2.2. *Aspect Leaders and Collaborators*](#cap-5-2-2)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[5.2.1.1. *Sprint Planning 1*](#cap-5-2-1-1)
 
-&emsp;&emsp;&emsp;&emsp;[5.2.3. *Sprint Backlog 1*](#cap-5-2-3)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[5.2.1.2. *Aspect Leaders and Collaborators*](#cap-5-2-1-2)
 
-&emsp;&emsp;&emsp;&emsp;[5.2.4. *Development Evidence for Sprint Review*](#cap-5-2-4)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[5.2.1.3. *Sprint Backlog 1*](#cap-5-2-1-3)
 
-&emsp;&emsp;&emsp;&emsp;[5.2.5. *Execution Evidence for Sprint Review*](#cap-5-2-5)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[5.2.1.4. *Development Evidence for Sprint Review*](#cap-5-2-1-4)
 
-&emsp;&emsp;&emsp;&emsp;[5.2.6. *Services Documentation Evidence for Sprint Review*](#cap-5-2-6)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[5.2.1.5. *Execution Evidence for Sprint Review*](#cap-5-2-1-5)
 
-&emsp;&emsp;&emsp;&emsp;[5.2.7. *Software Deployment Evidence for Sprint Review*](#cap-5-2-7)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[5.2.1.6. *Services Documentation Evidence for Sprint Review*](#cap-5-2-1-6)
 
-&emsp;&emsp;&emsp;&emsp;[5.2.8. *Team Collaboration Insights during Sprint*](#cap-5-2-8)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[5.2.1.7. *Software Deployment Evidence for Sprint Review*](#cap-5-2-1-7)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[5.2.1.8. *Team Collaboration Insights during Sprint*](#cap-5-2-1-8)
+
+&emsp;&emsp;&emsp;&emsp;[5.2.2. Sprint 2](#cap-5-2-2)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[5.2.2.1. *Sprint Planning 2*](#cap-5-2-2-1)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[5.2.2.2. *Aspect Leaders and Collaborators*](#cap-5-2-2-2)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[5.2.2.3. *Sprint Backlog 2*](#cap-5-2-2-3)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[5.2.2.4. *Development Evidence for Sprint Review*](#cap-5-2-2-4)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[5.2.2.5. *Execution Evidence for Sprint Review*](#cap-5-2-2-5)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[5.2.2.6. *Services Documentation Evidence for Sprint Review*](#cap-5-2-2-6)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[5.2.2.7. *Software Deployment Evidence for Sprint Review*](#cap-5-2-2-7)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[5.2.2.8. *Team Collaboration Insights during Sprint*](#cap-5-2-2-8)
 
 [Conclusiones](#conclusiones)
 

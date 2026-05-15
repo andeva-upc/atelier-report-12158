@@ -154,15 +154,15 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 1: Ubicados en el repositorio con el codigo fuente de la landing page de atelier, nos preparamos y verificamos que los archivos ubicados en la rama main esten correctos.
 
-**Figura**
+**Figura 79**
 
 *Repositorio del website de atelier*
 
-![](assets/repo-website-atelier.jpeg "Repositorio del website de atelier")
+![](assets/repo-web-app-atelier.png  "Repositorio del website de atelier")
 
 &emsp;&emsp;&emsp;&emsp;Paso 2: Una vez ubicados en la seccion de proyectos de Vercel, hacemos click en "Add New...".
 
-**Figura**
+**Figura 80**
 
 *Captura de pantalla de la seccion de proyectos de Vercel*
 
@@ -170,24 +170,68 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 3: Seleccionamos el repositorio que aloja el codigo fuente de la landing page de atelier.
 
-**Figura**
+**Figura 81**
 
 *Captura de pantalla de la seccion de despliegue de Vercel*
 
-![](assets/vercel-repo-deploy.jpeg "Captura de pantalla de la seccion de despliegue de Vercel")
+![](assets/ercel-web-app-deploy.png "Captura de pantalla de la seccion de despliegue de Vercel")
 
 &emsp;&emsp;&emsp;&emsp;Paso 4: Configuramos el correcto desplegamiento de la landing page.
 
-**Figura**
+**Figura 82**
 
 *Captura de pantalla de la configuración de despliegue de Vercel*
 
-![](assets/vercel-deploy.jpeg "Captura de pantalla de la configuración de despliegue de Vercel")
+![](assets/vercel-deploy-2.png  "Captura de pantalla de la configuración de despliegue de Vercel")
 
 &emsp;&emsp;&emsp;&emsp;Paso 5: A través del siguiente link: [https://atelier-12158.vercel.app/](https://atelier-12158.vercel.app/), comprobamos el correcto despliegue de atelier.
 
-**Figura**
+**Figura 83**
 
 *Captura de pantalla del Landing Page de atelier en Vercel*
 
 ![](assets/vercel-page.jpg "Captura de pantalla del Landing Page de atelier en Vercel")
+
+**Web Application**
+
+&emsp;&emsp;&emsp;&emsp;A continuación, se presentan la configuración para realizar el despliegue de la web application de atelier.
+
+&emsp;&emsp;&emsp;&emsp;Paso 1: Ubicados en el repositorio con el codigo fuente de la web application de atelier, nos preparamos y verificamos que los archivos ubicados en la rama main esten correctos.
+
+**Figura 84**
+
+*Repositorio del web application de atelier*
+
+![](assets/repo-web-app-atelier.png "Repositorio del web app de atelier")
+
+&emsp;&emsp;&emsp;&emsp;Paso 2: Una vez ubicados en la seccion de proyectos de Vercel, hacemos click en "Add New...".
+
+**Figura 85**
+
+*Captura de pantalla de la seccion de proyectos de Vercel*
+
+![](assets/vercel-add-new.jpeg "Captura de pantalla de la seccion de proyectos de Vercel")
+
+&emsp;&emsp;&emsp;&emsp;Paso 3: Seleccionamos el repositorio que aloja el codigo fuente de la web application de atelier.
+
+**Figura 86**
+
+*Captura de pantalla de la seccion de despliegue de Vercel*
+
+![](assets/ercel-web-app-deploy.png "Captura de pantalla de la seccion de despliegue de Vercel")
+
+&emsp;&emsp;&emsp;&emsp;Paso 4: Configuramos el correcto desplegamiento de la web application de atelier.
+
+**Figura 87**
+
+*Captura de pantalla de la configuración de despliegue de Vercel*
+
+![](assets/vercel-deploy-2.png "Captura de pantalla de la configuración de despliegue de Vercel")
+
+&emsp;&emsp;&emsp;&emsp;Paso 5: A través del siguiente link: [https://atelier-aplicaciones-web.vercel.app/home](https://atelier-aplicaciones-web.vercel.app/home), comprobamos el correcto despliegue de atelier.
+
+**Figura 88**
+
+*Captura de pantalla de la Web Application de atelier en Vercel*
+
+![](assets/web-app-1.png "Captura de pantalla de la Web Application de atelier en Vercel")
