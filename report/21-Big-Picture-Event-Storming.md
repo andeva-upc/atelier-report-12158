@@ -4,6 +4,12 @@
 
 **Figura 16**
 
-*Tablero de Big Picture Event Storming de atelier*
+*Tablero de Big Picture Event Storming de atelier - Parte 1*
 
-![Big Picture Event Storming de atelier](assets/Big-Event-Storming.png "Big Picture Event Storming de atelier")
+![](assets/Big-Event-Storming-1.png "Big Picture Event Storming de atelier Parte 1")
+
+**Figura X**
+
+*Tablero de Big Picture Event Storming de atelier - Parte 2*
+
+![](assets/Big-Event-Storming-2.png "Big Picture Event Storming de atelier Parte 2")

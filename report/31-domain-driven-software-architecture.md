@@ -2,13 +2,14 @@
 
 &emsp;&emsp;&emsp;&emsp;En esta sección, el equipo parte de los logros alcanzados en Big Picture Event Storming para profundizar en la estructura técnica de la solución. A través de la perspectiva de Domain-Driven Design (DDD), se identifican los componentes tácticos esenciales como Bounded Contexts, Aggregates, Events, Commands y Queries, los cuales permiten alinear el software con las reglas de negocio del sector automotriz. Asimismo, se presenta la arquitectura del sistema mediante el modelo C4, desglosando la solución en niveles de Contexto, Contenedores y Componentes para garantizar una visión clara de la interoperabilidad y escalabilidad de "atelier".
 
+
 ### 4.6.1.&emsp;&emsp;*Design-Level Event Storming* {#cap-4-6-1}
 
 &emsp;&emsp;&emsp;&emsp;El Design-Level Event Storming profundiza en los *Bounded Contexts* de la plataforma, conectando la visión general de negocio con la arquitectura técnica de software basada en *Domain-Driven Design* (DDD). A través de este proceso iterativo, modelamos con el mayor nivel de detalle los comandos, eventos, políticas y pantallas que dan vida al ecosistema predictivo y de gestión del taller.
 
 **Paso 1: Collect Domain Events**
 
-&emsp;&emsp;&emsp;&emsp;Se identificaron y colocaron secuencialmente todos los eventos de dominio clave (post-its naranjas) que representan cambios de estado inmutables en el sistema. Se mapearon 30 eventos escritos en tiempo pasado, abarcando desde el *onboarding* inicial ("Taller registrado", "Dispositivo OBD2 vinculado"), pasando por el flujo predictivo ("Anomalía de motor detectada"), el ciclo operativo ("Orden de trabajo creada", "Reparación completada"), hasta el cierre financiero ("Pago procesado exitosamente", "Factura electrónica emitida").
+&emsp;&emsp;&emsp;&emsp;Se identificaron y colocaron secuencialmente todos los eventos de dominio clave (post-its naranjas) que representan cambios de estado inmutables en el sistema. Se mapearon eventos escritos en tiempo pasado, abarcando desde el registro inicial del taller (`TallerRegistrado`), pasando por la ingesta de telemetría (`LecturaRecibida`) y el flujo operativo (`OrdenAbierta`), hasta el cierre financiero (`FacturaEmitida`).
 
 **Figura 48**
 
@@ -18,7 +19,7 @@
 
 **Paso 2: Timelines y Bounded Contexts**
 
-&emsp;&emsp;&emsp;&emsp;Una vez identificados todos los eventos, los organizamos en una línea de tiempo cronológica y los agrupamos en módulos delimitados (*frames*) para establecer nuestros sub-dominios. Identificamos 6 flujos claros: la gestión de usuarios y perfiles, la predicción de fallas mediante telemetría IoT, el envío de alertas de fidelización (CRM), el agendamiento de citas, la operación mecánica interna (ERP Core) y finalmente, el control de inventario y pagos.
+&emsp;&emsp;&emsp;&emsp;Una vez identificados todos los eventos, los organizamos en una línea de tiempo cronológica y los agrupamos en módulos delimitados (*frames*) para establecer nuestros sub-dominios. Identificamos 6 flujos claros alineados al diseño de software: Core (Identidad y Multi-tenencia), IoT (Hardware y Telemetría), Fleet (Gestión de Flota), Operations (Órdenes de Trabajo), Inventory (Almacén) y Billing (Facturación y Pagos).
 
 **Figura 49**
 
@@ -28,86 +29,103 @@
 
 **Paso 3: Commands y Actors**
 
-&emsp;&emsp;&emsp;&emsp;En este paso, respondimos a la pregunta "¿Quién hace qué?". Agregamos los actores (post-its amarillos pequeños) como el Dueño, Conductor, Mecánico o Administrador, junto con los comandos (post-its azules en infinitivo) que ellos ejecutan para detonar los eventos. Por ejemplo: el actor "Conductor" ejecuta el comando "Solicitar Revisión", lo que genera el evento "Solicitud de cita recibida". Los comandos ejecutados por el sistema, como "Ingestar Datos", se colocaron sin actor humano.
+&emsp;&emsp;&emsp;&emsp;En este paso, respondimos a la pregunta "¿Quién hace qué?". Agregamos los actores (post-its amarillos pequeños) como el Dueño, Conductor, Mecánico o Almacenero, junto con los comandos (post-its azules en infinitivo) que ellos ejecutan para detonar los eventos. Debido a la extensión del flujo técnico, este se visualiza en dos secciones.
 
 **Figura 50**
 
-*Commands y Actors*
+*Commands y Actors - Parte 1*
 
-![](assets/Commands-Actors.png "Commands y Actors")
+![](assets/Commands-Actors-1.png "Commands y Actors Parte 1")
+
+**Figura X**
+
+*Commands y Actors - Parte 2*
+
+![](assets/Commands-Actors-2.png "Commands y Actors Parte 2")
 
 **Paso 4: Policies (Reglas de Negocio)**
 
-&emsp;&emsp;&emsp;&emsp;Incorporamos las políticas del sistema (post-its lilas/morados), que representan las automatizaciones y reglas de negocio reactivas que conectan distintos contextos. Estas se redactan bajo la premisa "Siempre que pase X, hacer Y". Por ejemplo: *"Siempre que la IA confirme una falla predictiva, generar alerta urgente"*, o *"Siempre que se complete la reparación, descontar automáticamente los repuestos usados del stock"*.
+&emsp;&emsp;&emsp;&emsp;Incorporamos las políticas del sistema (post-its lilas/morados), que representan las automatizaciones y reglas de negocio reactivas que conectan distintos contextos. Estas se redactan bajo la premisa "Siempre que pase X, hacer Y". Por ejemplo: *"Siempre que el sistema IoT detecte una anomalía, notificar al conductor para agendar una cita de mantenimiento"*.
 
 **Figura 51**
 
-*Policies*
+*Policies - Parte 1*
 
-![](assets/Policies.png "Policies")
+![](assets/Policies-1.png "Policies Parte 1")
+
+**Figura X**
+
+*Policies - Parte 2*
+
+![](assets/Policies-2.png "Policies Parte 2")
 
 **Paso 5: Pain Points, External Systems y Read Models**
 
-&emsp;&emsp;&emsp;&emsp;Añadimos las capas de interfaz de usuario, dependencias de terceros y análisis de riesgos. Colocamos los modelos de lectura (post-its verdes), que son las pantallas que el usuario debe visualizar antes de actuar (ej. "Dashboard de Agenda" o "Resumen de Cobro"). Además, integramos los sistemas externos (post-its rosados) como el Hardware OBD2, el Motor IA Andeva, la Pasarela Niubiz/Stripe y la API SUNAT. Finalmente, añadimos los "Pain Points" (post-its rojos rotados) con preguntas críticas para la arquitectura, tales como: *¿Qué pasa si el OBD2 pierde conexión a internet?* o *¿Qué ocurre si el cliente rechaza el presupuesto?*.
+&emsp;&emsp;&emsp;&emsp;Añadimos las capas de interfaz de usuario, dependencias de terceros y análisis de riesgos. Colocamos los modelos de lectura (post-its verdes), que son las pantallas necesarias para la toma de decisiones. Además, integramos los sistemas externos (post-its rosados) como el Hardware OBD2, el Motor IA Andeva, la Pasarela de Pagos y la API de SUNAT.
 
 **Figura 52**
 
-*Read Models y External Systems*
+*Read Models y External Systems - Parte 1*
 
-![](assets/Read-Models.png "Read Models y External Systems")
+![](assets/Read-Models-External-Systems-1.png "Read Models y External Systems Parte 1")
+
+**Figura X**
+
+*Read Models y External Systems - Parte 2*
+
+![](assets/Read-Models-External-Systems-2.png "Read Models y External Systems Parte 2")
 
 **Paso 6: Detalle de Bounded Contexts y Aggregates**
 
 &emsp;&emsp;&emsp;&emsp;En la fase final, procedimos a identificar las entidades raíz o "Agregados" (post-its amarillos grandes) para cada contexto delimitado, asegurando la consistencia transaccional de cada módulo. A continuación, se detalla cada uno de los 6 Bounded Contexts definidos:
 
-&emsp;&emsp;&emsp;&emsp;**a) Usuarios:** Este contexto gestiona la identidad y el acceso al sistema. Contiene los agregados `PerfilTaller`, `PerfilConductor` y `VehiculoCliente`, encargados de vincular la identidad digital de las personas con los registros físicos del taller y los vehículos.
+&emsp;&emsp;&emsp;&emsp;**a) Core:** Este contexto gestiona la identidad y el acceso multi-inquilino. Contiene los agregados `Tenant`, `Profile` y `Subscription`, encargados de vincular la identidad digital con la suscripción comercial del taller.
 
 **Figura 53**
 
-*Design-Level: Contexto de Usuarios*
+*Design-Level: Contexto de Core*
 
-![](assets/Design-Level-Usuarios.png "Contexto de Usuarios")
+![](assets/Design-Level-Core.png "Contexto de Core")
 
-&emsp;&emsp;&emsp;&emsp;**b) Telemetría:** Representa el núcleo tecnológico predictivo. Se encarga de la ingesta masiva de datos provenientes del hardware OBD2 en el agregado `FlujoTelemetria` y utiliza el agregado `AlertaDiagnostico` para procesar y confirmar las fallas mecánicas detectadas.
+&emsp;&emsp;&emsp;&emsp;**b) IoT:** Representa el núcleo tecnológico predictivo. Se encarga de la ingesta de datos en el agregado `TelemetryRecord` y utiliza el agregado `Device` para gestionar el hardware vinculado a los vehículos.
 
 **Figura 54**
 
-*Design-Level: Contexto de Telemetría*
+*Design-Level: Contexto de IoT*
 
-![](assets/Design-Level-Telemetria.png "Contexto de Telemetría")
+![](assets/Design-Level-IoT.png "Contexto de IoT")
 
-&emsp;&emsp;&emsp;&emsp;**c) Alertas:** Este contexto controla la comunicación proactiva y automatizada con el cliente. Gestiona las políticas que transforman los diagnósticos técnicos en notificaciones enviadas a la aplicación móvil para fidelizar al conductor.
+&emsp;&emsp;&emsp;&emsp;**c) Fleet:** Administra la relación con el cliente y su flota. Utiliza los agregados `Customer`, `Vehicle` y `Appointment` para coordinar las necesidades de mantenimiento preventivo.
 
 **Figura 55**
 
-*Design-Level: Contexto de Alertas*
+*Design-Level: Contexto de Fleet*
 
-![](assets/Design-Level-Alertas.png "Contexto de Alertas")
+![](assets/Design-Level-Fleet.png "Contexto de Fleet")
 
-&emsp;&emsp;&emsp;&emsp;**d) Citas:** Administra el embudo de recepción del taller. Utiliza el agregado `CitaVehicular` para coordinar de forma síncrona la disponibilidad física de las estaciones de trabajo con las necesidades de mantenimiento preventivo de los clientes.
+&emsp;&emsp;&emsp;&emsp;**d) Operations:** Es el corazón operativo del sistema. Todo el flujo gira en torno al agregado central `WorkOrder` y las tareas técnicas `MaintenanceTask`, controlando el ciclo de vida de la reparación.
 
 **Figura 56**
 
-*Design-Level: Contexto de Citas*
+*Design-Level: Contexto de Operations*
 
-![](assets/Design-Level-Citas.png "Contexto de Citas")
+![](assets/Design-Level-Operations.png "Contexto de Operations")
 
-&emsp;&emsp;&emsp;&emsp;**e) Taller:** Es el corazón operativo del sistema. Todo el flujo gira en torno al agregado central `OrdenDeTrabajo`, el cual controla el ciclo de vida de la reparación, desde la asignación del mecánico hasta el diagnóstico físico y la culminación del servicio.
+&emsp;&emsp;&emsp;&emsp;**e) Inventory:** Gestiona la integridad de los suministros del taller. Agrupa los agregados `Product` y `WarehouseItem` para el descuento automático de repuestos e insumos usados.
 
 **Figura 57**
 
-*Design-Level: Contexto de Taller*
+*Design-Level: Contexto de Inventory*
 
-![](assets/Design-Level-Taller.png "Contexto de Taller")
+![](assets/Design-Level-Inventory.png "Contexto de Inventory")
 
-&emsp;&emsp;&emsp;&emsp;**f) Pagos y Stock:** Maneja la integridad de los recursos y el cierre financiero. Agrupa el agregado `ItemInventario` para el descuento automático de repuestos usados, y los agregados `TransaccionPago` junto con `FacturaElectronica` para procesar el cobro y emitir comprobantes legales.
+&emsp;&emsp;&emsp;&emsp;**f) Billing:** Maneja el cierre financiero y legal. Utiliza los agregados `PaymentTransaction` e `Invoice` para procesar cobros y emitir comprobantes electrónicos ante las entidades tributarias.
 
 **Figura 58**
 
-*Design-Level: Contexto de Pagos y Stock*
+*Design-Level: Contexto de Billing*
 
-![](assets/Design-Level-Pagos.png "Contexto de Pagos y Stock")
-
+![](assets/Design-Level-Billing.png "Contexto de Billing")
 ### 4.6.2. *Software Architecture Context Diagram* {#cap-4-6-2}
 
 &emsp;&emsp;&emsp;&emsp;El diagrama de contexto proporciona una visión de alto nivel del sistema "atelier", situándolo en el centro de su ecosistema operativo. Este artefacto visualiza la interacción entre el sistema integral (ERP + IoT) y sus usuarios principales —dueños de taller, mecánicos y clientes finales— así como su dependencia de servicios externos críticos para la operación, como la pasarela de pagos, el sistema de facturación electrónica de SUNAT, las APIs de mensajería (WhatsApp y FCM) y el proveedor de identidad centralizado.
