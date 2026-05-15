@@ -200,7 +200,7 @@
 | Sprint # | Sprint 2 |
 |:--------:|:--------|
 |    **Sprint Planning Background**      |    --      |
-|    Date      |    2026-04-12      |
+|    Date      |    2026-05-12      |
 |    Time      |    03:00 PM      |
 |    Location      |    Reunión virtual mediante el canal de voz de Discord      |
 |    Prepared By      |     Huamani Estefanero, Joel     |
