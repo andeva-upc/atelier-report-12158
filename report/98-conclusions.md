@@ -16,4 +16,6 @@
 
 - Módulo de Facturación Electrónica Nativa: Como evolución del componente comercial, se debe planificar la integración directa del Web Service de Atelier con los sistemas de la entidad tributaria nacional mediante APIs gubernamentales. Esto automatizará la emisión y declaración de boletas y facturas, consolidando a Atelier como un ERP integral y autónomo.
 
+# Video About-the-Team {#video-about-the-team}
+
 <div style='page-break-after: always'></div>

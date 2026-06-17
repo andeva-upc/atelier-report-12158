@@ -11,6 +11,14 @@
 
 <h6></h6>
 
+<center><b>NRC:</b> 12158</center>
+
+<h6></h6>
+
+<center><b>Docente:</b> Villafuerte Bazan, Oscar Ivan</center>
+
+<h6></h6>
+
 <center><b>Startup:</b> andeva</center>
 
 <h6></h6>
@@ -64,12 +72,6 @@
 
 <h6></h6>
 
-<center><b>NRC:</b> 12158</center>
-
-<center><b>Docente:</b> Villafuerte Bazan, Oscar Ivan</center>
-
-<h6></h6>
-
-<center><b>Abril 2026</b></center>
+<center><b>Junio 2026</b></center>
 
 <div style='page-break-after: always'></div>

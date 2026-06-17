@@ -1,23 +1,170 @@
-# Registro de Versiones del Informe
+### Registro de Versiones del Informe
 
-| Versión | Fecha | Autor | Descripción de modificación |
-|---|---|---|---|
-| 0.1.0 | 13/04/2026 | Joel Huamani Estefanero | Se agregó la página de carátula, registro de versiones del informe y project report collaboration insights al repositorio. |
-| 0.1.1 | 15/04/2026 | Aldo Jeanfranco Machacca Soto | Se agregó el capítulo de Competidores al reporte del proyecto, incluyendo tablas de análisis competitivo y logos de competidores para sustentar la documentación de Elicitación y Análisis de Requerimientos. |
-| 0.1.2 | 15/04/2026 | Adiel Sanchez Santin | Se elaboró el Big Picture Event Storming y la definición inicial del Ubiquitous Language (Lenguaje Obicuo) para el modelado del dominio. |
-| 0.2.0 | 20/04/2026 | Joel Huamani Estefanero | Se agregó la página de student outcome, arreglo de entrevistas, user stories, product backlog, style guidelines e Information architecture al repositorio. |
-| 0.2.1 | 20/04/2026 | Luis Daniel Granda Ibarra | Se realizó mapa de empatía, mapa de impacto. |
-| 0.2.2 | 20/04/2026 | Adiel Sanchez Santin | Se elaboró el Design-Level Event Storming, profundizando en el modelado técnico y la identificación de agregados y eventos de dominio. |
-| 0.3.0 | 21/04/2026 | Joel Huamani Estefanero | Se agregó la parte de Landing Page UI Design, Software Configuration Management y Landing Page Services & Applications Implementation. |
-| 0.3.1 | 22/04/2026 | Joel Huamani Estefanero | Se actualizó el apartado de anexos del reporte. |
-| 0.3.2 | 22/04/2026 | Jennifer Yamilet Riveros Vera | Se agrego el apartado de web applications, mock-ups y wireframes. |
-| 0.4.0 | 25/04/2026 | Aldo Jeanfranco Machacca Soto | Se agregó la sección de Arquitectura de Software basada en DDD y modelo C4, incluyendo diagramas C4 (vistas de contexto, contenedor y componentes). |
-| 0.5.0 | 25/04/2026 | Aldo Jeanfranco Machacca Soto | Se agregó la sección de Diseño de Base de Datos al reporte, incluyendo diagramas de base de datos (general y por contextos delimitados). |
-| 0.6.1 | 24/04/2026 | Luis Daniel Granda Ibarra | Se realizó Web Applications Mock-ups y Web Applications Userflow Diagrams. |
-| 0.6.0 | 25/04/2026 | Aldo Jeanfranco Machacca Soto | Se implementó el componente de Planes y Precios en la Landing Page, incluyendo el diseño responsivo, la interfaz de tarjetas con paleta de colores y el pulido de interactividad. |
-| 0.7.0 | 26/04/2026 | Jennifer Yamilet Riveros Vera | Se implementó el diagrama de clases. |
-| 0.8.0 | 24/04/2026 | Luis Daniel Granda Ibarra | Se realizó los benefits del landing page, con diseño dinámico. |
-| 1.0.0 | 26/04/2026 | Joel Huamani Estefanero | Se realizó la revisión final de av1. |
-| 2.0.0 | 14/05/2026 | Joel Huamani Estefanero; Luis Daniel Granda Ibarra; Aldo Jeanfranco Machacca Soto; Adiel Sanchez Santin; Jennifer Riveros Vera | Se realizó el desarrollo del sprint 2 y despliegue de la web app de atelier. |
+<table style="width: 100%; table-layout: fixed; word-wrap: break-word; font-size: 0.8em;">
+	<tbody>
+		<tr>
+			<td><b><center>Versión</center></b></td>
+			<td><b><center>Fecha</center></b></td>
+			<td><b><center>Autor</center></b></td>
+			<td><b><center>Descripción de modificación</center></b></td>
+		</tr>
+		<tr>
+			<td>0.1.0</td>
+			<td>13/04/2026</td>
+			<td>Joel Huamani Estefanero</td>
+			<td>Se agregó la página de carátula, registro de versiones del informe y project report collaboration insights al repositorio.</td>
+		</tr>
+		<tr>
+			<td>0.1.1</td>
+			<td>15/04/2026</td>
+			<td>Adiel Sanchez Santin</td>
+			<td>Se elaboró el Big Picture Event Storming y la definición inicial del Ubiquitous Language (Lenguaje Obicuo) para el modelado del dominio.</td>
+		</tr>
+		<tr>
+			<td>0.1.2</td>
+			<td>15/04/2026</td>
+			<td>Aldo Jeanfranco Machacca Soto</td>
+			<td>Se añadió el capítulo de Competidores, incluyendo tablas de análisis competitivo y logos de competidores para el análisis de requerimientos.</td>
+		</tr>
+		<tr>
+			<td>0.2.0</td>
+			<td>20/04/2026</td>
+			<td>Joel Huamani Estefanero</td>
+			<td>Se agregó la página de student outcome, arreglo de entrevistas, se agrego user stories, product backlog, style guidelines e information architecture al repositorio.</td>
+		</tr>
+		<tr>
+			<td>0.2.1</td>
+			<td>20/04/2026</td>
+			<td>Adiel Sanchez Santin</td>
+			<td>Se elaboró el Design-Level Event Storming, profundizando en el modelado técnico y la identificación de agregados y eventos de dominio.</td>
+		</tr>
+		<tr>
+			<td>0.3.0</td>
+			<td>21/04/2026</td>
+			<td>Joel Huamani Estefanero</td>
+			<td>Se agrego la parte de Landing Page UI Design, Software Configuration Management y Landing Page Services & Applications Implementation.</td>
+		</tr>
+		<tr>
+			<td>0.3.1</td>
+			<td>22/04/2026</td>
+			<td>Joel Huamani Estefanero</td>
+			<td>Se actualizo el apartado de anexos del reporte.</td>
+		</tr>
+		<tr>
+			<td>0.3.2</td>
+			<td>22/04/2026</td>
+			<td>Aldo Jeanfranco Machacca Soto</td>
+			<td>Se añadió la sección de Domain-Driven Software Architecture y los diagramas C4 (Contexto, Contenedor y Componentes).</td>
+		</tr>
+		<tr>
+			<td>0.4.0</td>
+			<td>24/04/2026</td>
+			<td>Aldo Jeanfranco Machacca Soto</td>
+			<td>Se documentaron los diagramas de clases UML del backend organizados por Bounded Contexts.</td>
+		</tr>
+		<tr>
+			<td>0.4.1</td>
+			<td>24/04/2026</td>
+			<td>Aldo Jeanfranco Machacca Soto</td>
+			<td>Se documentó el diseño de la base de datos de la plataforma por Bounded Context, incluyendo diagramas generales y específicos.</td>
+		</tr>
+		<tr>
+			<td>0.5.0</td>
+			<td>25/04/2026</td>
+			<td>Aldo Jeanfranco Machacca Soto</td>
+			<td>Se implementó la sección de Pricing de la Landing Page con diseño responsivo, tarjetas dinámicas y toggle de precios mediante signals.</td>
+		</tr>
+		<tr>
+			<td>0.5.1</td>
+			<td>20/04/2026</td>
+			<td>Luis Daniel Granda Ibarra</td>
+			<td>Se realizó mapa de empatía, mapa de impacto.</td>
+		</tr>
+		<tr>
+			<td>0.6.0</td>
+			<td>24/04/2026</td>
+			<td>Luis Daniel Granda Ibarra</td>
+			<td>Se realizó Web Applications Mock-ups y Web Applications Userflow Diagrams.</td>
+		</tr>
+		<tr>
+			<td>0.7.0</td>
+			<td>23/04/2026</td>
+			<td>Jennifer Riveros Vera</td>
+			<td>Se realizó el user journey mapping, user task matrix.</td>
+		</tr>
+		<tr>
+			<td>0.7.1</td>
+			<td>24/04/2026</td>
+			<td>Jennifer Riveros Vera</td>
+			<td>Se realizó Web Applications Wireframes y Web Applications Wireflow Diagrams.</td>
+		</tr>
+		<tr>
+			<td>0.8.0</td>
+			<td>24/04/2026</td>
+			<td>Luis Daniel Granda Ibarra</td>
+			<td>Se realizó los benefits del landing page, con diseño dinámico.</td>
+		</tr>
+		<tr>
+			<td>0.8.1</td>
+			<td>25/04/2026</td>
+			<td>Jennifer Riveros Vera</td>
+			<td>Se realizó el footer del landing page.</td>
+		</tr>
+		<tr>
+			<td>1.0.0</td>
+			<td>26/04/2026</td>
+			<td>Joel Huamani Estefanero</td>
+			<td>Se realizó la revisión final de AV1 y merge al branch main del repositorio.</td>
+		</tr>
+		<tr>
+			<td>2.0.0</td>
+			<td>14/05/2026</td>
+			<td>Joel Huamani Estefanero<br>Luis Daniel Granda Ibarra<br>Aldo Jeanfranco Machacca Soto<br>Adiel Sanchez Santin<br>Jennifer Riveros Vera</td>
+			<td>Se realizó el desarrollo del sprint 2 y despliegue de la web app de atelier.</td>
+		</tr>
+		<tr>
+			<td>2.2.0</td>
+			<td>13/06/2026</td>
+			<td>Joel Huamani Estefanero<br>Luis Daniel Granda Ibarra<br>Aldo Jeanfranco Machacca Soto<br>Adiel Sanchez Santin<br>Jennifer Riveros Vera</td>
+			<td>Se realizó el desarrollo del sprint 3 y despliegue del backend de atelier.</td>
+		</tr>
+		<tr>
+			<td>2.3.0</td>
+			<td>16/06/2026</td>
+			<td>Joel Huamani Estefanero</td>
+			<td>Documentacion de los endpoints del bounded context core, iam y operations.</td>
+		</tr>
+		<tr>
+			<td>2..</td>
+			<td>//2026</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>2..</td>
+			<td>//2026</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>2..</td>
+			<td>//2026</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>2..</td>
+			<td>//2026</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>3.0.0</td>
+			<td>20/06/2026</td>
+			<td>Joel Huamani Estefanero</td>
+			<td>Se realizó la revisión final de AV2 y release del repositorio.</td>
+		</tr>
+	</tbody>
+</table>
 
 <div style='page-break-after: always'></div>

@@ -30,11 +30,11 @@
 
 &emsp;&emsp;&emsp;&emsp;El control del código fuente de todas las aplicaciones se administró colaborativamente mediante GitHub. El desarrollo se dividió en las siguientes áreas:
 
-&emsp;&emsp;&emsp;&emsp;Landing Page y Frontend: Se codificaron utilizando el entorno integrado JetBrains WebStorm. Se implementaron tecnologías base como HTML5, CSS y JavaScript, integrando el framework Angular para la arquitectura de componentes del lado del cliente con el uso de JavaScript.
+&emsp;&emsp;&emsp;&emsp;Landing Page y Frontend: Se codificaron utilizando el entorno integrado JetBrains WebStorm. Se implementaron tecnologías base como HTML5, CSS y JavaScript, integrando el framework Vue para la arquitectura de componentes del lado del cliente con el uso de JavaScript.
 
 &emsp;&emsp;&emsp;&emsp;Backend (Web Services): La lógica del servidor y los endpoints se programaron en JetBrains Rider, utilizando el lenguaje C# y el framework ASP NET Core.
 
-&emsp;&emsp;&emsp;&emsp;Base de Datos: El esquema relacional se estructuró y administró con MySQL y se construyó con la herramienta dbdiagram, garantizando la correcta creación y persistencia de los datos vinculados a la API.
+&emsp;&emsp;&emsp;&emsp;Base de Datos: El esquema relacional se estructuró y administró con PostgreSQL y se construyó con la herramienta ERD, garantizando la correcta creación y persistencia de los datos vinculados a la API.
 
 **Software Testing**
 
@@ -50,13 +50,13 @@
 
 &emsp;&emsp;&emsp;&emsp;La puesta en producción de los distintos módulos se ejecutó utilizando servicios especializados en la nube:
 
-&emsp;&emsp;&emsp;&emsp;Landing Page: Fue alojada en GitHub Pages, un servicio optimizado para el despliegue directo de sitios web estáticos desde un repositorio.
+&emsp;&emsp;&emsp;&emsp;Landing Page: Fue alojada en Vecel, Esta plataforma ofrece un entorno optimizado para frameworks de frontend modernos, permitiendo una integración fluida de despliegue continuo desde GitHub.
 
-&emsp;&emsp;&emsp;&emsp;Frontend: Para el despliegue de la aplicación web, se ha seleccionado Vercel. Esta plataforma ofrece un entorno optimizado para frameworks de frontend modernos, permitiendo una integración fluida de despliegue continuo desde GitHub. Su infraestructura garantiza tiempos de carga mínimos y una alta disponibilidad para que los administradores de los talleres accedan al sistema sin interrupciones.
+&emsp;&emsp;&emsp;&emsp;Frontend: Para el despliegue de la aplicación web, se ha seleccionado Vercel. Su infraestructura garantiza tiempos de carga mínimos y una alta disponibilidad para que los administradores de los talleres accedan al sistema sin interrupciones.
 
 &emsp;&emsp;&emsp;&emsp;Backend: La API fue desplegada en Render, una plataforma en la nube que automatiza el alojamiento de servicios web, garantizando la disponibilidad pública e ininterrumpida de la aplicación.
 
-&emsp;&emsp;&emsp;&emsp;Base de Datos: Para el despliegue de la base de datos relacional conectada al backend, se recurrió a Render, facilitando el alojamiento remoto y gratuito de la información.
+&emsp;&emsp;&emsp;&emsp;Base de Datos: Para el despliegue de la base de datos relacional conectada al backend, se recurrió a Aiven, facilitando el alojamiento remoto y gratuito de la información.
 
 ### 5.1.2.&emsp;&emsp;*Source Code Management* {#cap-5-1-2}
 
@@ -66,11 +66,11 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se detallan los enlaces a los repositorios oficiales donde se aloja el ecosistema digital de atelier.
 
-&emsp;&emsp;&emsp;&emsp;Landing Page: [https://github.com/andeva-upc/atelier-website-12158](https://github.com/andeva-upc/atelier-website-12158)
+&emsp;&emsp;&emsp;&emsp;Landing Page: [https://github.com/andeva-upc/atelier-website-aplicaciones-web](https://github.com/andeva-upc/atelier-website-aplicaciones-web)
 
-&emsp;&emsp;&emsp;&emsp;Webapp: [https://github.com/andeva-upc/atelier-webapp-12158](https://github.com/andeva-upc/atelier-webapp-12158)
+&emsp;&emsp;&emsp;&emsp;Webapp: [https://github.com/andeva-upc/atelier-webapp-aplicaciones-web](https://github.com/andeva-upc/atelier-webapp-aplicaciones-web)
 
-&emsp;&emsp;&emsp;&emsp;Platform: [https://github.com/andeva-upc/atelier-platform-12158](hhttps://github.com/andeva-upc/atelier-platform-12158)
+&emsp;&emsp;&emsp;&emsp;Platform: [https://github.com/andeva-upc/atelier-platform-aplicaciones-web](https://github.com/andeva-upc/atelier-platform-aplicaciones-web)
 
 **GitFlow**
 
@@ -184,7 +184,7 @@
 
 ![](assets/vercel-deploy-2.png  "Captura de pantalla de la configuración de despliegue de Vercel")
 
-&emsp;&emsp;&emsp;&emsp;Paso 5: A través del siguiente link: [https://atelier-12158.vercel.app/](https://atelier-12158.vercel.app/), comprobamos el correcto despliegue de atelier.
+&emsp;&emsp;&emsp;&emsp;Paso 5: A través del siguiente link: [https://atelier-website-12158.vercel.app/](https://atelier-website-12158.vercel.app/), comprobamos el correcto despliegue de atelier.
 
 **Figura 83**
 
@@ -228,10 +228,57 @@
 
 ![](assets/vercel-deploy-2.png "Captura de pantalla de la configuración de despliegue de Vercel")
 
-&emsp;&emsp;&emsp;&emsp;Paso 5: A través del siguiente link: [https://atelier-aplicaciones-web.vercel.app/home](https://atelier-aplicaciones-web.vercel.app/home), comprobamos el correcto despliegue de atelier.
+&emsp;&emsp;&emsp;&emsp;Paso 5: A través del siguiente link: [https://atelier-webapp-12158.vercel.app/](https://atelier-webapp-12158.vercel.app/), comprobamos el correcto despliegue de atelier.
 
 **Figura 88**
 
 *Captura de pantalla de la Web Application de atelier en Vercel*
 
 ![](assets/web-app-1.png "Captura de pantalla de la Web Application de atelier en Vercel")
+
+**Platform**
+
+&emsp;&emsp;&emsp;&emsp;A continuación, se presentan la configuración para realizar el despliegue del platform de atelier.
+
+&emsp;&emsp;&emsp;&emsp;Paso 1: Ubicados en el repositorio con el codigo fuente del platform de atelier, nos preparamos y verificamos que los archivos ubicados en la rama main esten correctos.
+
+**Figura 86**
+
+*Repositorio del platform de atelier*
+
+![](assets/repo-platform-atelier.png "Repositorio del platform de atelier")
+
+&emsp;&emsp;&emsp;&emsp;Paso 2: Una vez ubicados en el dashboard de Render, hacemos click en "New Web Service".
+
+**Figura 87**
+
+*Captura de pantalla del dashboard de Render*
+
+![](assets/render-add-new.jpeg "Captura de pantalla del dashboard de Render")
+
+&emsp;&emsp;&emsp;&emsp;Paso 3: Colocamos el url del repositorio que aloja el codigo fuente del platform de atelier.
+
+**Figura 88**
+
+*Captura de pantalla de la seccion de configuración de Render*
+
+![](assets/render-platform-configure.png "Captura de pantalla de la seccion de configuración de Render")
+
+&emsp;&emsp;&emsp;&emsp;Paso 4: Configuramos el correcto desplegamiento del platform de atelier.
+
+**Figura 89**
+
+*Captura de pantalla de la configuración de despliegue de Render*
+
+![](assets/render-deploy-1.png "Captura de pantalla de la configuración de despliegue de Render")
+![](assets/render-deploy-2.png "Captura de pantalla de la configuración de despliegue de Render")
+
+&emsp;&emsp;&emsp;&emsp;Paso 5: A través del siguiente link: [https://atelier-platform-aplicaciones-web.onrender.com/swagger/index.html](https://atelier-platform-aplicaciones-web.onrender.com/swagger/index.html), comprobamos el correcto despliegue del backend atelier.
+
+**Figura 90**
+
+*Captura de pantalla de confirmación atelier en Render*
+
+![](assets/platform.png "Captura de pantalla de confirmación atelier en Render")
+
+<div style='page-break-after: always'></div>

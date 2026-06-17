@@ -1,82 +1,87 @@
 ## 4.8. Database Design {#cap-4-8}
 
-&emsp;&emsp;&emsp;&emsp;En esta sección, el equipo presenta el diseño de la base de datos de "atelier", el cual ha sido estructurado siguiendo un modelo relacional que garantiza la integridad, consistencia y persistencia de la información necesaria para el funcionamiento de la plataforma. El diseño se alinea estrechamente con los principios de Domain-Driven Design (DDD), particionando la persistencia según los Bounded Contexts identificados en la arquitectura de software. Esta aproximación permite una evolución independiente de los módulos y facilita la escalabilidad del sistema al minimizar el acoplamiento a nivel de datos.
+&emsp;&emsp;&emsp;&emsp;En esta sección se presentan y explican los diagramas de base de datos para cada Bounded Context de la plataforma atelier. Estos diagramas ilustran la estructura de persistencia de datos, resumiendo las principales características consideradas en el diseño e identificando los objetos de base de datos necesarios para cada módulo.
 
-&emsp;&emsp;&emsp;&emsp;Se ha optado por un modelo relacional para manejar las interacciones complejas entre usuarios, vehículos, inventarios y órdenes de servicio. La implementación asegura el cumplimiento de las reglas de negocio mediante el uso de llaves primarias (PK), llaves foráneas (FK), restricciones de unicidad (UNIQUE) y tipos de datos precisos para cada atributo. Además, se han incluido mecanismos de control de concurrencia y auditoría básica, como versiones de fila y marcas de tiempo de creación, para robustecer la gestión de la información en un entorno multiusuario.
+### 4.8.1.&emsp;&emsp;Database Diagrams {#cap-4-8-1}
 
-### 4.8.1. Database Diagrams {#cap-4-8-1}
-
-&emsp;&emsp;&emsp;&emsp;En esta sección el equipo presenta y explica el Database Diagram que incluye los objetos de base de datos que permitirán la persistencia de información para los objetos de cada bounded context. A continuación, se muestra el diagrama general que integra los distintos contextos de la solución.
-
-**Figura 73**
-
-*Database Diagram General de la solución atelier*
-
-![](assets/database-diagrams.svg "Database Diagram General de la solución atelier")
-
-&emsp;&emsp;&emsp;&emsp;A continuación, se detallan los diagramas específicos para cada Bounded Context, especificando las tablas, columnas, constraints y las relaciones que evidencian la persistencia de los objetos de dominio.
-
-#### 4.8.1.1. Identity & Access Context (ID) {#cap-4-8-1-1}
-
-&emsp;&emsp;&emsp;&emsp;Este contexto se encarga de la gestión de usuarios y el control de acceso basado en roles. La persistencia se centra en la seguridad y la identificación única de cada actor en el sistema.
-
-**Figura 74**
-
-*Database Diagram - Identity & Access Context (id)*
-
-![](assets/database-diagram-identity-&-access-context-(id).svg "Database Diagram - Identity & Access Context (id)")
-
-*   **id_users**: Tabla principal que almacena las credenciales y el rol de los usuarios. Incluye restricciones de unicidad para `username` y `email`, y gestiona el borrado lógico mediante `is_deleted`.
-
-#### 4.8.1.2. Vehicle Health Context (VH) {#cap-4-8-1-2}
-
-&emsp;&emsp;&emsp;&emsp;Este contexto gestiona la información técnica de los vehículos y la persistencia de los datos de telemetría e incidencias mecánicas recolectadas.
+&emsp;&emsp;&emsp;&emsp;A continuación se presenta el diagrama de base de datos general, abarcando la totalidad de la aplicación. Posteriormente, el diseño se desglosa y detalla según cada Bounded Context.
 
 **Figura 75**
 
-*Database Diagram - Vehicle Health Context (vh)*
+*Database Diagram*
 
-![](assets/database-diagram-vehicle-health-context-(vh).svg "Database Diagram - Vehicle Health Context (vh)")
+<center><a href="assets/db-diagrams.svg" target="_blank"><img src="assets/db-diagram.svg" alt="Database Diagram - General" style="width: 70%; max-width: 100%; height: auto;"></a></center>
 
-*   **vh_vehicles**: Almacena los datos maestros de los vehículos vinculados a un usuario.
-*   **vh_telemetry_batches**: Registra lotes de datos crudos (JSON) provenientes del dispositivo OBD2 para su posterior procesamiento.
-*   **vh_dtc_errors**: Persiste los códigos de error detectados (Diagnostic Trouble Codes), permitiendo un historial de fallas del vehículo.
+&emsp;&emsp;&emsp;&emsp;A continuación, se detallan los diagramas de base de datos relacional para cada Bounded Context. Cada diagrama especifica los objetos que permitirán la persistencia de la información, evidenciando las tablas, columnas, restricciones y las relaciones entre tablas.
 
-#### 4.8.1.3. Inventory Management Context (IV) {#cap-4-8-1-3}
+**Bounded Context: IAM**
 
-&emsp;&emsp;&emsp;&emsp;Responsable de controlar el catálogo de repuestos y los niveles de stock disponibles en cada taller afiliado.
+&emsp;&emsp;&emsp;&emsp;El siguiente diagrama detalla la estructura de tablas para el control de acceso y manejo de los usuarios.
 
 **Figura 76**
 
-*Database Diagram - Inventory Management Context (iv)*
+*Database Diagram - IAM*
 
-![](assets/database-diagram-inventory-management-context-(iv).svg "Database Diagram - Inventory Management Context (iv)")
+![](assets/database-diagram-iam.png "Database Diagram - IAM")
 
-*   **iv_parts**: Catálogo general de repuestos con especificaciones técnicas y precios base.
-*   **iv_stocks**: Relaciona las partes con los talleres, controlando la cantidad disponible y los niveles mínimos para alertas de reabastecimiento.
+**Bounded Context: Core**
 
-#### 4.8.1.4. Service & Work Orders Context (SO) {#cap-4-8-1-4}
+&emsp;&emsp;&emsp;&emsp;El siguiente diagrama detalla la estructura de tablas para la gestión de usuarios, roles, talleres y suscripciones, estableciendo las bases para el esquema *multi-tenant* de la plataforma.
 
-&emsp;&emsp;&emsp;&emsp;Gestiona el ciclo de vida de los servicios realizados en el taller, desde la apertura de la orden hasta su finalización y cobro.
+**Figura 76**
+
+*Database Diagram - Core*
+
+![](assets/database-diagram-core.png "Database Diagram - Core")
+
+**Bounded Context: IoT**
+
+&emsp;&emsp;&emsp;&emsp;En este diagrama se exponen las tablas encargadas de almacenar la configuración de dispositivos y los registros de telemetría provenientes de los escáneres OBD2.
 
 **Figura 77**
 
-*Database Diagram - Service & Work Orders Context (so)*
+*Database Diagram - IoT*
 
-![](assets/database-diagram-service-&-ork-orders-context-(so).svg "Database Diagram - Service & Work Orders Context (so)")
+![](assets/database-diagram-iot.png "Database Diagram - IoT")
 
-*   **so_work_orders**: Tabla cabecera de las órdenes de servicio, vinculando el vehículo, el taller y el estado actual de la reparación.
-*   **so_tasks**: Detalle de las tareas o servicios específicos realizados dentro de una orden, asignando un mecánico y un costo.
+**Bounded Context: Operations**
 
-#### 4.8.1.5. Workshop Operations Context (WO) {#cap-4-8-1-5}
-
-&emsp;&emsp;&emsp;&emsp;Este contexto maneja la información operativa del taller y su infraestructura básica necesaria para la gestión administrativa.
+&emsp;&emsp;&emsp;&emsp;El diagrama ilustra el esquema de base de datos para la operación de los talleres, estructurando la persistencia de las órdenes de trabajo, citas y tareas mecánicas.
 
 **Figura 78**
 
-*Database Diagram - Workshop Operations Bounded Context*
+*Database Diagram - Operations*
 
-![](assets/database-diagram-workshop-operations-bounded-Context.svg "Database Diagram - Workshop Operations Bounded Context")
+![](assets/database-diagram-operations.png "Database Diagram - Operations")
 
-*   **ws_workshops**: Contiene la información legal y de contacto de los talleres (nombre, RUC, dirección).
-*   **ws_inventory_items** y **ws_work_orders**: Representan las entidades operativas dentro del contexto del taller, asegurando que la gestión diaria se realice de forma fluida y centralizada.
+**Bounded Context: Fleet**
+
+&emsp;&emsp;&emsp;&emsp;Este modelo describe las tablas requeridas para administrar el registro de clientes y los vehículos de sus flotas respectivas, asociados a cada taller.
+
+**Figura 79**
+
+*Database Diagram - Fleet*
+
+![](assets/database-diagram-fleet.png "Database Diagram - Fleet")
+
+**Bounded Context: Inventory**
+
+&emsp;&emsp;&emsp;&emsp;El diagrama presenta la estructura relacional para la gestión del catálogo de repuestos, productos e insumos, controlando el stock y movimientos en los almacenes.
+
+**Figura 80**
+
+*Database Diagram - Inventory*
+
+![](assets/database-diagram-inventory.png "Database Diagram - Inventory")
+
+**Bounded Context: Billing**
+
+&emsp;&emsp;&emsp;&emsp;Finalmente, este diagrama detalla las tablas relacionadas con la facturación, los pagos, impuestos y el registro de comprobantes financieros de los servicios realizados.
+
+**Figura 81**
+
+*Database Diagram - Billing (Invoicing and Payments)*
+
+![](assets/database-diagram-billing.png "Database Diagram - Billing")
+
+<div style='page-break-after: always'></div>

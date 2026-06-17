@@ -1,40 +1,86 @@
-# Project Report Collaboration Insights
+### Project Report Collaboration Insights
 
-&emsp;&emsp;&emsp;&emsp;Repositorio de Github del informe: [hthttps://github.com/andeva-upc/atelier-report-12158](https://github.com/andeva-upc/atelier-report-12158)
+#### Enlances a los repositorios y organización de GitHub
 
-&emsp;&emsp;&emsp;&emsp;Organización de GitHub de Andeva: [https://github.com/andeva-upc](https://github.com/andeva-upc)
+- **Organización de GitHub de andeva** 
+andeva-upc 
+[https://github.com/andeva-upc](https://github.com/andeva-upc)
 
-##### Primer Avance (AV1):
-##### Reporte de la colaboración:
+- **Repositorio de Github del informe** 
+atelier-report-12158 
+[https://github.com/andeva-upc/atelier-report-12158](https://github.com/andeva-upc/atelier-report-12158)
 
-El primer avance del reporte tuvo aporte de todos los integrantes de andeva. A continuación, se describe los principales aportes de cada integrante.
+- **Repositorio de Github del website** 
+atelier-website-aplicaciones-web
+[https://github.com/andeva-upc/atelier-website-aplicaciones-web](https://github.com/andeva-upc/atelier-website-aplicaciones-web)
 
-- El integrante Luis Daniel Granda Ibarra, realizó el sección de Lean UX Process, el artefacto de Empathy Mapping, ayuda en las User Stories, desarrollo del artefacto de Impact Mapping y creación de los wireframes como mock-ups de Web Applications UX/UI Design.
+- **Repositorio de Github del webapp** 
+atelier-webapp-aplicaciones-web 
+[https://github.com/andeva-upc/atelier-webapp-aplicaciones-web](https://github.com/andeva-upc/atelier-webapp-aplicaciones-web)
 
-- El integrante Joel Huamani Estefanero, realizó el sección de Startup Profile, Solution Profile y Segmentos Objetivo en relación al capítulo 1. Además, desarrollo las User Stories, Product Backlog, Style Guidelines, Information Architecture, creación de wireframes y mock-ups de la Landing Page como de Web Applications UX/UI Design.
-- El integrante Aldo Jeanfranco Machacca Soto, se encargó de los competidores, creación de los secciones relacionado al C4, Class Diagram y Database Diagram.
-- La integrante Jennifer Yamilet Riveros Vera, realizó el Needfinding y reación de los wireframes como mock-ups de Web Applications UX/UI Design.
-- El integrante Adiel Abdiaz Sanchez Santin, se encargó del Big Picture Event Storming, Ubiquitous Language, Design-Level Event Storming y aporte en el desarrollo del Class Diagram.
+- **Repositorio de Github del platform** 
+atelier-platform-aplicaciones-web 
+[https://github.com/andeva-upc/atelier-platform-aplicaciones-web](https://github.com/andeva-upc/atelier-platform-aplicaciones-web)
 
-Finalmente, este gráfico representa la cantidad de commits realizados por cada miembro del equipo en el repositorio del proyecto. Cada barra representa a un miembro del equipo y la altura de la barra indica el número total de commits realizados por esa persona.
+- **Repositorio de Github del course** 
+atelier-course-12158
+[https://github.com/andeva-upc/atelier-course-12158](https://github.com/andeva-upc/atelier-course-12158)
+
+#### Reporte de colaboración del AV1
+
+El presente documento corresponde al primer avance (AV1) del reporte del proyecto. En esta fase inicial, se documentan los primeros entregables que establecen las bases y la estructura fundamental para el desarrollo del producto. A continuación, se detalla la contribución y responsabilidad inicial de cada miembro del equipo:
+
+- **Luis Daniel Granda Ibarra:** Desarrolló la sección del Lean UX Process y elaboró los artefactos de Empathy Mapping e Impact Mapping. Asimismo, colaboró en la redacción de las User Stories y diseñó los wireframes y mock-ups correspondientes al Web Applications UX/UI Design.
+
+- **Joel Huamani Estefanero:** Redactó las secciones de Startup Profile, Solution Profile y Segmentos Objetivo del Capítulo 1. Adicionalmente, desarrolló las User Stories, el Product Backlog, las Style Guidelines y la Information Architecture, encargándose también de la creación de los wireframes y mock-ups tanto para la Landing Page como para el Web Applications UX/UI Design.
+
+- **Aldo Jeanfranco Machacca Soto:** Se encargó del análisis de los competidores y de la creación de las secciones relacionadas con el modelo C4, el Class Diagram y el Database Diagram.
+
+- **Jennifer Yamilet Riveros Vera:** Llevó a cabo el proceso de Needfinding y participó en la creación de los wireframes y mock-ups para el Web Applications UX/UI Design.
+
+- **Adiel Abdiaz Sanchez Santin:** Fue responsable del Big Picture Event Storming, la definición del Ubiquitous Language y el Design-Level Event Storming, aportando además en el desarrollo del Class Diagram.
+
+Finalmente, se presenta un extracto visual obtenido de la pestaña Pulse de nuestro repositorio en GitHub. Esta gráfica evidencia el inicio de nuestra actividad colaborativa, mostrando el registro de los primeros commits realizados por cada integrante para la configuración y estructuración inicial del proyecto.
 &emsp;&emsp;&emsp;&emsp;
 
-<center><img src="assets/insights-11.png" alt="commits del av1"></center>
+<center><img src="assets/insights-11.png"></center>
 
-##### Entrega Parcial (TB1):
-##### Reporte de la colaboración:
+#### Reporte de colaboración del TB1
 
-La entrega parcial del reporte tuvo aportes y correcciones de todos los integrantes de andeva. A continuación, se describe los principales aportes de cada integrante.
+Este reporte consolida los resultados y entregables correspondientes al primer trabajo (TB1) del proyecto. El documento abarca el cumplimiento de los objetivos iniciales y la materialización del primer hito de evaluación. El desglose de las responsabilidades y aportes ejecutados por cada integrante se describe a continuación:
 
-- El integrante Luis Daniel Granda Ibarra, realizo las correciones del "Lean UX Process" y cumplimientos de sus tareas para el sprint 2.
-- El integrante Joel Huamani Estefanero, se encargo de  dirigir el Sprint 2 y cumplimientos de las tareas de este mismo.
-- El integrante Aldo Jeanfranco Machacca Soto, se encargó redifinir el diagrama de la base de datos y cumplimientos de sus tareas para el sprint 2.
-- La integrante Jennifer Yamilet Riveros Vera, se encargó de rediseñar los artefactos del "Needfinding", reconstrucciones de los mockups como prototipos y cumplimiento de sus tareas del sprint 2.
-- El integrante Adiel Abdiaz Sanchez Santin, se encargó de organizar el "Big Picture Event Storming" según la rúbrica y cumplimientos de sus tareas del sprint 2.
+- **Luis Daniel Granda Ibarra:** Implementó las correcciones de la sección de Lean UX Process y completó satisfactoriamente sus tareas asignadas para el Sprint 2.
 
-Finalmente, este gráfico representa la cantidad de commits realizados por cada miembro del equipo en el repositorio del proyecto. Cada barra representa a un miembro del equipo y la altura de la barra indica el número total de commits realizados por esa persona.
+- **Joel Huamani Estefanero:** Realizó las correcciones en "Antecedentes y Problemática" y "Análisis de entrevistas", así como en las User Stories y el Impact Mapping. Además, dirigió la ejecución del Sprint 2 y cumplió con sus respectivas responsabilidades.
+
+- **Aldo Jeanfranco Machacca Soto:** Se encargó de redefinir el diagrama de la base de datos (Database Diagram) y completó las tareas que le correspondían dentro del Sprint 2.
+
+- **Jennifer Yamilet Riveros Vera:** Fue responsable de rediseñar los artefactos del Needfinding, llevar a cabo la reconstrucción de los mock-ups como prototipos y cumplir con sus objetivos del Sprint 2.
+
+- **Adiel Abdiaz Sanchez Santin:** Se encargó de estructurar y organizar el Big Picture Event Storming de acuerdo con los lineamientos de la rúbrica de evaluación, además de ejecutar las tareas que le fueron asignadas en el Sprint 2.
+
+Para finalizar, se adjunta la métrica de participación extraída de la sección Pulse del repositorio en GitHub. Este reporte visual ilustra el volumen de commits ejecutados por cada miembro del equipo, validando el esfuerzo conjunto, la distribución equitativa del trabajo y el correcto uso del control de versiones durante este primer periodo de desarrollo.
 &emsp;&emsp;&emsp;&emsp;
 
-<center><img src="assets/insights-12.png" alt="commits del TB1"></center>
+<center><img src="assets/insights-12.png"></center>
+
+#### Reporte de colaboración del AV2
+
+El presente documento corresponde al segundo avance (AV2) del reporte del proyecto. En esta sección se detallan los nuevos entregables desarrollados para esta fase, así como la implementación de las correcciones y mejoras sugeridas en las revisiones anteriores. A continuación, se especifica la contribución de cada miembro del equipo:
+
+- **Luis Daniel Granda Ibarra:** Cumplio con las tareas en el desarollo del sprint 3 y realizo sus entrevistas correspondiente para el validation interviews.
+
+- **Joel Huamani Estefanero:** Cumplio con las tareas en el desarollo del sprint 3, agregar user stories, modificar el product backlog, modificar el diagrama de base de datos, modificar el sprint backlog 1, 2 y 3 y realizo sus entrevistas correspondiente para el validation interviews.
+
+- **Aldo Jeanfranco Machacca Soto:** Cumplio con las tareas en el desarollo del sprint 3, cambiar las imagenes del Software Architecture Container Diagrams y realizo sus entrevistas correspondiente para el validation interviews.
+
+- **Jennifer Yamilet Riveros Vera:** Correcion del artefacto de los user personas, modificar el Class Diagram y realizo sus entrevistas correspondiente para el validation interviews.
+
+- **Adiel Abdiaz Sanchez Santin:** Agregar el bounded context iam al Design-Level Event Storming, con mejoras en el bounded context core, y y realizo sus entrevistas correspondiente para el validation interviews.
+
+Finalmente, la siguiente evidencia visual ha sido extraída de la pestaña Pulse del repositorio del proyecto en GitHub. Esta sección refleja la dinámica de trabajo y la actividad reciente del equipo, ilustrando de manera resumida la cantidad de commits realizados por cada integrante, los pull requests gestionados y el flujo de integración de código durante este periodo.
+&emsp;&emsp;&emsp;&emsp;
+
+<center><img src="assets/insights-13.png"></center>
 
 <div style='page-break-after: always'></div>
