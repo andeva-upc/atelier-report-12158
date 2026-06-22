@@ -135,30 +135,6 @@
 			<td>Documentacion de los endpoints del bounded context core, iam y operations.</td>
 		</tr>
 		<tr>
-			<td>2..</td>
-			<td>//2026</td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>2..</td>
-			<td>//2026</td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>2..</td>
-			<td>//2026</td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>2..</td>
-			<td>//2026</td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
 			<td>3.0.0</td>
 			<td>20/06/2026</td>
 			<td>Joel Huamani Estefanero</td>

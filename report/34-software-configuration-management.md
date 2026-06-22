@@ -242,7 +242,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 1: Ubicados en el repositorio con el codigo fuente del platform de atelier, nos preparamos y verificamos que los archivos ubicados en la rama main esten correctos.
 
-**Figura 86**
+**Figura 89**
 
 *Repositorio del platform de atelier*
 
@@ -250,7 +250,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 2: Una vez ubicados en el dashboard de Render, hacemos click en "New Web Service".
 
-**Figura 87**
+**Figura 90**
 
 *Captura de pantalla del dashboard de Render*
 
@@ -258,7 +258,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 3: Colocamos el url del repositorio que aloja el codigo fuente del platform de atelier.
 
-**Figura 88**
+**Figura 91**
 
 *Captura de pantalla de la seccion de configuración de Render*
 
@@ -266,7 +266,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 4: Configuramos el correcto desplegamiento del platform de atelier.
 
-**Figura 89**
+**Figura 92**
 
 *Captura de pantalla de la configuración de despliegue de Render*
 
@@ -275,7 +275,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 5: A través del siguiente link: [https://atelier-platform-aplicaciones-web.onrender.com/swagger/index.html](https://atelier-platform-aplicaciones-web.onrender.com/swagger/index.html), comprobamos el correcto despliegue del backend atelier.
 
-**Figura 90**
+**Figura 93**
 
 *Captura de pantalla de confirmación atelier en Render*
 
