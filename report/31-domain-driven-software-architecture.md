@@ -127,6 +127,14 @@
 
 ![](assets/Design-Level-Billing.png "Contexto de Billing")
 
+&emsp;&emsp;&emsp;&emsp;**g) IAM:** Administra la identidad, autenticación y autorización de los usuarios de la plataforma, garantizando un acceso seguro y gestionando los roles y permisos (Identity and Access Management).
+
+**Figura 58.1**
+
+*Design-Level: Contexto de IAM*
+
+![](assets/Design-Level-IAM.png "Contexto de IAM")
+
 ### 4.6.2. *Software Architecture Context Diagram* {#cap-4-6-2}
 
 &emsp;&emsp;&emsp;&emsp;El diagrama de contexto proporciona una visión de alto nivel del sistema "atelier", situándolo en el centro de su ecosistema operativo. Este artefacto visualiza la interacción entre el sistema integral (ERP + IoT) y sus usuarios principales —dueños de taller, mecánicos y clientes finales— así como su dependencia de servicios externos críticos para la operación, como la pasarela de pagos, el sistema de facturación electrónica de SUNAT, las APIs de mensajería (WhatsApp y FCM) y el proveedor de identidad centralizado.
