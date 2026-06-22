@@ -31,7 +31,7 @@
 
 **Tabla 34**
 
-*Entrevista a*
+*Entrevista a Alan Mamani*
 
 <table>
 	<tbody>
@@ -40,10 +40,10 @@
 			<td rowspan="2"><img src="assets/vali-entrevista-1.png"></td>
 		</tr>
 		<tr>
-			<td>Nombre: <br>
-            Edad: <br>
-            Provincia: <br>
-            Ocupación: <br>
+			<td>Nombre: Alan Mamani<br>
+            Edad: 27<br>
+            Provincia: Lima<br>
+            Ocupación: Administrador Auxiliar<br>
 			Minuto de inicio: 00:00<br>
 			Duración: :min<br>
             </td>
