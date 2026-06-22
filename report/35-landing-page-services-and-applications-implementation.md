@@ -7459,7 +7459,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Para la ejecución y validación del desarrollo del backend durante el Sprint 3 consulte el link: [https://atelier-platform.onrender.com/swagger-ui/index.html](https://atelier-platform.onrender.com/swagger-ui/index.html)
 
-**Figura 33**
+**Tabla 33**
 
 *Tabla de los endpoints de atelier para el sprint 3*
 

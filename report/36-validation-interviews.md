@@ -18,22 +18,18 @@
 
 | User Goal | Descripción del Flujo                                                                                                 | Objetivo de Validación                                                   |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| **UG 1**      | El usuario accede al Landing Page, se registra con sus datos, y se le asigna un plan gratuito.                            | Validar claridad del formulario de registro y comprensión del plan gratuito. |
-| **UG 2**      | El usuario inicia sesión con su cuenta y selecciona plan premium si aplica.                                               | Validar facilidad de login y claridad en elección de plan.                   |
-| **UG 4**      | Desde el dashboard, el licorero accede fácilmente a la sección de inventario.                                             | Confirmar acceso intuitivo al inventario desde cualquier punto.              |
-| **UG 5**      | El licorero accede al inventario, agrega un nuevo producto llenando el formulario, y el producto se asocia correctamente. | Validar comprensión y facilidad del formulario de producto.                  |
-| **UG 8**      | El licorero navega desde cualquier parte a la sección Reportes utilizando el icono correspondiente.                       | Verificar navegación clara y sin fricción hacia reportes.                    |
-| **UG 9**      | Desde la sección Reportes, el licorero crea un nuevo reporte llenando los datos solicitados.                              | Validar flujo lógico y claridad de campos al generar reportes.               |
-| **UG 11**     | El licorero crea una nueva orden de compra: elige productos, cantidad y proveedor. Luego la envía.                        | Verificar fluidez del proceso y facilidad para seleccionar y enviar pedidos. |
-| **UG 12**     | El proveedor accede a la sección de Conservación, genera una nueva guía completando datos, y la visualiza.                | Validar comprensión del proceso de creación de guías de conservación.        |
+| **UG 2**      | En este flujo se detalla el proceso para que el dueño del taller consulte los antecedentes técnicos de un vehículo específico. El usuario accede a la sección de Gestión de Vehículos o al buscador global, donde ingresa el número de placa o bastidor para localizar la unidad. Una vez seleccionado el vehículo, el sistema despliega el Historial de Órdenes de Trabajo, permitiendo visualizar de forma cronológica todas las reparaciones, repuestos instalados y diagnósticos previos realizados en el taller.                            | Validar claridad de creacion de una work order y las tareas de este. |
+| **UG 3**      | En este flujo se describe el proceso para la administración y control de suministros dentro del taller. El usuario accede al módulo de Inventario, donde puede seleccionar la opción para registrar nuevos repuestos completando los datos técnicos, categoría y cantidad inicial. Asimismo, el sistema permite realizar ajustes manuales de stock para corregir discrepancias o registrar ingresos extraordinarios de mercancía.                                               | Validar facilidad de registro de un producto y un lote.                   |
+| **UG 4**      | En este flujo se detalla el proceso integral desde la recepción del cliente hasta el registro del ingreso. El usuario con rol de administrador accede al Calendario Interactivo, donde selecciona la fecha y hora disponible para agendar una cita de mantenimiento preventivo, vinculando los datos del vehículo y el cliente.                                             | Comprobar que el registro de un cliente cumpla las necesidades.              |
+| **UG 5**      | En este flujo se detalla cuando el usuario inicia en el Control de Citas, donde puede visualizar los servicios en progreso y navegar hacia el Historial de Citas para revisar servicios completados o cancelados. Para programar una nueva atención, el administrador utiliza el formulario de registro, donde selecciona al cliente, ingresa los datos del vehículo (placa y tipo de servicio), y define la fecha y hora en el calendario interactivo.                  | Verificar que sea intuitivo el modo de agendar citas. |
 
 ### 5.3.2.&emsp;&emsp;*Registro de Entrevistas* {#cap-5-3-2}
 
-&emsp;&emsp;&emsp;&emsp;A continuación, se mostrarán los registros de las entrevistas de validación realizadas a nuestros segmentos objetivos. Cada entrevista conforma un cuadro, el cual contiene lo siguiente nombre, edad, provincia y ocupación, captura de pantalla de la entrevista, link de la entrevista: [upc-pre-202610-1asi0729-11848-andeva-validation-sprint-1]() y resumen de la entrevista.
+&emsp;&emsp;&emsp;&emsp;A continuación, se mostrarán los registros de las entrevistas de validación realizadas a nuestros segmentos objetivos. Cada entrevista conforma un cuadro, el cual contiene lo siguiente nombre, edad, provincia y ocupación, captura de pantalla de la entrevista, link de la entrevista: [upc-pre-202610-1asi0730-12158-andeva-validation-sprint-1]() y resumen de la entrevista.
 
 **Segmento Objetivo 1: Dueños o administradores de talleres automotrices independientes en Lima**
 
-**Tabla**
+**Tabla 34**
 
 *Entrevista a*
 
@@ -61,65 +57,9 @@
 	</tbody>
 </table>
 
-**Tabla**
-
-*Entrevista a*
-
-<table>
-	<tbody>
-		<tr>
-			<td><center><b>Datos del Entrevistado</b></center></td>
-			<td rowspan="2"><img src="assets/vali-entrevista-2.png"></td>
-		</tr>
-		<tr>
-			<td>Nombre: <br>
-            Edad: <br>
-            Provincia: <br>
-            Ocupación: <br>
-			Minuto de inicio: 00:00<br>
-			Duración: :min<br>
-            </td>
-		</tr>
-		<tr>
-			<td colspan="2"><center><b>Resumen</b></center></td>
-		</tr>
-		<tr>
-			<td colspan="2"></td>
-		</tr>
-	</tbody>
-</table>
-
-**Tabla**
-
-*Entrevista a*
-
-<table>
-	<tbody>
-		<tr>
-			<td><center><b>Datos del Entrevistado</b></center></td>
-			<td rowspan="2"><img src="assets/vali-entrevista-3.png"></td>
-		</tr>
-		<tr>
-			<td>Nombre: <br>
-            Edad: <br>
-            Provincia: <br>
-            Ocupación: <br>
-			Minuto de inicio: 00:00<br>
-			Duración: :min<br>
-            </td>
-		</tr>
-		<tr>
-			<td colspan="2"><center><b>Resumen</b></center></td>
-		</tr>
-		<tr>
-			<td colspan="2"></td>
-		</tr>
-	</tbody>
-</table>
-
 **Segmento Objetivo 2: Conductores de vehículos de Lima**
 
-**Tabla**
+**Tabla 35**
 
 *Entrevista a*
 
@@ -147,7 +87,7 @@
 	</tbody>
 </table>
 
-**Tabla**
+**Tabla 36**
 
 *Entrevista a*
 
@@ -156,34 +96,6 @@
 		<tr>
 			<td><center><b>Datos del Entrevistado</b></center></td>
 			<td rowspan="2"><img src="assets/vali-entrevista-5.png"></td>
-		</tr>
-		<tr>
-			<td>Nombre: <br>
-            Edad: <br>
-            Provincia: <br>
-            Ocupación: <br>
-			Minuto de inicio: <br>
-			Duración: min<br>
-            </td>
-		</tr>
-		<tr>
-			<td colspan="2"><center><b>Resumen</b></center></td>
-		</tr>
-		<tr>
-			<td colspan="2"></td>
-		</tr>
-	</tbody>
-</table>
-
-**Tabla**
-
-*Entrevista a*
-
-<table>
-	<tbody>
-		<tr>
-			<td><center><b>Datos del Entrevistado</b></center></td>
-			<td rowspan="2"><img src="assets/vali-entrevista-6.png"></td>
 		</tr>
 		<tr>
 			<td>Nombre: <br>
