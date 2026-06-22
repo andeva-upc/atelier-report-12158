@@ -31,7 +31,7 @@
 
 **Tabla 34**
 
-*Entrevista a Alan Mamani*
+*Entrevista a Roxana Conde Vera*
 
 <table>
 	<tbody>
@@ -40,10 +40,10 @@
 			<td rowspan="2"><img src="assets/vali-entrevista-1.png"></td>
 		</tr>
 		<tr>
-			<td>Nombre: Alan Mamani<br>
-            Edad: 27<br>
+			<td>Nombre: Roxana Conde Vera<br>
+            Edad: 28<br>
             Provincia: Lima<br>
-            Ocupación: Administrador Auxiliar<br>
+            Ocupación: Asistente de administración<br>
 			Minuto de inicio: 00:00<br>
 			Duración: :min<br>
             </td>
@@ -160,26 +160,22 @@
 
 | #   | Problema                                                                                                | Escala de severidad | Heurística/Principio violado                                                        |
 | --- | ------------------------------------------------------------------------------------------------------- | ------------------- | ----------------------------------------------------------------------------------- |
-| 1   |  |                    |  |
-| 2   |                                              |                    |                                                     |
-| 3   |           |                    |  |
-| 4   |                                             |                    |                                            |
-| 5   |                                                           |                    |                                            |
-| 6   |                 |                    |  |
+| 1   | Falta de retroalimentación inmediata o indicador de carga al registrar un vehículo |        3            | Heurística violada: Usabilidad - Visibilidad del estado del sistema  |
+| 2   |        d                                      |       d             |         d                                            |
 
 
 - Descripción de problemas
 
-1. Problema #1:
+1. Problema #1: Falta de retroalimentación inmediata o indicador de carga al registrar un vehículo
+
+Severidad: 3
+Heuristica violada: Usabilidad - Visibilidad del estado del sistema
+
+Problema: Al hacer clic en el botón de registrar un vehículo, el sistema procesa la solicitud en segundo plano pero la interfaz no muestra ningún tipo de animación de carga (spinner) o indicador de que la petición está en curso. Como consecuencia, el usuario asume que el botón no funciona y tiende a presionarlo múltiples veces, lo que puede provocar solicitudes duplicadas o frustración.
+
+Recomendacion: Implementar un spinner de carga o deshabilitar el botón de envío temporalmente con un estado visual que indique "Registrando...", seguido de una notificación toast emergente que confirme el éxito del registro o informe del error. 
 
 2. Problema #2:
 
-3. Problema #3:
-
-4. Problema #4:
-
-5. Problema #5:
-
-6. Problema #6:
 
 <div style='page-break-after: always'></div>
