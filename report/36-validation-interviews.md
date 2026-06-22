@@ -25,7 +25,7 @@
 
 ### 5.3.2.&emsp;&emsp;*Registro de Entrevistas* {#cap-5-3-2}
 
-&emsp;&emsp;&emsp;&emsp;A continuación, se mostrarán los registros de las entrevistas de validación realizadas a nuestros segmentos objetivos. Cada entrevista conforma un cuadro, el cual contiene lo siguiente nombre, edad, provincia y ocupación, captura de pantalla de la entrevista, link de la entrevista: [upc-pre-202610-1asi0730-12158-andeva-validation-sprint-1]() y resumen de la entrevista.
+&emsp;&emsp;&emsp;&emsp;A continuación, se mostrarán los registros de las entrevistas de validación realizadas a nuestros segmentos objetivos. Cada entrevista conforma un cuadro, el cual contiene lo siguiente nombre, edad, provincia y ocupación, captura de pantalla de la entrevista, link de la entrevista: [upc-pre-202610-1asi0730-12158-andeva-validation-sprint-1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e275_upc_edu_pe/IQDaVQ5F2Eb2QKor7EjCeLvQAZWNYHAeAvEM04a5TxVGe-4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=uwOYEG) y resumen de la entrevista.
 
 **Segmento Objetivo 1: Dueños o administradores de talleres automotrices independientes en Lima**
 
@@ -37,7 +37,7 @@
 	<tbody>
 		<tr>
 			<td><center><b>Datos del Entrevistado</b></center></td>
-			<td rowspan="2"><img src="assets/vali-entrevista-1.png"></td>
+			<td rowspan="2"><img src="assets/vali-entrevista-4.png"></td>
 		</tr>
 		<tr>
 			<td>Nombre: Roxana Conde Vera<br>
@@ -45,14 +45,14 @@
             Provincia: Lima<br>
             Ocupación: Asistente de administración<br>
 			Minuto de inicio: 00:00<br>
-			Duración: :min<br>
+			Duración: 9:54min<br>
             </td>
 		</tr>
 		<tr>
 			<td colspan="2"><center><b>Resumen</b></center></td>
 		</tr>
 		<tr>
-			<td colspan="2"></td>
+			<td colspan="2">Es una administradora de 28 años que gestiona las operaciones diarias de un taller automotriz, encargándose de la recepción de clientes, la elaboración de presupuestos y la asignación de órdenes de trabajo a los mecánicos. Valora mucho la organización y la optimización del tiempo para evitar cuellos de botella y asegurar que las entregas se cumplan en los plazos acordados. Se mantiene en constante comunicación con los proveedores de repuestos para garantizar el abastecimiento del inventario sin generar sobrecostos. Reconoce que depender de registros manuales en papel o en hojas de cálculo aisladas genera desorden y pérdida de información. Desea un aplicativo que funcione como un sistema centralizado donde pueda registrar rápidamente los ingresos, automatizar la facturación, controlar el stock de piezas y visualizar en tiempo real en qué etapa de reparación se encuentra cada vehículo para informar a los clientes.</td>
 		</tr>
 	</tbody>
 </table>
@@ -61,56 +61,28 @@
 
 **Tabla 35**
 
-*Entrevista a*
+*Entrevista a Jheferson Aldair Ciriaco Benite*
 
 <table>
 	<tbody>
 		<tr>
 			<td><center><b>Datos del Entrevistado</b></center></td>
-			<td rowspan="2"><img src="assets/vali-entrevista-4.png"></td>
+			<td rowspan="2"><img src="assets/vali-entrevista-1.png"></td>
 		</tr>
 		<tr>
-			<td>Nombre: <br>
-            Edad: <br>
-            Provincia: <br>
-            Ocupación: <br>
-			Minuto de inicio: <br>
-			Duración: min<br>
+			<td>Nombre: Jheferson Aldair Ciriaco Benite<br>
+            Edad: 26<br>
+            Provincia: Lima<br>
+            Ocupación: Conductor y universitario<br>
+			Minuto de inicio: 9:54<br>
+			Duración: 8:20min<br>
             </td>
 		</tr>
 		<tr>
 			<td colspan="2"><center><b>Resumen</b></center></td>
 		</tr>
 		<tr>
-			<td colspan="2"></td>
-		</tr>
-	</tbody>
-</table>
-
-**Tabla 36**
-
-*Entrevista a*
-
-<table>
-	<tbody>
-		<tr>
-			<td><center><b>Datos del Entrevistado</b></center></td>
-			<td rowspan="2"><img src="assets/vali-entrevista-5.png"></td>
-		</tr>
-		<tr>
-			<td>Nombre: <br>
-            Edad: <br>
-            Provincia: <br>
-            Ocupación: <br>
-			Minuto de inicio: <br>
-			Duración: min<br>
-            </td>
-		</tr>
-		<tr>
-			<td colspan="2"><center><b>Resumen</b></center></td>
-		</tr>
-		<tr>
-			<td colspan="2"></td>
+			<td colspan="2">Es un estudiante universitario de 26 años que reside en Pueblo Libre y trabaja como conductor de aplicativo utilizando su propio vehículo, un Toyota Yaris del año 2012. Considera que el prototipo de la aplicación para el registro de vehículos es funcional y cumple con su objetivo principal de manera adecuada. Sin embargo, para agilizar la experiencia del usuario, sugiere implementar opciones de autocompletado o listas desplegables al momento de seleccionar la marca del carro, evitando así el ingreso manual de texto. Además, tiene una visión práctica y recomienda conectar la plataforma con bases de datos públicas o de entidades pertinentes para que la información del vehículo (como modelo y año) se llene automáticamente a partir de la placa. A nivel general, aunque reconoce que se pueden realizar ciertas mejoras estéticas, aprueba el flujo de trabajo actual de la página.</td>
 		</tr>
 	</tbody>
 </table>
@@ -161,7 +133,7 @@
 | #   | Problema                                                                                                | Escala de severidad | Heurística/Principio violado                                                        |
 | --- | ------------------------------------------------------------------------------------------------------- | ------------------- | ----------------------------------------------------------------------------------- |
 | 1   | Falta de retroalimentación inmediata o indicador de carga al registrar un vehículo |        3            | Heurística violada: Usabilidad - Visibilidad del estado del sistema  |
-| 2   |        d                                      |       d             |         d                                            |
+| 2   |        El formulario no cuenta con una lista/autocompletado para seleccionar marca o modelo del vehículo                                      |       3            |         Heurística violada: Usabilidad - Reconocimiento antes que recuerdo.                                            |
 
 
 - Descripción de problemas
@@ -175,7 +147,14 @@ Problema: Al hacer clic en el botón de registrar un vehículo, el sistema proce
 
 Recomendacion: Implementar un spinner de carga o deshabilitar el botón de envío temporalmente con un estado visual que indique "Registrando...", seguido de una notificación toast emergente que confirme el éxito del registro o informe del error. 
 
-2. Problema #2:
+2. Problema #2: El formulario no cuenta con una lista/autocompletado para seleccionar marca o modelo del vehículo
+
+Severidad: 3
+Heuristica violada: Usabilidad - Visibilidad del estado del sistema
+
+Problema: Durante la entrevista, Jheferson Aldair Ciriaco Benite indicó que, al registrar un vehículo, le gustaría que el sistema muestre una lista de carros o un buscador con autocompletado. Mencionó que debería funcionar de manera similar a cuando se selecciona un país en una lista desplegable: el usuario escribe apenas una letra y el sistema muestra opciones relacionadas. Actualmente, el formulario permite escribir manualmente la marca y el modelo del vehículo, lo que obliga al usuario a recordar el nombre exacto y puede generar errores o inconsistencias al ingresar la información.
+
+Recomendacion: Implementar un campo de autocompletado para la marca y el modelo del vehículo. Por ejemplo, al escribir una letra o parte del nombre, el sistema debería mostrar una lista de opciones disponibles para que el usuario seleccione la alternativa correcta. Esto facilitaría el registro del vehículo, reduciría errores de escritura y haría el flujo más rápido e intuitivo para el conductor.
 
 
 <div style='page-break-after: always'></div>
