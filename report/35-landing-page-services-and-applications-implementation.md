@@ -8204,6 +8204,121 @@
         <td><img src="assets/endpoint-19.png" alt="Logotipo de atelier"></td>
         <td>El response nos devuelve la cantidad del producto de la work order task actualizada y los precios.</td>
       </tr>
+      <tr>
+        <td rowspan="6"><strong>/api/v1/inventory/products</strong></td>
+        <td>[POST] /</td>
+        <td>{
+  "branchId": "uuid",
+  "category": "string",
+  "name": "string",
+  "sku": "string",
+  "description": "string",
+  "salePrice": 0,
+  "minimumStock": 0
+}</td>
+        <td>-</td>
+        <td>{
+  "id": "uuid",
+  "branchId": "uuid",
+  "category": "string",
+  "name": "string",
+  "sku": "string",
+  "description": "string",
+  "salePrice": 0,
+  "minimumStock": 0,
+  "stock": 0
+}</td>
+        <td><img src="assets/endpoint-inventory-1.png" alt="Logotipo de atelier"></td>
+        <td>El response nos devuelve el producto creado con la información básica para el inventario de una sucursal específica.</td>
+      </tr>
+      <tr>
+        <td>[GET] /?branchId={branchId}</td>
+        <td>-</td>
+        <td>branchId: id de la sucursal (UUID)</td>
+        <td>[
+  {
+    "id": "uuid",
+    "branchId": "uuid",
+    "category": "string",
+    "name": "string",
+    "sku": "string",
+    "description": "string",
+    "salePrice": 0,
+    "minimumStock": 0,
+    "stock": 0
+  }
+]</td>
+        <td><img src="assets/endpoint-inventory-2.png" alt="Logotipo de atelier"></td>
+        <td>El response devuelve una lista con todos los productos registrados en el inventario que pertenecen a una sucursal.</td>
+      </tr>
+      <tr>
+        <td>[POST] /{productId}/batches</td>
+        <td>{
+  "quantity": 0,
+  "acquisitionCost": 0
+}</td>
+        <td>productId: id del producto (UUID)</td>
+        <td>{
+  "id": "uuid",
+  "quantity": 0,
+  "acquisitionCost": 0,
+  "receivedAt": "2026-06-22T00:00:00Z"
+}</td>
+        <td><img src="assets/endpoint-inventory-3.png" alt="Logotipo de atelier"></td>
+        <td>El response añade un nuevo lote al producto existente, incrementando su stock en el inventario.</td>
+      </tr>
+      <tr>
+        <td>[GET] /{productId}</td>
+        <td>-</td>
+        <td>productId: id del producto (UUID)</td>
+        <td>{
+  "id": "uuid",
+  "branchId": "uuid",
+  "category": "string",
+  "name": "string",
+  "sku": "string",
+  "description": "string",
+  "salePrice": 0,
+  "minimumStock": 0,
+  "stock": 0,
+  "batches": []
+}</td>
+        <td><img src="assets/endpoint-inventory-4.png" alt="Logotipo de atelier"></td>
+        <td>El response devuelve todos los detalles del producto, incluyendo su historial de lotes (batches) ingresados.</td>
+      </tr>
+      <tr>
+        <td>[PUT] /{productId}</td>
+        <td>{
+  "category": "string",
+  "name": "string",
+  "sku": "string",
+  "description": "string",
+  "salePrice": 0,
+  "minimumStock": 0
+}</td>
+        <td>productId: id del producto (UUID)</td>
+        <td>{
+  "id": "uuid",
+  "branchId": "uuid",
+  "category": "string",
+  "name": "string",
+  "sku": "string",
+  "description": "string",
+  "salePrice": 0,
+  "minimumStock": 0,
+  "stock": 0
+}</td>
+        <td><img src="assets/endpoint-inventory-5.png" alt="Logotipo de atelier"></td>
+        <td>El response actualiza la información básica del producto (nombre, categoría, precio, etc.).</td>
+      </tr>
+      <tr>
+        <td>[DELETE] /{productId}</td>
+        <td>-</td>
+        <td>productId: id del producto (UUID)</td>
+        <td>- (204 No Content)</td>
+        <td><img src="assets/endpoint-inventory-6.png" alt="Logotipo de atelier"></td>
+        <td>El endpoint elimina el producto y todos los lotes asociados del inventario, retornando un estado 204 si fue exitoso.</td>
+      </tr>
     </tbody>
 </table>
 
