@@ -102,7 +102,7 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se presenta una captura de pantalla del sprint backlog en la herramienta de gestión Trello, junto con su respectivo enlace público: [https://trello.com/b/uvBe5RgN/atelier-sprint-backlog-1](https://trello.com/b/uvBe5RgN/atelier-sprint-backlog-1).
 
-**Figura 94**
+**Figura**
 
 *Captura de Pantalla del Sprint Backlog #1 atelier en Trello*
 
@@ -110,7 +110,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Seguidamente, se detalla la tabla de control de estado con la descomposición de las User Stories en tareas específicas asignadas a los miembros del equipo, estimadas en horas y con su estado actual de progreso.
 
-**Tabla 95**
+**Tabla 23**
 
 *Sprint Backlog #1 atelier*
 
@@ -271,39 +271,39 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se presenta la tabla detallada que incluye, para el repositorio del sitio web estático, los commits directamente relacionados con la implementación de las características mencionadas:
 
-**Tabla 96**
+**Tabla 24**
 
 *Tabla de Commits del Sprint #1*
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited On |
 |:----------:|:------:|-----------|----------------|---------------------|-------------|
-|     andeva-upc/atelier-website-aplicaciones-web       |    develop    |     6e76e6df      |       chore: initial commit.         |                     |     23/04/2026 11:57        |
-|     andeva-upc/atelier-website-aplicaciones-web       |    develop    |     32dd8f39      |      feat(material-design): add angular material theming and update styles.          |                     |      23/04/2026 12:02       |
-|     andeva-upc/atelier-website-aplicaciones-web       |    develop    |     4786effa      |    feat(i18n): add ngx-translate for internationalization support.            |                     |      23/04/2026 at 12:04       |
-|     andeva-upc/atelier-website-aplicaciones-web       |     develop   |    302e7c70       |      feat(i18n): integrate ngx-translate for multilingual support and add language files.          |                     |      23/04/2026 12:14       |
-|     andeva-upc/atelier-website-aplicaciones-web       |   develop     |     09075a73      |       feat(header): add header component with logo and buttons.         |                     |      23/04/2026 13:57       |
-|     andeva-upc/atelier-website-aplicaciones-web       |   develop     |    6e46c61d       |        feat(value-proposition): add hero component with title, subtitle, and buttons.        |                     |      23/04/2026 at 15:19       |
-|     andeva-upc/atelier-website-aplicaciones-web       |   develop     |     fedbfc39      |       style(header): update media query to hide button container on smaller screens.         |                     |      23/04/2026 15:22       |
-|     andeva-upc/atelier-website-aplicaciones-web       |    develop    |     b80c7e97      |        style(value-proposition): adjust background position for improved layout        |                     |      23/04/2026 15:27       |
-|     andeva-upc/atelier-website-aplicaciones-web       |    develop    |      e53f7f1b     |       style(header): hide logo text on smaller screens and update hero z-index.         |                     |      23/04/2026 15:32       |
-|     andeva-upc/atelier-website-aplicaciones-web       |    develop    |     3aae419f      |        style(value-proposition): update button styles and adjust layout for improved responsiveness.        |                     |       on 23/04/2026 at 15:47      |
-|     andeva-upc/atelier-website-aplicaciones-web       |   develop     |      070f4fd8     |        feat(benefits): add card component with animation and styling.        |                     |     23/04/2026 19:50        |
-|     andeva-upc/atelier-website-aplicaciones-web       |     develop   |     9f2e6d86      |        feat(pricing): initialize pricing component structure and integration.        |                     |     25/04/2026 00:17        |
-|     andeva-upc/atelier-website-aplicaciones-web       |   develop     |     aff3e5e2      |       feat(pricing): implement pricing toggle with signals and responsive styles.         |                     |     25/04/2026 00:21        |
-|     andeva-upc/atelier-website-aplicaciones-web       |   develop     |     d4d445e7      |       feat(pricing): implement pricing cards with dual-background design and dynamic prices.         |                     |      25/04/2026 00:48       |
-|     andeva-upc/atelier-website-aplicaciones-web       |   develop     |     774ba6b6      |        feat(pricing): complete pricing section with footer disclaimer, contact button and full responsive design.        |                     |      25/04/2026 01:15       |
-|     andeva-upc/atelier-website-aplicaciones-web       |   develop     |     5609a2fd      |       feat(team-info): add team component with member profiles.         |                     |       25/04/2026 10:32      |
-|     andeva-upc/atelier-website-aplicaciones-web       |   develop     |     d859ca4c      |         fix(team): add jennifer's photo and fix card image background.       |                     |        25/04/2026 15:53     |
-|     andeva-upc/atelier-website-aplicaciones-web       |   develop     |     5ec553fd      |         feat: add footer in the landing page.       |                     |      25/04/2026 19:56       |
-|     andeva-upc/atelier-website-aplicaciones-web       |   develop     |      1c51d1ac     |        fix(footer): reorganize footer component imports and file structure.        |                     |      26/04/2026 07:07       |
-|     andeva-upc/atelier-website-aplicaciones-web       |   main     |     a4d98cd5      |        Release/website atelier 1.0.0        |                     |      26/04/2026 07:23       |
+|     andeva-upc/atelier-website-open-source       |    develop    |     6e76e6df      |       chore: initial commit.         |                     |     23/04/2026 11:57        |
+|     andeva-upc/atelier-website-open-source       |    develop    |     32dd8f39      |      feat(material-design): add angular material theming and update styles.          |                     |      23/04/2026 12:02       |
+|     andeva-upc/atelier-website-open-source       |    develop    |     4786effa      |    feat(i18n): add ngx-translate for internationalization support.            |                     |      23/04/2026 at 12:04       |
+|     andeva-upc/atelier-website-open-source       |     develop   |    302e7c70       |      feat(i18n): integrate ngx-translate for multilingual support and add language files.          |                     |      23/04/2026 12:14       |
+|     andeva-upc/atelier-website-open-source       |   develop     |     09075a73      |       feat(header): add header component with logo and buttons.         |                     |      23/04/2026 13:57       |
+|     andeva-upc/atelier-website-open-source       |   develop     |    6e46c61d       |        feat(value-proposition): add hero component with title, subtitle, and buttons.        |                     |      23/04/2026 at 15:19       |
+|     andeva-upc/atelier-website-open-source       |   develop     |     fedbfc39      |       style(header): update media query to hide button container on smaller screens.         |                     |      23/04/2026 15:22       |
+|     andeva-upc/atelier-website-open-source       |    develop    |     b80c7e97      |        style(value-proposition): adjust background position for improved layout        |                     |      23/04/2026 15:27       |
+|     andeva-upc/atelier-website-open-source       |    develop    |      e53f7f1b     |       style(header): hide logo text on smaller screens and update hero z-index.         |                     |      23/04/2026 15:32       |
+|     andeva-upc/atelier-website-open-source       |    develop    |     3aae419f      |        style(value-proposition): update button styles and adjust layout for improved responsiveness.        |                     |       on 23/04/2026 at 15:47      |
+|     andeva-upc/atelier-website-open-source       |   develop     |      070f4fd8     |        feat(benefits): add card component with animation and styling.        |                     |     23/04/2026 19:50        |
+|     andeva-upc/atelier-website-open-source       |     develop   |     9f2e6d86      |        feat(pricing): initialize pricing component structure and integration.        |                     |     25/04/2026 00:17        |
+|     andeva-upc/atelier-website-open-source       |   develop     |     aff3e5e2      |       feat(pricing): implement pricing toggle with signals and responsive styles.         |                     |     25/04/2026 00:21        |
+|     andeva-upc/atelier-website-open-source       |   develop     |     d4d445e7      |       feat(pricing): implement pricing cards with dual-background design and dynamic prices.         |                     |      25/04/2026 00:48       |
+|     andeva-upc/atelier-website-open-source       |   develop     |     774ba6b6      |        feat(pricing): complete pricing section with footer disclaimer, contact button and full responsive design.        |                     |      25/04/2026 01:15       |
+|     andeva-upc/atelier-website-open-source       |   develop     |     5609a2fd      |       feat(team-info): add team component with member profiles.         |                     |       25/04/2026 10:32      |
+|     andeva-upc/atelier-website-open-source       |   develop     |     d859ca4c      |         fix(team): add jennifer's photo and fix card image background.       |                     |        25/04/2026 15:53     |
+|     andeva-upc/atelier-website-open-source       |   develop     |     5ec553fd      |         feat: add footer in the landing page.       |                     |      25/04/2026 19:56       |
+|     andeva-upc/atelier-website-open-source       |   develop     |      1c51d1ac     |        fix(footer): reorganize footer component imports and file structure.        |                     |      26/04/2026 07:07       |
+|     andeva-upc/atelier-website-open-source       |   main     |     a4d98cd5      |        Release/website atelier 1.0.0        |                     |      26/04/2026 07:23       |
 
 
 #### 5.2.1.5.&emsp;&emsp;*Execution Evidence for Sprint Review* {#cap-5-2-1-5}
 
 &emsp;&emsp;&emsp;&emsp;Esta sección inicia con un resumen detallado de los objetivos alcanzados durante el primer sprint del proyecto Atelier. Durante esta iteración, el esfuerzo del equipo se enfocó exitosamente en el desarrollo e implementación de la primera versión funcional de la Landing Page. Se logró construir y estilizar las interfaces visuales clave para el embudo de captación comercial, abarcando la cabecera principal con la propuesta de valor, la cuadrícula de exploración de los módulos, la tabla comparativa de planes de suscripción, la presentación del equipo desarrollador y el pie de página con accesos legales. Asimismo, se garantizó un diseño completamente responsivo para una correcta adaptabilidad en dispositivos móviles y de escritorio.
 
-**Figura 97**
+**Figura 91**
 
 *Capturas de Pantalla de la Landing Page de atelier*
 
@@ -325,7 +325,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 1: Integración de la rama de lanzamiento. Como paso inicial, el equipo consolidó todos los avances de diseño y maquetación de las distintas ramas de características hacia la rama principal de despliegue. Esto asegura que el código a desplegar sea la versión estable y aprobada del Sprint.
 
-**Figura 98**
+**Figura 92**
 
 *Repositorio del website de atelier*
 
@@ -333,7 +333,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 2: Configuración del entorno en Vercel.
 
-**Figura 99**
+**Figura 93**
 
 *Captura de pantalla de la seccion de proyectos de Vercel*
 
@@ -341,13 +341,13 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 3: Selección el repositorio y desplegar.
 
-**Figura 100**
+**Figura 94**
 
 *Captura de pantalla de la seccion de despliegue de Vercel*
 
 ![](assets/vercel-repo-deploy.jpeg "Captura de pantalla de la seccion de despliegue de Vercel")
 
-**Figura 101**
+**Figura 95**
 
 *Captura de pantalla de la configuración de despliegue de Vercel*
 
@@ -371,7 +371,7 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se presentan las capturas en imagen de los analíticos de colaboración y commits extraídos de la pestaña "Insights" del repositorio en GitHub, las cuales evidencian la participación de todos los miembros del equipo:
 
-**Figura 102**
+**Figura 96**
 
 *Gráfico de commits*
 
@@ -485,7 +485,7 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se presenta una captura de pantalla del sprint backlog en la herramienta de gestión Trello, junto con su respectivo enlace público: [https://trello.com/b/xhhM4rYX/atelier-sprint-backlog-2](https://trello.com/b/xhhM4rYX/atelier-sprint-backlog-2).
 
-**Figura 103**
+**Figura 97**
 
 *Captura de Pantalla del Sprint Backlog #2 atelier en Trello*
 
@@ -1044,87 +1044,87 @@
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited On |
 |:----------:|:------:|-----------|----------------|---------------------|-------------|
-|     andeva-upc/atelier-web-app-aplicaciones-web       |    main    |     08ecc27b      |       chore: initial commit.         |                     |     4/05/2026 at 21:47        |
-|     andeva-upc/atelier-web-app-aplicaciones-webe       |    feature/json-server    |     7f4bc7a4      |      feat(server): initialize mock backend with json-server and atelier domain data.          |                     |      4/05/2026 at 22:49       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |    feature/json-server    |     ec41ff8e      |    feat(i18n): add ngx-translate for internationalization support.            |                     |      23/04/2026 at 12:04       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |     feature/json-server   |    302e7c70       |      feat: add api infrastructure and domain endpoints mapping.          |                     |      4/05/2026 at 23:49       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/json-server     |     c2a4a29d      |       chore: update db.json mock data.         |                     |      6/05/2026 at 09:35       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/json-server     |    6e46c61d       |        feat(value-proposition): add hero component with title, subtitle, and buttons.        |                     |      23/04/2026 at 15:19       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/json-server     |     d261693f      |       feat(shared): add generic API endpoint architecture and BaseEntity domain contract.         |                     |      6/05/2026 at 11:00       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |    feature/json-server    |     13dc003c      |        chore(api): synchronize mock db schema with new SQL DDL and update tests.        |                     |      6/05/2026 at 21:47       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |    feature/json-server    |      5a0bd4ca     |       chore: update db.json with two workshops, team roles and vehicle telemetry.         |                     |      6/05/2026 at 22:29       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |    feature/json-server    |     f39e4366      |        refactor: harmonize domain types and database schemas with UML class diagram.        |                     |       7/05/2026 at 09:34      |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/json-server     |      a7b617eb     |        chore: align fake api mock data with new class diagram enums.        |                     |     7/05/2026 at 10:09        |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |     feature/json-server   |     a8821bb9      |        chore: update db.json.        |                     |     7/05/2026 at 12:47        |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/shared     |     89cd730e      |       feat(shared): implement layout structure with sidebar and main content.         |                     |     7/05/2026 at 22:06        |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/json-server     |     cc959071      |       refactor(api): consolidate endpoints to 100% RESTful resources in class diagrams and mock api.         |                     |      9/05/2026 at 20:19       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/customers     |     e7cc94ba      |        feat(customers): define customer domain entity and repository contract.        |                     |      9/05/2026 at 21:50       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/customers     |     44b66d02      |       feat(customers): implement customer DTO and assembler mapper.         |                     |       9/05/2026 at 21:52      |
-|     andeva-upc/atelier-website-aplicaciones-web       |   feature/customers     |     fda339d1      |         feat(customers): create customer API service with dynamic relation merging and register in app config.       |                     |        9/05/2026 at 21:54    |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/customers     |     d1608344      |         feat(customers): configure lazy-loaded route.       |                     |      9/05/2026 at 21:56       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/customers     |      a82241ba     |        feat(customers): migrate material icons to tree-shakeable @ng-icons and clean comments.        |                     |      9/05/2026 at 22:43       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/shared     |      bf257c43     |        feat(shared): implement premium reusable standalone modal.        |                     |      9/05/2026 at 22:52       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/customers     |      3ee7190b     |        feat(customers): declare customer creation contract in repository layer.        |                     |      9/05/2026 at 22:54       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/customers     |      d05f590c     |        refactor(customers): flatten views and introduce application store.        |                     |      10/05/2026 at 09:46       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/customers     |      4ea09d5e     |        feat(customers): add complete i18n translation support.        |                     |      10/05/2026 at 09:54       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/customers     |      23f55a8d     |        refactor(routing): enable component input binding and clean up duplicate imports.        |                     |      10/05/2026 at 10:04       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/customers     |      9743f197     |        refactor(customers): decouple smart registration form into standalone CustomerForm view.        |                     |      10/05/2026 at 11:10       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/customers     |      6ae51e17     |        style(customers): set card hover shadow and border-color to brand blue glow.        |                     |      10/05/2026 at 11:29       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/customers     |      31c99249     |        chore(git): update gitignore.        |                     |      10/05/2026 at 11:42       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/customers     |      c7f5ba28     |        refactor: align templates with Angular 21 standards and clean unused logic.        |                     |      10/05/2026 at 12:21       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/customers     |      a3fa5d45     |        refactor: clean up and optimize code.        |                     |      10/05/2026 at 12:26       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/customers     |      c0d2b80d     |        chore(env): configure production api url and ignore local dev environment.        |                     |      12/05/2026 at 11:22       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/billing     |      5fbf98af     |        feat(billing): implement billing bounded context with financial summary dashboard.        |                     |      12/05/2026 at 12:31       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/appointments     |      aec2146d     |        feat(appoinments): add appointments section.        |                     |      12/05/2026 at 12:34       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/billing     |      c01afa04     |        feat(billing): implement a financial KPI dashboard.        |                     |      12/05/2026 at 14:37       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/billing     |      7724fbca     |        feat(billing): add segmented navigation and monthly financial chart.        |                     |      12/05/2026 at 14:41       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/billing     |      ac1a0a0e     |        feat(billing): add monthly details table and presentation UI enhancements.        |                     |      12/05/2026 at 15:03       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/billing     |      00ace9c3     |        feat(shared): enhance sidebar layout and update translations.        |                     |      12/05/2026 at 18:20       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/billing     |      7a4d52e9     |        feat(shared): add toolbar component and restructure layout for improved navigation.        |                     |      12/05/2026 at 18:47       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/home     |      70dd7b45     |        fix(i18n): update customer list and modal translations, enhance search functionality.        |                     |      12/05/2026 at 19:01       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/home     |      9111c670     |        feat(core): align schema and mock data with financial and itemized billing requirements.        |                     |      13/05/2026 at 09:01       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/home     |      1c0cfc75     |        feat(core): implement multi-tenant support and align schema with financial requirements.        |                     |      13/05/2026 at 09:19       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/customers     |      54dcbb39     |        feat(customers): synchronize frontend models and UI with official SQL definition.        |                     |      13/05/2026 at 10:25       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/customers     |      8749dcc7     |        feat(customers): implement soft delete logic and UI button using deleted_at.        |                     |      13/05/2026 at 10:54       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/customers     |      2c4442b9     |        chore: update db.json.        |                     |      13/05/2026 at 11:03       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/json-server     |      826f6fff     |        feat(json-server): include deleted_at field in core entities of db.json.        |                     |      13/05/2026 at 11:32       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   develop     |      5475194f     |        feat(mock-server): expand production-like data and align db.json with SQL schema.        |                     |      13/05/2026 at 13:12       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/customers     |      5c83e350     |        refactor(customers): remove hardcoded client logic to support dynamic mock data.        |                     |      13/05/2026 at 13:43       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/telemetry     |      a29df9fe     |        feat(telemetry): add domain entities and chart.js initial setup.        |                     |      13/05/2026 at 18:49       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/telemetry     |      39fa92cb     |        feat(telemetry): infrastructure layer and api integration.        |                     |      13/05/2026 at 18:52       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/telemetry     |      5b149809     |        feat(telemetry): implement application layer with signal store and routing.        |                     |      13/05/2026 at 18:56       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/telemetry     |      cd8bffc3     |        feat(telemetry): implement ui components for metrics, alerts and selection.        |                     |      13/05/2026 at 19:03       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/telemetry     |      595f41b4     |        feat(telemetry): history chart integration with chart.js.        |                     |      13/05/2026 at 19:08       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/telemetry     |      600f132f     |        style(telemetry): polish dtc alert cards for premium aesthetic look.        |                     |      13/05/2026 at 19:13       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/telemetry     |      60b5be51     |        feat(telemetry): implement obd2 linking logic and modal integration.        |                     |      13/05/2026 at 19:24       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/telemetry     |      9084d0a1     |        feat(telemetry): implement obd2 linking logic and polish dashboard ui.        |                     |      13/05/2026 at 19:41       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/telemetry     |      2b3584f8     |        feat(telemetry): implement i18n for DTC descriptions with smart fallback.        |                     |      13/05/2026 at 19:55      |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/telemetry     |      bd2ae292     |        feat(telemetry): finalize module i18n and UI/UX documentation.        |                     |      13/05/2026 at 20:08       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/telemetry     |      01a739e6     |        refactor(telemetry): flatten presentation directory and extract inline templates/styles.        |                     |      13/05/2026 at 20:44       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/dashboard     |      a1e79781     |        feat(dashboard): implement dashboard module with metrics, alerts, and recent work orders.        |                     |      13/05/2026 at 20:52       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/dashboard     |      f2ea15c4     |        feat(dashboard): add home dashboard component with metrics, alerts, and recent orders.        |                     |      13/05/2026 at 20:52       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/dashboard     |      415751c2     |        fix(dashboard): add dashboard repository and API integration, enhance localization for dashboard components.        |                     |      13/05/2026 at 21:09       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/appointments     |      26567646     |        feat(appointments): implement appointments module.        |                     |      13/05/2026 at 23:12       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/telemetry     |      28a2447b     |        fix(telemetry): extend history range to 48h to ensure chart data visibility.        |                     |      14/05/2026 at 08:34       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/billing     |      2b0a5c98     |        feat(billing): implement billing list view with internationalization support.        |                     |      14/05/2026 at 09:51       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/billing     |      2781f717     |        feat(billing): extend domain models and store for quotes and payments.        |                     |      14/05/2026 at 11:23       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/billing     |      9af990f2     |        feat(billing): implement new quote creation modal with stock validation.        |                     |      14/05/2026 at 11:32       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/billing     |      1ea73752     |        feat(billing): implement voucher management tab and payment registration.        |                     |      14/05/2026 at 11:36       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/work     |      d5d15501     |        deat(work):implement work order and details.        |                     |      14/05/2026 at 11:42       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/billing     |      c428247a     |        refactor(billing): use MatDialog for quote and payment workflows.        |                     |      14/05/2026 at 11:58       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/inventory     |      cebca0ca     |        fix: resolve merge conflicts and integrate inventory module        |                     |      14/05/2026 at 12:26       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/appointments     |      aad23121     |        style(appointments): align typography with design system.        |                     |      14/05/2026 at 12:34       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/home     |      3e1a6d8f     |        feat(dashboard): add payments API integration and update dashboard data aggregation.        |                     |      14/05/2026 at 13:08       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/home     |      6359bc0f     |        style(dashboard): enhance alerts list styling and scrollbar appearance.        |                     |      14/05/2026 at 13:09       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/billing     |      e76954fc     |        style(billing): refine dashboard aesthetics and input rounding.        |                     |      14/05/2026 at 16:06       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/billing     |      12772947     |        style(ui): set global input rounding and refactor shared modal component.        |                     |      14/05/2026 at 16:59       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/billing     |      934e28e0     |        chore: update platform provider api base url to production mock.        |                     |      14/05/2026 at 17:36       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/inventory     |      131e485d     |        fix(inventory): replace placeholder emojis with PrimeIcons.        |                     |      14/05/2026 at 18:00       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/work     |      0f722144     |        feat(work): implement work order.        |                     |      14/05/2026 at 18:08       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   develop     |      047b4e7f     |        chore: sync database schema and domain models.        |                     |      14/05/2026 at 18:15       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   feature/inventory     |      7d66cc3b     |        fix(inventory): replace placeholder emojis with PrimeIcons.       |                     |      14/05/2026 at 18:23       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   develop     |      93dbde6c     |        chore: update db.json.        |                     |      14/05/2026 at 18:24       |
-|     andeva-upc/atelier-web-app-aplicaciones-web       |   main     |     ebdc352 |        release/1.0.0        |                     |      26/04/2026 18:58       |
+|     andeva-upc/atelier-web-app-open-source       |    main    |     08ecc27b      |       chore: initial commit.         |                     |     4/05/2026 at 21:47        |
+|     andeva-upc/atelier-web-app-open-sourcee       |    feature/json-server    |     7f4bc7a4      |      feat(server): initialize mock backend with json-server and atelier domain data.          |                     |      4/05/2026 at 22:49       |
+|     andeva-upc/atelier-web-app-open-source       |    feature/json-server    |     ec41ff8e      |    feat(i18n): add ngx-translate for internationalization support.            |                     |      23/04/2026 at 12:04       |
+|     andeva-upc/atelier-web-app-open-source       |     feature/json-server   |    302e7c70       |      feat: add api infrastructure and domain endpoints mapping.          |                     |      4/05/2026 at 23:49       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/json-server     |     c2a4a29d      |       chore: update db.json mock data.         |                     |      6/05/2026 at 09:35       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/json-server     |    6e46c61d       |        feat(value-proposition): add hero component with title, subtitle, and buttons.        |                     |      23/04/2026 at 15:19       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/json-server     |     d261693f      |       feat(shared): add generic API endpoint architecture and BaseEntity domain contract.         |                     |      6/05/2026 at 11:00       |
+|     andeva-upc/atelier-web-app-open-source       |    feature/json-server    |     13dc003c      |        chore(api): synchronize mock db schema with new SQL DDL and update tests.        |                     |      6/05/2026 at 21:47       |
+|     andeva-upc/atelier-web-app-open-source       |    feature/json-server    |      5a0bd4ca     |       chore: update db.json with two workshops, team roles and vehicle telemetry.         |                     |      6/05/2026 at 22:29       |
+|     andeva-upc/atelier-web-app-open-source       |    feature/json-server    |     f39e4366      |        refactor: harmonize domain types and database schemas with UML class diagram.        |                     |       7/05/2026 at 09:34      |
+|     andeva-upc/atelier-web-app-open-source       |   feature/json-server     |      a7b617eb     |        chore: align fake api mock data with new class diagram enums.        |                     |     7/05/2026 at 10:09        |
+|     andeva-upc/atelier-web-app-open-source       |     feature/json-server   |     a8821bb9      |        chore: update db.json.        |                     |     7/05/2026 at 12:47        |
+|     andeva-upc/atelier-web-app-open-source       |   feature/shared     |     89cd730e      |       feat(shared): implement layout structure with sidebar and main content.         |                     |     7/05/2026 at 22:06        |
+|     andeva-upc/atelier-web-app-open-source       |   feature/json-server     |     cc959071      |       refactor(api): consolidate endpoints to 100% RESTful resources in class diagrams and mock api.         |                     |      9/05/2026 at 20:19       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/customers     |     e7cc94ba      |        feat(customers): define customer domain entity and repository contract.        |                     |      9/05/2026 at 21:50       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/customers     |     44b66d02      |       feat(customers): implement customer DTO and assembler mapper.         |                     |       9/05/2026 at 21:52      |
+|     andeva-upc/atelier-website-open-source       |   feature/customers     |     fda339d1      |         feat(customers): create customer API service with dynamic relation merging and register in app config.       |                     |        9/05/2026 at 21:54    |
+|     andeva-upc/atelier-web-app-open-source       |   feature/customers     |     d1608344      |         feat(customers): configure lazy-loaded route.       |                     |      9/05/2026 at 21:56       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/customers     |      a82241ba     |        feat(customers): migrate material icons to tree-shakeable @ng-icons and clean comments.        |                     |      9/05/2026 at 22:43       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/shared     |      bf257c43     |        feat(shared): implement premium reusable standalone modal.        |                     |      9/05/2026 at 22:52       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/customers     |      3ee7190b     |        feat(customers): declare customer creation contract in repository layer.        |                     |      9/05/2026 at 22:54       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/customers     |      d05f590c     |        refactor(customers): flatten views and introduce application store.        |                     |      10/05/2026 at 09:46       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/customers     |      4ea09d5e     |        feat(customers): add complete i18n translation support.        |                     |      10/05/2026 at 09:54       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/customers     |      23f55a8d     |        refactor(routing): enable component input binding and clean up duplicate imports.        |                     |      10/05/2026 at 10:04       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/customers     |      9743f197     |        refactor(customers): decouple smart registration form into standalone CustomerForm view.        |                     |      10/05/2026 at 11:10       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/customers     |      6ae51e17     |        style(customers): set card hover shadow and border-color to brand blue glow.        |                     |      10/05/2026 at 11:29       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/customers     |      31c99249     |        chore(git): update gitignore.        |                     |      10/05/2026 at 11:42       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/customers     |      c7f5ba28     |        refactor: align templates with Angular 21 standards and clean unused logic.        |                     |      10/05/2026 at 12:21       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/customers     |      a3fa5d45     |        refactor: clean up and optimize code.        |                     |      10/05/2026 at 12:26       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/customers     |      c0d2b80d     |        chore(env): configure production api url and ignore local dev environment.        |                     |      12/05/2026 at 11:22       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/billing     |      5fbf98af     |        feat(billing): implement billing bounded context with financial summary dashboard.        |                     |      12/05/2026 at 12:31       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/appointments     |      aec2146d     |        feat(appoinments): add appointments section.        |                     |      12/05/2026 at 12:34       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/billing     |      c01afa04     |        feat(billing): implement a financial KPI dashboard.        |                     |      12/05/2026 at 14:37       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/billing     |      7724fbca     |        feat(billing): add segmented navigation and monthly financial chart.        |                     |      12/05/2026 at 14:41       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/billing     |      ac1a0a0e     |        feat(billing): add monthly details table and presentation UI enhancements.        |                     |      12/05/2026 at 15:03       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/billing     |      00ace9c3     |        feat(shared): enhance sidebar layout and update translations.        |                     |      12/05/2026 at 18:20       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/billing     |      7a4d52e9     |        feat(shared): add toolbar component and restructure layout for improved navigation.        |                     |      12/05/2026 at 18:47       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/home     |      70dd7b45     |        fix(i18n): update customer list and modal translations, enhance search functionality.        |                     |      12/05/2026 at 19:01       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/home     |      9111c670     |        feat(core): align schema and mock data with financial and itemized billing requirements.        |                     |      13/05/2026 at 09:01       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/home     |      1c0cfc75     |        feat(core): implement multi-tenant support and align schema with financial requirements.        |                     |      13/05/2026 at 09:19       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/customers     |      54dcbb39     |        feat(customers): synchronize frontend models and UI with official SQL definition.        |                     |      13/05/2026 at 10:25       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/customers     |      8749dcc7     |        feat(customers): implement soft delete logic and UI button using deleted_at.        |                     |      13/05/2026 at 10:54       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/customers     |      2c4442b9     |        chore: update db.json.        |                     |      13/05/2026 at 11:03       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/json-server     |      826f6fff     |        feat(json-server): include deleted_at field in core entities of db.json.        |                     |      13/05/2026 at 11:32       |
+|     andeva-upc/atelier-web-app-open-source       |   develop     |      5475194f     |        feat(mock-server): expand production-like data and align db.json with SQL schema.        |                     |      13/05/2026 at 13:12       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/customers     |      5c83e350     |        refactor(customers): remove hardcoded client logic to support dynamic mock data.        |                     |      13/05/2026 at 13:43       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/telemetry     |      a29df9fe     |        feat(telemetry): add domain entities and chart.js initial setup.        |                     |      13/05/2026 at 18:49       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/telemetry     |      39fa92cb     |        feat(telemetry): infrastructure layer and api integration.        |                     |      13/05/2026 at 18:52       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/telemetry     |      5b149809     |        feat(telemetry): implement application layer with signal store and routing.        |                     |      13/05/2026 at 18:56       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/telemetry     |      cd8bffc3     |        feat(telemetry): implement ui components for metrics, alerts and selection.        |                     |      13/05/2026 at 19:03       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/telemetry     |      595f41b4     |        feat(telemetry): history chart integration with chart.js.        |                     |      13/05/2026 at 19:08       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/telemetry     |      600f132f     |        style(telemetry): polish dtc alert cards for premium aesthetic look.        |                     |      13/05/2026 at 19:13       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/telemetry     |      60b5be51     |        feat(telemetry): implement obd2 linking logic and modal integration.        |                     |      13/05/2026 at 19:24       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/telemetry     |      9084d0a1     |        feat(telemetry): implement obd2 linking logic and polish dashboard ui.        |                     |      13/05/2026 at 19:41       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/telemetry     |      2b3584f8     |        feat(telemetry): implement i18n for DTC descriptions with smart fallback.        |                     |      13/05/2026 at 19:55      |
+|     andeva-upc/atelier-web-app-open-source       |   feature/telemetry     |      bd2ae292     |        feat(telemetry): finalize module i18n and UI/UX documentation.        |                     |      13/05/2026 at 20:08       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/telemetry     |      01a739e6     |        refactor(telemetry): flatten presentation directory and extract inline templates/styles.        |                     |      13/05/2026 at 20:44       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/dashboard     |      a1e79781     |        feat(dashboard): implement dashboard module with metrics, alerts, and recent work orders.        |                     |      13/05/2026 at 20:52       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/dashboard     |      f2ea15c4     |        feat(dashboard): add home dashboard component with metrics, alerts, and recent orders.        |                     |      13/05/2026 at 20:52       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/dashboard     |      415751c2     |        fix(dashboard): add dashboard repository and API integration, enhance localization for dashboard components.        |                     |      13/05/2026 at 21:09       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/appointments     |      26567646     |        feat(appointments): implement appointments module.        |                     |      13/05/2026 at 23:12       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/telemetry     |      28a2447b     |        fix(telemetry): extend history range to 48h to ensure chart data visibility.        |                     |      14/05/2026 at 08:34       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/billing     |      2b0a5c98     |        feat(billing): implement billing list view with internationalization support.        |                     |      14/05/2026 at 09:51       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/billing     |      2781f717     |        feat(billing): extend domain models and store for quotes and payments.        |                     |      14/05/2026 at 11:23       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/billing     |      9af990f2     |        feat(billing): implement new quote creation modal with stock validation.        |                     |      14/05/2026 at 11:32       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/billing     |      1ea73752     |        feat(billing): implement voucher management tab and payment registration.        |                     |      14/05/2026 at 11:36       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/work     |      d5d15501     |        deat(work):implement work order and details.        |                     |      14/05/2026 at 11:42       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/billing     |      c428247a     |        refactor(billing): use MatDialog for quote and payment workflows.        |                     |      14/05/2026 at 11:58       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/inventory     |      cebca0ca     |        fix: resolve merge conflicts and integrate inventory module        |                     |      14/05/2026 at 12:26       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/appointments     |      aad23121     |        style(appointments): align typography with design system.        |                     |      14/05/2026 at 12:34       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/home     |      3e1a6d8f     |        feat(dashboard): add payments API integration and update dashboard data aggregation.        |                     |      14/05/2026 at 13:08       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/home     |      6359bc0f     |        style(dashboard): enhance alerts list styling and scrollbar appearance.        |                     |      14/05/2026 at 13:09       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/billing     |      e76954fc     |        style(billing): refine dashboard aesthetics and input rounding.        |                     |      14/05/2026 at 16:06       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/billing     |      12772947     |        style(ui): set global input rounding and refactor shared modal component.        |                     |      14/05/2026 at 16:59       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/billing     |      934e28e0     |        chore: update platform provider api base url to production mock.        |                     |      14/05/2026 at 17:36       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/inventory     |      131e485d     |        fix(inventory): replace placeholder emojis with PrimeIcons.        |                     |      14/05/2026 at 18:00       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/work     |      0f722144     |        feat(work): implement work order.        |                     |      14/05/2026 at 18:08       |
+|     andeva-upc/atelier-web-app-open-source       |   develop     |      047b4e7f     |        chore: sync database schema and domain models.        |                     |      14/05/2026 at 18:15       |
+|     andeva-upc/atelier-web-app-open-source       |   feature/inventory     |      7d66cc3b     |        fix(inventory): replace placeholder emojis with PrimeIcons.       |                     |      14/05/2026 at 18:23       |
+|     andeva-upc/atelier-web-app-open-source       |   develop     |      93dbde6c     |        chore: update db.json.        |                     |      14/05/2026 at 18:24       |
+|     andeva-upc/atelier-web-app-open-source       |   main     |     ebdc352 |        release/1.0.0        |                     |      26/04/2026 18:58       |
 
 
 #### 5.2.2.5.&emsp;&emsp;*Execution Evidence for Sprint Review* {#cap-5-2-2-5}
@@ -1133,7 +1133,7 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se presentan las capturas de pantalla de las principales vistas implementadas, junto con un enlace a un video demostrativo que ilustra y explica a detalle la visualización y navegación logrados en este Sprint: [Sprint-2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e275_upc_edu_pe/IQCpTxZ-ag_KQ7IVCmDfBK6ZAYwH-s_Spe5JOStb3O5RtE4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=eza18p).
 
-**Figura 104**
+**Figura 97**
 
 *Capturas de Pantalla de la Web App de atelier*
 
@@ -1156,7 +1156,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 1: Verificamos que el repositorio de Github este preparado para el despliegue.
 
-**Figura 105**
+**Figura 98**
 
 *Repositorio del web app de atelier*
 
@@ -1164,7 +1164,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 2: Configuración del entorno en Vercel.
 
-**Figura 106**
+**Figura 99**
 
 *Captura de pantalla de la seccion de proyectos de Vercel*
 
@@ -1172,13 +1172,13 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 3: Selección el repositorio y desplegar.
 
-**Figura 107**
+**Figura 100**
 
 *Captura de pantalla de la seccion de despliegue de Vercel*
 
 ![](assets/ercel-web-app-deploy.png "Captura de pantalla de la seccion de despliegue de Vercel")
 
-**Figura 108**
+**Figura 101**
 
 *Captura de pantalla de la configuración de despliegue de Vercel*
 
@@ -1202,7 +1202,7 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se presentan las capturas en imagen de los analíticos de colaboración y commits extraídos de la pestaña "Insights" del repositorio en GitHub, las cuales evidencian la participación de todos los miembros del equipo:
 
-**Figura 109**
+**Figura 102**
 
 *Gráfico de commits*
 
@@ -1216,7 +1216,7 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se presenta el cuadro de resumen del sprint planning:
 
-**Tabla 29**
+**Tabla 25**
 
 *Tabla de Sprint 3 de atelier*
 
@@ -1239,7 +1239,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Se han designado los responsables de liderar el desarrollo del front-end de cada módulo operativo para asegurar la especialización en la lógica de cada vista.
 
-**Tabla 30**
+**Tabla 26**
 
 *Leadership-and-Collaboration Matrix*
 
@@ -1322,7 +1322,7 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se presenta una captura de pantalla del sprint backlog en la herramienta de gestión Trello, junto con su respectivo enlace público: [https://trello.com/b/Ps9vRgAV/atelier-sprint-backlog-3](https://trello.com/b/Ps9vRgAV/atelier-sprint-backlog-3).
 
-**Figura 110**
+**Figura 97**
 
 *Captura de Pantalla del Sprint Backlog #3 atelier en Trello*
 
@@ -1330,7 +1330,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Seguidamente, se detalla la tabla de control de estado con la descomposición de las Technical Stories en tareas específicas asignadas a los miembros del equipo, estimadas en horas y con su estado actual de progreso.
 
-**Tabla 31**
+**Tabla 27**
 
 *Sprint Backlog #3 atelier*
 
@@ -2491,7 +2491,7 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se presenta la tabla detallada que incluye, para el repositorio de la web application, los commits directamente relacionados con la implementación de las características mencionadas:
 
-**Tabla 32**
+**Tabla 28**
 
 *Tabla de Commits del Sprint #3*
 
@@ -7411,9 +7411,9 @@
 
 &emsp;&emsp;&emsp;&emsp;Durante este sprint se logro implementar y desplegar una primera versión del backend atelier.
 
-&emsp;&emsp;&emsp;&emsp;A continuación, se presentan las capturas de pantalla de las principales vistas implementadas conectadas con algunos endpoints que se desarrollaron y capturas de pantalla de los endpoints en Swagger, junto con un enlace a un video demostrativo que ilustra y explica a detalle la visualización y navegación logrados en este Sprint: [Sprint-3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e275_upc_edu_pe/IQCSF67QJkvXS5NwtW7GE3wVAUmKE_GK-nAyp3SnFYEjLEU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=D0n7jd).
+&emsp;&emsp;&emsp;&emsp;A continuación, se presentan las capturas de pantalla de las principales vistas implementadas conectadas con algunos endpoints que se desarrollaron y capturas de pantalla de los endpoints en Swagger, junto con un enlace a un video demostrativo que ilustra y explica a detalle la visualización y navegación logrados en este Sprint: [Sprint-3]().
 
-**Figura 111**
+**Figura 97**
 
 *Capturas de Pantalla de la Web App de atelier*
 
@@ -7425,9 +7425,8 @@
 ![](assets/webapp-6.png "Capturas de Pantalla de la Web App de atelier")
 ![](assets/webapp-7.png "Capturas de Pantalla de la Web App de atelier")
 ![](assets/webapp-8.png "Capturas de Pantalla de la Web App de atelier")
-![](assets/webapp-9.png "Capturas de Pantalla de la Web App de atelier")
 
-**Figura 112**
+**Figura 98**
 
 *Capturas de Pantalla de Swagger con los endpoints de atelier*
 
@@ -7459,7 +7458,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Para la ejecución y validación del desarrollo del backend durante el Sprint 3 consulte el link: [https://atelier-platform.onrender.com/swagger-ui/index.html](https://atelier-platform.onrender.com/swagger-ui/index.html)
 
-**Tabla 33**
+**Figura 99**
 
 *Tabla de los endpoints de atelier para el sprint 3*
 
@@ -8214,7 +8213,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 1: Verificamos que el repositorio de Github este preparado para el despliegue.
 
-**Figura 113**
+**Figura 98**
 
 *Repositorio del platform de atelier*
 
@@ -8222,7 +8221,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 2: Una vez ubicados en el dashboard de Render, hacemos click en "New Web Service".
 
-**Figura 114**
+**Figura 87**
 
 *Captura de pantalla del dashboard de Render*
 
@@ -8230,7 +8229,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 3: Colocamos el url del repositorio que aloja el codigo fuente del platform de atelier.
 
-**Figura 115**
+**Figura 88**
 
 *Captura de pantalla de la seccion de configuración de Render*
 
@@ -8238,7 +8237,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 4: Configuramos el correcto desplegamiento del platform de atelier.
 
-**Figura 116**
+**Figura 89**
 
 *Captura de pantalla de la configuración de despliegue de Render*
 
@@ -8247,7 +8246,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 5: A través del siguiente link: [https://atelier-platform-aplicaciones-web.onrender.com/swagger/index.html](https://atelier-platform-aplicaciones-web.onrender.com/swagger/index.html), comprobamos el correcto despliegue de atelier.
 
-**Figura 117**
+**Figura 90**
 
 *Captura de pantalla de confirmación atelier en Render*
 
@@ -8269,10 +8268,779 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se presentan las capturas en imagen de los analíticos de colaboración y commits extraídos de la pestaña "Insights" del repositorio en GitHub, las cuales evidencian la participación de todos los miembros del equipo:
 
-**Figura 118**
+**Figura 102**
 
 *Gráfico de commits del platform*
 
 ![](assets/commits-sprint-3.jpg "Gráfico de commits del platform")
+
+### 5.2.4.&emsp;&emsp;*Sprint 4* {#cap-5-2-4}
+
+#### 5.2.4.1.&emsp;&emsp;*Sprint Planning 4* {#cap-5-2-4-1}
+
+&emsp;&emsp;&emsp;&emsp;En esta sección se especifican los aspectos principales del Sprint Planning Meeting para el cuarto y último sprint del proyecto Atelier. Con el backend ya consolidado, el objetivo principal de esta iteración es realizar la integración final conectando las interfaces gráficas (Frontend) con los servicios en vivo (Backend RESTful API), además de refinar la experiencia de usuario (UX) manejando adecuadamente los estados de carga, errores y validaciones finales.
+
+&emsp;&emsp;&emsp;&emsp;A continuación, se presenta el cuadro de resumen del sprint planning:
+
+**Tabla 35**
+
+*Tabla de Sprint 4 de atelier*
+
+| Sprint # | Sprint 4 |
+|:--------:|:--------|
+|    **Sprint Planning Background**      |    --      |
+|    Date      |    2026-06-31      |
+|    Time      |    06:00 PM      |
+|    Location      |    Reunión virtual mediante el canal de voz de Discord      |
+|    Prepared By      |     Huamani Estefanero, Joel     |
+|    Attendees     |     Huamani Estefanero, Joel/Granda Ibarra, Luis Daniel/Machacca Soto, Aldo Jeanfranco/Riveros Vera, Jennifer Yamilet/Sanchez Santin, Adiel Abdiaz     |
+|    Sprint 4 - 3 Review Summary      |     The team successfully deployed the relational database and the complete set of RESTful API endpoints. The core backend services, including multi-tenant isolation and the telemetry ingestion engine, were validated using API testing tools.     |
+|    Sprint 4 – 3 Retrospective Summary      |     The team recognized that strict payload matching is required between the client and the server. We agreed to prioritize the implementation of global error handling and loading states in the frontend to provide immediate feedback to the users during API calls.     |
+|     **Sprint Goal & User Stories**     |          |
+|     Sprint 4 Goal     |    Our focus is on connecting the user interfaces with the active platform services and polishing the final user workflows. We believe it delivers a fully integrated, error-free, and seamless daily operational tool to the workshop administrators, mechanics, and receptionists. This will be confirmed when workshop staff can successfully complete the end-to-end flow from booking an appointment to closing a work order and viewing real-time telemetry on the final application without integration errors.      |
+|     Sprint 4 Velocity     |     37     |
+|     Sum of Story Points     |    37      |
+
+#### 5.2.4.2.&emsp;&emsp;*Aspect Leaders and Collaborators* {#cap-5-2-4-2}
+
+&emsp;&emsp;&emsp;&emsp;Se han designado los responsables de liderar el desarrollo del front-end de cada módulo operativo para asegurar la especialización en la lógica de cada vista.
+
+**Tabla 36**
+
+*Leadership-and-Collaboration Matrix*
+
+<table style="width: 100%; table-layout: fixed; word-wrap: break-word; font-size: 0.7em;">
+<thead>
+<tr>
+<th>Team Member</th>
+<th>GitHub Username</th>
+<th>Iam</th>
+<th>Core</th>
+<th>Operations</th>
+<th>Billing</th>
+<th>Fleet</th>
+<th>Inventory</th>
+<th>IoT</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Granda Ibarra, Luis Daniel</td>
+<td>danieltyuyu</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>L</td>
+</tr>
+<tr>
+<td>Huamani Estefanero, Joel</td>
+<td>shouydev</td>
+<td>L</td>
+<td>L</td>
+<td>L</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Machacca Soto, Aldo Jeanfranco</td>
+<td>AldoDev20</td>
+<td></td>
+<td></td>
+<td></td>
+<td>L</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Riveros Vera, Jennifer Yamilet</td>
+<td>Jennivz</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>L</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Sanchez Santin, Adiel Abdiaz</td>
+<td>xs4el</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>L</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+#### 5.2.4.3.&emsp;&emsp;*Sprint Backlog 4* {#cap-5-2-4-3}
+
+&emsp;&emsp;&emsp;&emsp;Como se estableció en el Sprint Planning, el objetivo principal de este cuarto sprint es la finalización del frontend de atelier.
+
+&emsp;&emsp;&emsp;&emsp;A continuación, se presenta una captura de pantalla del sprint backlog en la herramienta de gestión Trello, junto con su respectivo enlace público: [https://trello.com/b/rQfIVpKF/atelier-sprint-backlog-4](https://trello.com/b/rQfIVpKF/atelier-sprint-backlog-4).
+
+**Figura 120**
+
+*Captura de Pantalla del Sprint Backlog #4 atelier en Trello*
+
+![](assets/sprint-4-trello.png "Captura de Pantalla del Sprint Backlog #4 atelier en Trello")
+
+&emsp;&emsp;&emsp;&emsp;Seguidamente, se detalla la tabla de control de estado con la descomposición de las Technical Stories en tareas específicas asignadas a los miembros del equipo, estimadas en horas y con su estado actual de progreso.
+
+**Tabla 37**
+
+*Sprint Backlog #4 atelier*
+
+<table style="width: 100%; table-layout: fixed; word-wrap: break-word; font-size: 0.2em;">
+    <thead>
+      <tr>
+        <th colspan="2">User Story</th>
+        <th colspan="6">Work-Item / Task</th>
+      </tr>
+      <tr>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Estimation (Hours)</th>
+        <th>Assigned To</th>
+        <th>Status (To-do / In-Process / To-Review / Done)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="3"><strong>US001</strong></td>
+        <td rowspan="3">Registro inicial de taller</td>
+        <td>US001-01</td>
+        <td>Registro de RUC y Razon Social</td>
+        <td>Llevar a cabo el análisis, diseño y codificación de 'Registro de RUC y Razon Social' siguiendo los estándares establecidos en el proyecto.</td>
+        <td>3</td>
+        <td>Joel Estefanero</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US001-02</td>
+        <td>Creacion de Sucursal de Taller</td>
+        <td>Llevar a cabo el análisis, diseño y codificación de 'Creacion de Sucursal de Taller' siguiendo los estándares establecidos en el proyecto.</td>
+        <td>3</td>
+        <td>Joel Estefanero</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US001-03</td>
+        <td>Comprobacion de RUC</td>
+        <td>Llevar a cabo el análisis, diseño y codificación de 'Comprobacion de RUC' siguiendo los estándares establecidos en el proyecto.</td>
+        <td>3</td>
+        <td>Joel Estefanero</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td rowspan="3"><strong>US002</strong></td>
+        <td rowspan="3">Selección de plan de suscripción</td>
+        <td>US002-01</td>
+        <td>Actualizacion automatica de precios</td>
+        <td>Llevar a cabo el análisis, diseño y codificación de 'Actualizacion automatica de precios' siguiendo los estándares establecidos en el proyecto.</td>
+        <td>3</td>
+        <td>Joel Estefanero</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US002-02</td>
+        <td>Registro de informacion sensible</td>
+        <td>Llevar a cabo el análisis, diseño y codificación de 'Registro de informacion sensible' siguiendo los estándares establecidos en el proyecto.</td>
+        <td>3</td>
+        <td>Joel Estefanero</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US002-03</td>
+        <td>Registro de datos bancarios para el registro</td>
+        <td>Llevar a cabo el análisis, diseño y codificación de 'Registro de datos bancarios para el registro' siguiendo los estándares establecidos en el proyecto.</td>
+        <td>3</td>
+        <td>Joel Estefanero</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td rowspan="1"><strong>US003</strong></td>
+        <td rowspan="1">=02 | Eleccion de Rol</td>
+        <td>US003-01</td>
+        <td>Comprobacion de usuario correcto</td>
+        <td>Llevar a cabo el análisis, diseño y codificación de 'Comprobacion de usuario correcto' siguiendo los estándares establecidos en el proyecto.</td>
+        <td>3</td>
+        <td>Joel Estefanero</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td rowspan="2"><strong>US006</strong></td>
+        <td rowspan="2">Recuperación de contraseña</td>
+        <td>US006-01</td>
+        <td>Comprobacion de correo valido</td>
+        <td>Llevar a cabo el análisis, diseño y codificación de 'Comprobacion de correo valido' siguiendo los estándares establecidos en el proyecto.</td>
+        <td>3</td>
+        <td>Joel Estefanero</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US006-02</td>
+        <td>Vista de cambiar de contraseña</td>
+        <td>Llevar a cabo el análisis, diseño y codificación de 'Vista de cambiar de contraseña' siguiendo los estándares establecidos en el proyecto.</td>
+        <td>3</td>
+        <td>Joel Estefanero</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td rowspan="2"><strong>US026</strong></td>
+        <td rowspan="2">Creación de cotización digital</td>
+        <td>US026-04</td>
+        <td>Consumo de Endpoints de Cotización</td>
+        <td>Integrar el frontend para consumir los endpoints de creación y obtención de cotizaciones desde la RESTful API.</td>
+        <td>4</td>
+        <td>Aldo Machacca</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US026-05</td>
+        <td>Diálogo de Creación de Cotizaciones (i18n)</td>
+        <td>Desarrollar el componente de diálogo para la creación de cotizaciones con soporte multi-idioma (i18n).</td>
+        <td>3</td>
+        <td>Aldo Machacca</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td rowspan="3"><strong>US028</strong></td>
+        <td rowspan="3">Registro de cobro en caja</td>
+        <td>US028-04</td>
+        <td>Consumo de Endpoints de Emisión de Vouchers</td>
+        <td>Integrar el frontend para consumir los endpoints de pagos y generación de comprobantes (vouchers).</td>
+        <td>4</td>
+        <td>Aldo Machacca</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US028-05</td>
+        <td>Refactorización y Limpieza de Facturación</td>
+        <td>Refactorizar el módulo eliminando pestañas obsoletas y filtrando cotizaciones duplicadas para prevenir errores.</td>
+        <td>3</td>
+        <td>Aldo Machacca</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US028-06</td>
+        <td>Integración de Facthub para Validación SUNAT</td>
+        <td>Implementar en el frontend la visualización de la validez de comprobantes a través de la API externa de Facthub.</td>
+        <td>4</td>
+        <td>Aldo Machacca</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td rowspan="1"><strong>US029</strong></td>
+        <td rowspan="1">Aplicación de descuentos</td>
+        <td>US029-04</td>
+        <td>Consumo de Endpoints de Descuentos</td>
+        <td>Conectar los inputs de la interfaz con los servicios de backend para aplicar descuentos dinámicos.</td>
+        <td>3</td>
+        <td>Aldo Machacca</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td rowspan="3"><strong>US030</strong></td>
+        <td rowspan="3">Panel de ingresos y rentabilidad</td>
+        <td>US030-04</td>
+        <td>Integración de Analítica y KPIs en el Dashboard</td>
+        <td>Conectar las tarjetas de KPIs (ingresos, rentabilidad) en el frontend consumiendo los datos agregados del backend.</td>
+        <td>4</td>
+        <td>Luis Granda</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US030-05</td>
+        <td>Visualización Gráfica de Ingresos y Rentabilidad</td>
+        <td>Implementar el gráfico de barras verticales dinámico utilizando Chart.js para comparar rentabilidad mensual.</td>
+        <td>3</td>
+        <td>Luis Granda</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US030-06</td>
+        <td>Refactorización de Pestañas y Simplificación del Dashboard</td>
+        <td>Remover pestañas financieras obsoletas (egresos no soportados) y unificar la navegación en el panel de facturación.</td>
+        <td>2</td>
+        <td>Luis Granda</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td rowspan="1"><strong>US031</strong></td>
+        <td rowspan="1">Exportación de reportes contables</td>
+        <td>US031-01</td>
+        <td>Interfaz de Exportación Contable del Periodo</td>
+        <td>Diseñar e integrar la funcionalidad en el frontend para exportar el reporte mensual de transacciones contables.</td>
+        <td>3</td>
+        <td>Luis Granda</td>
+        <td>Done</td>
+      </tr>
+    </tbody>
+  </table>
+
+#### 5.2.4.4.&emsp;&emsp;*Development Evidence for Sprint Review* {#cap-5-2-4-4}
+
+&emsp;&emsp;&emsp;&emsp;En esta sección se explican y presentan los avances en implementación correspondientes al cuarto sprint del proyecto Atelier. De acuerdo con el alcance establecido en el Sprint Planning.
+
+&emsp;&emsp;&emsp;&emsp;A continuación, se presenta la tabla detallada que incluye, para el repositorio de la web application, los commits directamente relacionados con la implementación de las características mencionadas:
+
+**Tabla 38**
+
+*Tabla de Commits del Sprint #4*
+
+<table style="width: 100%; table-layout: fixed; word-wrap: break-word; font-size: 0.3em;">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Commited On</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>develop</td>
+      <td>07d676a</td>
+      <td>Merge branch 'feature/dashboard' into develop</td>
+      <td></td>
+      <td>2026-07-05</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>develop</td>
+      <td>8f5b1ab</td>
+      <td>refactor(shared): integrate real bc components into dashboards.</td>
+      <td></td>
+      <td>2026-07-05</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>refs/remotes/release/2.1.0</td>
+      <td>a06e0b5</td>
+      <td>Merge branch 'feature/customer-dashboard' into develop</td>
+      <td></td>
+      <td>2026-07-04</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>refs/remotes/release/2.1.0</td>
+      <td>d3ec0a9</td>
+      <td>feat(shared): apply billing styles and i18n to dashboards.</td>
+      <td></td>
+      <td>2026-07-04</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>refs/remotes/release/2.1.0</td>
+      <td>0b1a03c</td>
+      <td>fix: align add product button vertically in inventory list header.</td>
+      <td></td>
+      <td>2026-07-03</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>refs/remotes/release/2.1.0</td>
+      <td>3ed77a9</td>
+      <td>feat: add back navigation label in appointments view, and implement product list sorting in inventory view.</td>
+      <td></td>
+      <td>2026-07-03</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>refs/remotes/release/2.1.0</td>
+      <td>d270da4</td>
+      <td>fix: preselect customer and vehicle when editing appointment, and display customer names and vehicle plates in the list.</td>
+      <td></td>
+      <td>2026-07-03</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.27.1</td>
+      <td>48348a6</td>
+      <td>Merge branch 'feature/fleet-customer' into develop</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.27.1</td>
+      <td>70738d2</td>
+      <td>fix(fleet): correct button styles in add customer modal.</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.27.0</td>
+      <td>c66e04b</td>
+      <td>Merge branch 'feature/sign-up' into develop</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.27.0</td>
+      <td>7314352</td>
+      <td>feat(onboarding): add multilingual support for onboarding and registration forms.</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.27.0</td>
+      <td>7cb6c36</td>
+      <td>feat(sign-up): implement fallback sign-in on sign-up failure.</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.27.0</td>
+      <td>3155d70</td>
+      <td>feat(sign-up): implement fallback sign-in on sign-up failure.</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.27.0</td>
+      <td>2baf096</td>
+      <td>feat(onboarding): add customer onboarding form with dynamic fields and validation.</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.27.0</td>
+      <td>5d14ace</td>
+      <td>feat(onboarding): add onboarding route with lazy loading and guard.</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.27.0</td>
+      <td>3065011</td>
+      <td>feat(role-selection): add add profile card and update role selection logic.</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.27.0</td>
+      <td>7300b69</td>
+      <td>feat(sign-up): add password visibility toggle to sign-up form.</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.26.0</td>
+      <td>8647158</td>
+      <td>Merge branch 'feature/work-order' into develop</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.26.0</td>
+      <td>20f7178</td>
+      <td>feat(work-order): update task handling to synchronize active and branch work orders.</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.26.0</td>
+      <td>7735c3a</td>
+      <td>feat(task-form): add stock warning and disable button for insufficient stock in modal.</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.26.0</td>
+      <td>2556cdb</td>
+      <td>feat(vehicle-plate): implement on changes lifecycle method to fetch vehicle data on vehicleId change.</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.26.0</td>
+      <td>a04772a</td>
+      <td>fix(work-order): add missing newlines in request and assembler files.</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.26.0</td>
+      <td>72bf1f9</td>
+      <td>feat(task): add quantity field to update product quantity request.</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.26.0</td>
+      <td>83062c0</td>
+      <td>feat(fleet-store): add method to fetch employee registration by id.</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.26.0</td>
+      <td>1edb3db</td>
+      <td>fix(mechanic-selector): update mechanic selector to use correct employee id for options.</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.26.0</td>
+      <td>7621f94</td>
+      <td>feat(employee-name): implement lifecycle methods to fetch employee data on employee id change.</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.26.0</td>
+      <td>3cded3d</td>
+      <td>feat(customer-name): implement on changes lifecycle to fetch customer data on customer id change.</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.26.0</td>
+      <td>df2f71c</td>
+      <td>fix(task): add missing newlines at the end of request files.</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.26.0</td>
+      <td>c7c24a5</td>
+      <td>feat(work-order): add delete functionality for work orders and tasks with corresponding ui elements.</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.26.0</td>
+      <td>73df61b</td>
+      <td>feat(mechanic): add mechanic name component with loading and error handling.</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.26.0</td>
+      <td>d5ccc1b</td>
+      <td>fix(fleet): align appointment endpoint paths with backend and fix unit tests</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.25.2</td>
+      <td>4c922d0</td>
+      <td>Merge branch 'feature/billing-fixes' into develop.</td>
+      <td></td>
+      <td>2026-06-28</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.25.2</td>
+      <td>01cdaf9</td>
+      <td>feat(billing): remove unused expenses tab from dashboard.</td>
+      <td></td>
+      <td>2026-06-28</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.25.2</td>
+      <td>aa316dd</td>
+      <td>fix(billing): filter out quotes with existing vouchers from checkout options.</td>
+      <td></td>
+      <td>2026-06-28</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.25.2</td>
+      <td>b1ff18d</td>
+      <td>feat(billing): change dashboard chart to vertical bar chart.</td>
+      <td></td>
+      <td>2026-06-28</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.25.2</td>
+      <td>e41d180</td>
+      <td>style(billing): inherit global Inter font variables in dashboard.</td>
+      <td></td>
+      <td>2026-06-28</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.25.2</td>
+      <td>b4f4fca</td>
+      <td>feat(operations): add direct quote creation button in work orders list.</td>
+      <td></td>
+      <td>2026-06-28</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.25.2</td>
+      <td>953a7e0</td>
+      <td>feat(billing): implement quote creation button in billing dashboard.</td>
+      <td></td>
+      <td>2026-06-28</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.25.2</td>
+      <td>451ff14</td>
+      <td>feat(billing): add create-quote-dialog and translate keys.</td>
+      <td></td>
+      <td>2026-06-28</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.25.2</td>
+      <td>876e974</td>
+      <td>fix(fleet): correct component class names in appointment spec files.</td>
+      <td></td>
+      <td>2026-06-28</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.25.2</td>
+      <td>2176619</td>
+      <td>refactor(billing): align checkout endpoint with integration guide.</td>
+      <td></td>
+      <td>2026-06-28</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.25.2</td>
+      <td>99fec5e</td>
+      <td>refactor(billing): align quotes endpoints with integration guide.</td>
+      <td></td>
+      <td>2026-06-28</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.25.1</td>
+      <td>bc77856</td>
+      <td>Merge branch 'feature/iot' into develop</td>
+      <td></td>
+      <td>2026-06-21</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.25.1</td>
+      <td>60f92f6</td>
+      <td>feat(iot): add manual telemetry ingestion modal to dashboard.</td>
+      <td></td>
+      <td>2026-06-21</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.25.0</td>
+      <td>d3ce718</td>
+      <td>fix(appointment): fix date parsing and displayWith context</td>
+      <td></td>
+      <td>2026-06-21</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.24.3</td>
+      <td>bfcb3c8</td>
+      <td>Merge branch 'feature/customer-emails' into develop.</td>
+      <td></td>
+      <td>2026-06-21</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.24.3</td>
+      <td>24897b3</td>
+      <td>feat(fleet): integrate email search and inline customer profile creation.</td>
+      <td></td>
+      <td>2026-06-21</td>
+    </tr>
+  </tbody>
+</table>
+
+
+#### 5.2.4.5.&emsp;&emsp;*Execution Evidence for Sprint Review* {#cap-5-2-4-5}
+
+&emsp;&emsp;&emsp;&emsp;Durante este sprint se logro implementar y desplegar una tercera versión del frontend atelier.
+
+&emsp;&emsp;&emsp;&emsp;A continuación, se presentan las capturas de pantalla de las principales vistas implementadas conectadas con algunos endpoints que se desarrollaron y capturas de pantalla de los endpoints en Swagger, junto con un enlace a un video demostrativo que ilustra y explica a detalle la visualización y navegación logrados en este Sprint: [Sprint-4]().
+
+**Figura 121**
+
+*Capturas de Pantalla de la Web App de atelier*
+
+![](assets/webapp-1.png "Capturas de Pantalla de la Web App de atelier")
+![](assets/webapp-2.png "Capturas de Pantalla de la Web App de atelier")
+![](assets/webapp-3.png "Capturas de Pantalla de la Web App de atelier")
+![](assets/webapp-4.png "Capturas de Pantalla de la Web App de atelier")
+![](assets/webapp-5.png "Capturas de Pantalla de la Web App de atelier")
+![](assets/webapp-6.png "Capturas de Pantalla de la Web App de atelier")
+![](assets/webapp-7.png "Capturas de Pantalla de la Web App de atelier")
+![](assets/webapp-8.png "Capturas de Pantalla de la Web App de atelier")
+![](assets/webapp-9.png "Capturas de Pantalla de la Web App de atelier")
+
+#### 5.2.4.6.&emsp;&emsp;*Services Documentation Evidence for Sprint Review* {#cap-5-2-4-6}
+
+&emsp;&emsp;&emsp;&emsp;Para este sprint no se desarrollaron endpoints.
+
+#### 5.2.4.7.&emsp;&emsp;*Software Deployment Evidence for Sprint Review* {#cap-5-2-4-7}
+
+&emsp;&emsp;&emsp;&emsp;Para este sprint no se realizaron despliegues.
+
+#### 5.2.4.8.&emsp;&emsp;*Team Collaboration Insights during Sprint* {#cap-5-2-4-8}
+
+&emsp;&emsp;&emsp;&emsp;En esta sección el equipo explica cómo se han desarrollado las actividades de implementación durante el cuarto sprint y se presentan las evidencias analíticas de colaboración en GitHub.
+
+&emsp;&emsp;&emsp;&emsp;Joel Huamani: En el webapp, se encargo de realizar las vistas y componentes necesarios para este sprint 4.
+
+&emsp;&emsp;&emsp;&emsp;Adiel Sanchez: En el webapp, se encargo de realizar las vistas y componentes necesarios para este sprint 4.
+
+&emsp;&emsp;&emsp;&emsp;Luis Granda: En el webapp, se encargo de realizar las vistas y componentes necesarios para este sprint 4.
+
+&emsp;&emsp;&emsp;&emsp;Aldo Machacca: En el webapp, se encargo de realizar las vistas y componentes necesarios para este sprint 4.
+
+&emsp;&emsp;&emsp;&emsp;Jennifer Riveros: En el webapp, se encargo de realizar las vistas y componentes necesarios para este sprint 4.
+
+&emsp;&emsp;&emsp;&emsp;A continuación, se presentan las capturas en imagen de los analíticos de colaboración y commits extraídos de la pestaña "Insights" del repositorio en GitHub, las cuales evidencian la participación de todos los miembros del equipo:
+
+**Figura 122**
+
+*Gráfico de commits de la webapp*
+
+![](assets/commits-sprint-4.png "Gráfico de commits de la webapp")
 
 <div style='page-break-after: always'></div>
