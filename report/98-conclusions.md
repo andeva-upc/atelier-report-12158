@@ -18,4 +18,14 @@
 
 # Video About-the-Team {#video-about-the-team}
 
+Link Drive: [Video About-the-Team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e275_upc_edu_pe/IQDvMNjPhoPmS43tKbKfQNxjARmssepA1z1TUKyHMfzkxA8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WcgUZb)
+
+Link Youtube: [Video About-the-Team](https://youtu.be/e-bgYJt9DrQ)
+
+**Figura 124**
+
+*Captura de pantalla del Video About-The-Team*
+
+![](assets/video-about-the-team.png "Captura de pantalla del Video About-The-Team")
+
 <div style='page-break-after: always'></div>

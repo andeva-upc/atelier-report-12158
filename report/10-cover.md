@@ -1,47 +1,41 @@
 <center><img src="assets/logo-upc.png" alt="logo de la UPC"></center>
 
 <center>Universidad Peruana de Ciencias Aplicadas</center>
-<center>Facultad de Ingeniería</center>
+<center>Carrera de Ingeniería de Software</center>
 
-<center><h4>1asi0730 Aplicaciones Web</h4></center>
+<center><h4>1ASI0730</h4></center>
 
-<h6></h6>
-
-<center><b>"Informe de Trabajo Final"</b></center>
+<center><h4>Aplicaciones Web</h4></center>
 
 <h6></h6>
 
-<center><b>NRC:</b> 12158</center>
+<center>NRC</center>
+<center><b>12158</b></center>
 
 <h6></h6>
 
-<center><b>Docente:</b> Villafuerte Bazan, Oscar Ivan</center>
+<center><h4>Informe del Trabajo Final</h4></center>
 
 <h6></h6>
 
-<center><b>Startup:</b> andeva</center>
+<center>Docente</center>
+<center><b>Villafuerte Bazan, Oscar Ivan</b></center>
 
 <h6></h6>
 
-<center><b>Producto:</b></center>
+<center>Equipo</center>
+<center><b>Andeva</b></center>
 
 <h6></h6>
 
-<center><img src="assets/logotipo-atelier.png" alt="Logotipo de atelier"></center>
-
-<h6></h6>
-
-<center><b>Carrera:</b> Ingeniería de Software</center>
-
-<center><b>Ciclo:</b> 2026-10</center>
+<center>Proyecto</center>
+<center><b>Atelier</b></center>
 
 <h6></h6>
 
 <center><b>Integrantes:</b></center>
 
-<h6></h6>
-
-<table style="margin: 0 auto; width: 70%;">
+<table style="display: flex; justify-content:center">
 	<tbody>
 		<tr>
 			<td><center>Código</center></td>
@@ -72,6 +66,10 @@
 
 <h6></h6>
 
-<center><b>Junio 2026</b></center>
+<center><b>Período 202610</b></center>
+
+<h6></h6>
+
+<center><b>Julio 2026</b></center>
 
 <div style='page-break-after: always'></div>

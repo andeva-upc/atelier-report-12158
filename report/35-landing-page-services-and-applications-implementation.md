@@ -8274,4 +8274,683 @@
 
 ![](assets/commits-sprint-3.jpg "Gráfico de commits del platform")
 
+### 5.2.4.&emsp;&emsp;*Sprint 4* {#cap-5-2-4}
+
+#### 5.2.4.1.&emsp;&emsp;*Sprint Planning 4* {#cap-5-2-4-1}
+
+&emsp;&emsp;&emsp;&emsp;En esta sección se especifican los aspectos principales del Sprint Planning Meeting para el cuarto y último sprint del proyecto Atelier. Con el backend ya consolidado, el objetivo principal de esta iteración es realizar la integración final conectando las interfaces gráficas (Frontend) con los servicios en vivo (Backend RESTful API), además de refinar la experiencia de usuario (UX) manejando adecuadamente los estados de carga, errores y validaciones finales.
+
+&emsp;&emsp;&emsp;&emsp;A continuación, se presenta el cuadro de resumen del sprint planning:
+
+**Tabla 35**
+
+*Tabla de Sprint 4 de atelier*
+
+| Sprint # | Sprint 4 |
+|:--------:|:--------|
+|    **Sprint Planning Background**      |    --      |
+|    Date      |    2026-06-31      |
+|    Time      |    06:00 PM      |
+|    Location      |    Reunión virtual mediante el canal de voz de Discord      |
+|    Prepared By      |     Huamani Estefanero, Joel     |
+|    Attendees     |     Huamani Estefanero, Joel/Granda Ibarra, Luis Daniel/Machacca Soto, Aldo Jeanfranco/Riveros Vera, Jennifer Yamilet/Sanchez Santin, Adiel Abdiaz     |
+|    Sprint 4 - 3 Review Summary      |     The team successfully deployed the relational database and the complete set of RESTful API endpoints. The core backend services, including multi-tenant isolation and the telemetry ingestion engine, were validated using API testing tools.     |
+|    Sprint 4 – 3 Retrospective Summary      |     The team recognized that strict payload matching is required between the client and the server. We agreed to prioritize the implementation of global error handling and loading states in the frontend to provide immediate feedback to the users during API calls.     |
+|     **Sprint Goal & User Stories**     |          |
+|     Sprint 4 Goal     |    Our focus is on connecting the user interfaces with the active platform services and polishing the final user workflows. We believe it delivers a fully integrated, error-free, and seamless daily operational tool to the workshop administrators, mechanics, and receptionists. This will be confirmed when workshop staff can successfully complete the end-to-end flow from booking an appointment to closing a work order and viewing real-time telemetry on the final application without integration errors.      |
+|     Sprint 4 Velocity     |     37     |
+|     Sum of Story Points     |    37      |
+
+#### 5.2.4.2.&emsp;&emsp;*Aspect Leaders and Collaborators* {#cap-5-2-4-2}
+
+&emsp;&emsp;&emsp;&emsp;Se han designado los responsables de liderar el desarrollo del front-end de cada módulo operativo para asegurar la especialización en la lógica de cada vista.
+
+**Tabla 36**
+
+*Leadership-and-Collaboration Matrix*
+
+<table style="width: 100%; table-layout: fixed; word-wrap: break-word; font-size: 0.7em;">
+<thead>
+<tr>
+<th>Team Member</th>
+<th>GitHub Username</th>
+<th>Iam</th>
+<th>Core</th>
+<th>Operations</th>
+<th>Billing</th>
+<th>Fleet</th>
+<th>Inventory</th>
+<th>IoT</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Granda Ibarra, Luis Daniel</td>
+<td>danieltyuyu</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>L</td>
+</tr>
+<tr>
+<td>Huamani Estefanero, Joel</td>
+<td>shouydev</td>
+<td>L</td>
+<td>L</td>
+<td>L</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Machacca Soto, Aldo Jeanfranco</td>
+<td>AldoDev20</td>
+<td></td>
+<td></td>
+<td></td>
+<td>L</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Riveros Vera, Jennifer Yamilet</td>
+<td>Jennivz</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>L</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Sanchez Santin, Adiel Abdiaz</td>
+<td>xs4el</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>L</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+#### 5.2.4.3.&emsp;&emsp;*Sprint Backlog 4* {#cap-5-2-4-3}
+
+&emsp;&emsp;&emsp;&emsp;Como se estableció en el Sprint Planning, el objetivo principal de este cuarto sprint es la finalización del frontend de atelier.
+
+&emsp;&emsp;&emsp;&emsp;A continuación, se presenta una captura de pantalla del sprint backlog en la herramienta de gestión Trello, junto con su respectivo enlace público: [https://trello.com/b/rQfIVpKF/atelier-sprint-backlog-4](https://trello.com/b/rQfIVpKF/atelier-sprint-backlog-4).
+
+**Figura 120**
+
+*Captura de Pantalla del Sprint Backlog #4 atelier en Trello*
+
+![](assets/trello-4.png "Captura de Pantalla del Sprint Backlog #3 atelier en Trello")
+
+&emsp;&emsp;&emsp;&emsp;Seguidamente, se detalla la tabla de control de estado con la descomposición de las Technical Stories en tareas específicas asignadas a los miembros del equipo, estimadas en horas y con su estado actual de progreso.
+
+**Tabla 37**
+
+*Sprint Backlog #4 atelier*
+
+<table style="width: 100%; table-layout: fixed; word-wrap: break-word; font-size: 0.2em;">
+    <thead>
+      <tr>
+        <th colspan="2">User Story</th>
+        <th colspan="6">Work-Item / Task</th>
+      </tr>
+      <tr>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Estimation (Hours)</th>
+        <th>Assigned To</th>
+        <th>Status (To-do / In-Process / To-Review / Done)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="3"><strong>US001</strong></td>
+        <td rowspan="3">Registro inicial de taller</td>
+        <td>US001-01</td>
+        <td>Registro de RUC y Razon Social</td>
+        <td>Llevar a cabo el análisis, diseño y codificación de 'Registro de RUC y Razon Social' siguiendo los estándares establecidos en el proyecto.</td>
+        <td>3</td>
+        <td>Joel Estefanero</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US001-02</td>
+        <td>Creacion de Sucursal de Taller</td>
+        <td>Llevar a cabo el análisis, diseño y codificación de 'Creacion de Sucursal de Taller' siguiendo los estándares establecidos en el proyecto.</td>
+        <td>3</td>
+        <td>Joel Estefanero</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US001-03</td>
+        <td>Comprobacion de RUC</td>
+        <td>Llevar a cabo el análisis, diseño y codificación de 'Comprobacion de RUC' siguiendo los estándares establecidos en el proyecto.</td>
+        <td>3</td>
+        <td>Joel Estefanero</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td rowspan="3"><strong>US002</strong></td>
+        <td rowspan="3">Selección de plan de suscripción</td>
+        <td>US002-01</td>
+        <td>Actualizacion automatica de precios</td>
+        <td>Llevar a cabo el análisis, diseño y codificación de 'Actualizacion automatica de precios' siguiendo los estándares establecidos en el proyecto.</td>
+        <td>3</td>
+        <td>Joel Estefanero</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US002-02</td>
+        <td>Registro de informacion sensible</td>
+        <td>Llevar a cabo el análisis, diseño y codificación de 'Registro de informacion sensible' siguiendo los estándares establecidos en el proyecto.</td>
+        <td>3</td>
+        <td>Joel Estefanero</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US002-03</td>
+        <td>Registro de datos bancarios para el registro</td>
+        <td>Llevar a cabo el análisis, diseño y codificación de 'Registro de datos bancarios para el registro' siguiendo los estándares establecidos en el proyecto.</td>
+        <td>3</td>
+        <td>Joel Estefanero</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td rowspan="1"><strong>US003</strong></td>
+        <td rowspan="1">=02 | Eleccion de Rol</td>
+        <td>US003-01</td>
+        <td>Comprobacion de usuario correcto</td>
+        <td>Llevar a cabo el análisis, diseño y codificación de 'Comprobacion de usuario correcto' siguiendo los estándares establecidos en el proyecto.</td>
+        <td>3</td>
+        <td>Joel Estefanero</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td rowspan="2"><strong>US006</strong></td>
+        <td rowspan="2">Recuperación de contraseña</td>
+        <td>US006-01</td>
+        <td>Comprobacion de correo valido</td>
+        <td>Llevar a cabo el análisis, diseño y codificación de 'Comprobacion de correo valido' siguiendo los estándares establecidos en el proyecto.</td>
+        <td>3</td>
+        <td>Joel Estefanero</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US006-02</td>
+        <td>Vista de cambiar de contraseña</td>
+        <td>Llevar a cabo el análisis, diseño y codificación de 'Vista de cambiar de contraseña' siguiendo los estándares establecidos en el proyecto.</td>
+        <td>3</td>
+        <td>Joel Estefanero</td>
+        <td>Done</td>
+      </tr>
+    </tbody>
+  </table>
+
+#### 5.2.4.4.&emsp;&emsp;*Development Evidence for Sprint Review* {#cap-5-2-4-4}
+
+&emsp;&emsp;&emsp;&emsp;En esta sección se explican y presentan los avances en implementación correspondientes al cuarto sprint del proyecto Atelier. De acuerdo con el alcance establecido en el Sprint Planning.
+
+&emsp;&emsp;&emsp;&emsp;A continuación, se presenta la tabla detallada que incluye, para el repositorio de la web application, los commits directamente relacionados con la implementación de las características mencionadas:
+
+**Tabla 38**
+
+*Tabla de Commits del Sprint #4*
+
+<table style="width: 100%; table-layout: fixed; word-wrap: break-word; font-size: 0.3em;">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Commited On</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>develop</td>
+      <td>07d676a</td>
+      <td>Merge branch 'feature/dashboard' into develop</td>
+      <td></td>
+      <td>2026-07-05</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>develop</td>
+      <td>8f5b1ab</td>
+      <td>refactor(shared): integrate real bc components into dashboards.</td>
+      <td></td>
+      <td>2026-07-05</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>refs/remotes/release/2.1.0</td>
+      <td>a06e0b5</td>
+      <td>Merge branch 'feature/customer-dashboard' into develop</td>
+      <td></td>
+      <td>2026-07-04</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>refs/remotes/release/2.1.0</td>
+      <td>d3ec0a9</td>
+      <td>feat(shared): apply billing styles and i18n to dashboards.</td>
+      <td></td>
+      <td>2026-07-04</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>refs/remotes/release/2.1.0</td>
+      <td>0b1a03c</td>
+      <td>fix: align add product button vertically in inventory list header.</td>
+      <td></td>
+      <td>2026-07-03</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>refs/remotes/release/2.1.0</td>
+      <td>3ed77a9</td>
+      <td>feat: add back navigation label in appointments view, and implement product list sorting in inventory view.</td>
+      <td></td>
+      <td>2026-07-03</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>refs/remotes/release/2.1.0</td>
+      <td>d270da4</td>
+      <td>fix: preselect customer and vehicle when editing appointment, and display customer names and vehicle plates in the list.</td>
+      <td></td>
+      <td>2026-07-03</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.27.1</td>
+      <td>48348a6</td>
+      <td>Merge branch 'feature/fleet-customer' into develop</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.27.1</td>
+      <td>70738d2</td>
+      <td>fix(fleet): correct button styles in add customer modal.</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.27.0</td>
+      <td>c66e04b</td>
+      <td>Merge branch 'feature/sign-up' into develop</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.27.0</td>
+      <td>7314352</td>
+      <td>feat(onboarding): add multilingual support for onboarding and registration forms.</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.27.0</td>
+      <td>7cb6c36</td>
+      <td>feat(sign-up): implement fallback sign-in on sign-up failure.</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.27.0</td>
+      <td>3155d70</td>
+      <td>feat(sign-up): implement fallback sign-in on sign-up failure.</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.27.0</td>
+      <td>2baf096</td>
+      <td>feat(onboarding): add customer onboarding form with dynamic fields and validation.</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.27.0</td>
+      <td>5d14ace</td>
+      <td>feat(onboarding): add onboarding route with lazy loading and guard.</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.27.0</td>
+      <td>3065011</td>
+      <td>feat(role-selection): add add profile card and update role selection logic.</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.27.0</td>
+      <td>7300b69</td>
+      <td>feat(sign-up): add password visibility toggle to sign-up form.</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.26.0</td>
+      <td>8647158</td>
+      <td>Merge branch 'feature/work-order' into develop</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.26.0</td>
+      <td>20f7178</td>
+      <td>feat(work-order): update task handling to synchronize active and branch work orders.</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.26.0</td>
+      <td>7735c3a</td>
+      <td>feat(task-form): add stock warning and disable button for insufficient stock in modal.</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.26.0</td>
+      <td>2556cdb</td>
+      <td>feat(vehicle-plate): implement on changes lifecycle method to fetch vehicle data on vehicleId change.</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.26.0</td>
+      <td>a04772a</td>
+      <td>fix(work-order): add missing newlines in request and assembler files.</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.26.0</td>
+      <td>72bf1f9</td>
+      <td>feat(task): add quantity field to update product quantity request.</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.26.0</td>
+      <td>83062c0</td>
+      <td>feat(fleet-store): add method to fetch employee registration by id.</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.26.0</td>
+      <td>1edb3db</td>
+      <td>fix(mechanic-selector): update mechanic selector to use correct employee id for options.</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.26.0</td>
+      <td>7621f94</td>
+      <td>feat(employee-name): implement lifecycle methods to fetch employee data on employee id change.</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.26.0</td>
+      <td>3cded3d</td>
+      <td>feat(customer-name): implement on changes lifecycle to fetch customer data on customer id change.</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.26.0</td>
+      <td>df2f71c</td>
+      <td>fix(task): add missing newlines at the end of request files.</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.26.0</td>
+      <td>c7c24a5</td>
+      <td>feat(work-order): add delete functionality for work orders and tasks with corresponding ui elements.</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.26.0</td>
+      <td>73df61b</td>
+      <td>feat(mechanic): add mechanic name component with loading and error handling.</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.26.0</td>
+      <td>d5ccc1b</td>
+      <td>fix(fleet): align appointment endpoint paths with backend and fix unit tests</td>
+      <td></td>
+      <td>2026-07-02</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.25.2</td>
+      <td>4c922d0</td>
+      <td>Merge branch 'feature/billing-fixes' into develop.</td>
+      <td></td>
+      <td>2026-06-28</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.25.2</td>
+      <td>01cdaf9</td>
+      <td>feat(billing): remove unused expenses tab from dashboard.</td>
+      <td></td>
+      <td>2026-06-28</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.25.2</td>
+      <td>aa316dd</td>
+      <td>fix(billing): filter out quotes with existing vouchers from checkout options.</td>
+      <td></td>
+      <td>2026-06-28</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.25.2</td>
+      <td>b1ff18d</td>
+      <td>feat(billing): change dashboard chart to vertical bar chart.</td>
+      <td></td>
+      <td>2026-06-28</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.25.2</td>
+      <td>e41d180</td>
+      <td>style(billing): inherit global Inter font variables in dashboard.</td>
+      <td></td>
+      <td>2026-06-28</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.25.2</td>
+      <td>b4f4fca</td>
+      <td>feat(operations): add direct quote creation button in work orders list.</td>
+      <td></td>
+      <td>2026-06-28</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.25.2</td>
+      <td>953a7e0</td>
+      <td>feat(billing): implement quote creation button in billing dashboard.</td>
+      <td></td>
+      <td>2026-06-28</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.25.2</td>
+      <td>451ff14</td>
+      <td>feat(billing): add create-quote-dialog and translate keys.</td>
+      <td></td>
+      <td>2026-06-28</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.25.2</td>
+      <td>876e974</td>
+      <td>fix(fleet): correct component class names in appointment spec files.</td>
+      <td></td>
+      <td>2026-06-28</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.25.2</td>
+      <td>2176619</td>
+      <td>refactor(billing): align checkout endpoint with integration guide.</td>
+      <td></td>
+      <td>2026-06-28</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.25.2</td>
+      <td>99fec5e</td>
+      <td>refactor(billing): align quotes endpoints with integration guide.</td>
+      <td></td>
+      <td>2026-06-28</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.25.1</td>
+      <td>bc77856</td>
+      <td>Merge branch 'feature/iot' into develop</td>
+      <td></td>
+      <td>2026-06-21</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.25.1</td>
+      <td>60f92f6</td>
+      <td>feat(iot): add manual telemetry ingestion modal to dashboard.</td>
+      <td></td>
+      <td>2026-06-21</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.25.0</td>
+      <td>d3ce718</td>
+      <td>fix(appointment): fix date parsing and displayWith context</td>
+      <td></td>
+      <td>2026-06-21</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.24.3</td>
+      <td>bfcb3c8</td>
+      <td>Merge branch 'feature/customer-emails' into develop.</td>
+      <td></td>
+      <td>2026-06-21</td>
+    </tr>
+    <tr>
+      <td>atelier-webapp</td>
+      <td>2.24.3</td>
+      <td>24897b3</td>
+      <td>feat(fleet): integrate email search and inline customer profile creation.</td>
+      <td></td>
+      <td>2026-06-21</td>
+    </tr>
+  </tbody>
+</table>
+
+
+#### 5.2.4.5.&emsp;&emsp;*Execution Evidence for Sprint Review* {#cap-5-2-4-5}
+
+&emsp;&emsp;&emsp;&emsp;Durante este sprint se logro implementar y desplegar una tercera versión del frontend atelier.
+
+&emsp;&emsp;&emsp;&emsp;A continuación, se presentan las capturas de pantalla de las principales vistas implementadas conectadas con algunos endpoints que se desarrollaron y capturas de pantalla de los endpoints en Swagger, junto con un enlace a un video demostrativo que ilustra y explica a detalle la visualización y navegación logrados en este Sprint: [Sprint-4]().
+
+**Figura 121**
+
+*Capturas de Pantalla de la Web App de atelier*
+
+![](assets/webapp-1.png "Capturas de Pantalla de la Web App de atelier")
+![](assets/webapp-2.png "Capturas de Pantalla de la Web App de atelier")
+![](assets/webapp-3.png "Capturas de Pantalla de la Web App de atelier")
+![](assets/webapp-4.png "Capturas de Pantalla de la Web App de atelier")
+![](assets/webapp-5.png "Capturas de Pantalla de la Web App de atelier")
+![](assets/webapp-6.png "Capturas de Pantalla de la Web App de atelier")
+![](assets/webapp-7.png "Capturas de Pantalla de la Web App de atelier")
+![](assets/webapp-8.png "Capturas de Pantalla de la Web App de atelier")
+![](assets/webapp-9.png "Capturas de Pantalla de la Web App de atelier")
+
+#### 5.2.4.6.&emsp;&emsp;*Services Documentation Evidence for Sprint Review* {#cap-5-2-4-6}
+
+&emsp;&emsp;&emsp;&emsp;Para este sprint no se desarrollaron endpoints.
+
+#### 5.2.4.7.&emsp;&emsp;*Software Deployment Evidence for Sprint Review* {#cap-5-2-4-7}
+
+&emsp;&emsp;&emsp;&emsp;Para este sprint no se realizaron despliegues.
+
+#### 5.2.4.8.&emsp;&emsp;*Team Collaboration Insights during Sprint* {#cap-5-2-4-8}
+
+&emsp;&emsp;&emsp;&emsp;En esta sección el equipo explica cómo se han desarrollado las actividades de implementación durante el cuarto sprint y se presentan las evidencias analíticas de colaboración en GitHub.
+
+&emsp;&emsp;&emsp;&emsp;Joel Huamani: En el webapp, se encargo de realizar las vistas y componentes necesarios para este sprint 4.
+
+&emsp;&emsp;&emsp;&emsp;Adiel Sanchez: En el webapp, se encargo de realizar las vistas y componentes necesarios para este sprint 4.
+
+&emsp;&emsp;&emsp;&emsp;Luis Granda: En el webapp, se encargo de realizar las vistas y componentes necesarios para este sprint 4.
+
+&emsp;&emsp;&emsp;&emsp;Aldo Machacca: En el webapp, se encargo de realizar las vistas y componentes necesarios para este sprint 4.
+
+&emsp;&emsp;&emsp;&emsp;Jennifer Riveros: En el webapp, se encargo de realizar las vistas y componentes necesarios para este sprint 4.
+
+&emsp;&emsp;&emsp;&emsp;A continuación, se presentan las capturas en imagen de los analíticos de colaboración y commits extraídos de la pestaña "Insights" del repositorio en GitHub, las cuales evidencian la participación de todos los miembros del equipo:
+
+**Figura 122**
+
+*Gráfico de commits de la webapp*
+
+![](assets/commits-sprint-4.png "Gráfico de commits de la webapp")
+
 <div style='page-break-after: always'></div>
